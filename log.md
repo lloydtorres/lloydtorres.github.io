@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Adventure Log
+permalink: /log/
 ---
 
 <ul class="post-list">
