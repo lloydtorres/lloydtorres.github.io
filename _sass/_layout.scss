@@ -58,6 +58,20 @@
             margin-left: 20px;
         }
     }
+	
+	.menu-icon {
+		display: none;
+	}
+	
+	.trigger {
+		display: none;
+	}
+	
+	.desktop-nav {
+		clear: both;
+        display: block;
+		padding-bottom: 0px;
+	}
 
     @include media-query($on-palm) {
         position: absolute;
@@ -86,6 +100,9 @@
                 }
             }
         }
+		.desktop-nav {
+			display: none;
+		}
 
         .trigger {
             clear: both;
