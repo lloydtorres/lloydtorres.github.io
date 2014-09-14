@@ -24,6 +24,6 @@ layout: default
 	</ul>
 	
 	<h1 class="page-heading">Comments</h1>
-	{% include comments.html %}
+	{% if page.noComments == true %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
 	
 </div>
