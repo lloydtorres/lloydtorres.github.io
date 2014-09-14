@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+	
+	<h1 class="post-title">About Me</h1>
+	
+	<img src="/images/uwaterloo_header.png"/>
+	
+	<p class="text">I'm an Electrical Engineering student at the <a href="http://uwaterloo.ca/">University of Waterloo</a> interested in software, science and space.</p>
+  
+	<h1 class="post-title"><a href="/blog/">Blog</a></h1>
+
+  <ul class="post-list">
+    {% for post in site.posts limit:1 %}
+      <li>
+        <h2>
+          <a class="page-heading" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </h2>
+		{{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+ 
+</div>

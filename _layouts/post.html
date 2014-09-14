@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="post">
+
+	<h1 class="page-heading"><a href="/blog/">Blog</a></h1>
+
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	</header>
+
+	<article class="post-content">
+		{{ content }}
+	</article>
+  
+	<h1 class="page-heading">Related Posts</h1>
+		<ul class="related-posts">
+		{% for post in site.related_posts limit:3 %}
+			<li>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;&nbsp;<small>{{ post.date | date_to_string }}</small></h3>
+			</li>
+		{% endfor %}
+		</ul>
+
+</div>
