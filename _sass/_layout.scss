@@ -82,7 +82,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $white-color;
                 }
             }
         }
@@ -98,7 +98,7 @@
         }
 
         .page-link {
-            display: block;
+            display: table-column;
             padding: 5px 10px;
         }
     }
