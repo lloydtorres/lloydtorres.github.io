@@ -196,6 +196,10 @@
 	font-family: 'Arvo', serif;
     font-size: 24px;
 	color: $mignonic-blue;
+	
+	a:link {
+		color: $mignonic-blue;
+	}
 }
 
 .post-list {
@@ -237,6 +241,10 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+	
+	a:link {
+    color: $mignonic-blue;
+	}
 }
 
 .post-content {
