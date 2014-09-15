@@ -29,6 +29,7 @@
 
 .site-content {
 	margin-bottom: $spacing-unit;
+	font-family: 'Roboto', sans-serif;
 	
     h2 {
         font-size: 20px;
@@ -181,7 +182,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-	
+	font-family: 'Roboto', sans-serif;
 	img {
 		display: block;
 		max-width: 100%;
@@ -249,7 +250,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+	font-family: 'Roboto', sans-serif;
     h2 {
         font-size: 24px;
 		font-family: 'Arvo', serif;
