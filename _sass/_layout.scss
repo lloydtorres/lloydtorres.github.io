@@ -278,6 +278,21 @@
     }
 }
 
+.tag-general {
+	font-family: 'Arvo', serif;
+    font-size: 12px;
+	color: $mignonic-blue;
+	font-weight: bold;
+	
+	span {
+	    color: $white-color;
+		background-color: $mignonic-blue;
+		font-weight: normal;
+		margin-right:5px;
+		padding:2px;
+	}
+}
+
 /**
  * Related posts
  */
@@ -292,6 +307,5 @@
 	
 	small {
 		font-size: $small-font-size;
-		color: $grey-color;
 	}
 }

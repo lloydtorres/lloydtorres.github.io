@@ -13,6 +13,12 @@ layout: default
 	<article class="post-content">
 		{{ content }}
 	</article>
+	
+	{% if page.categories %}
+	<p class="tag-general">Tags:
+	{% for tags in page.categories %}<span>{{ tags }}</span>{% endfor %}
+	</p>
+	{% endif %}
   
 	<h1 class="page-heading">Related Posts</h1>
 	<ul class="related-posts">
