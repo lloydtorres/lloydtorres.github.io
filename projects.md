@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Space Invaders Recreated
+<h2 id="space-invaders">Space Invaders Recreated</h2>
 
 <img src="/images/space_screenshot.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
 
