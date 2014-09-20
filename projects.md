@@ -28,6 +28,6 @@ Space Invaders is copyrighted by Taito Corporation. The code is provided by me o
 
 <img src="/images/paintproject.png" width="300px" title="Angel Beats! Paint" alt="Angel Beats! Paint"/>
 
-**Angel Beats! Paint** is an anime-themed paint program created in Python using the pygame module. It has 15 paint tools (including a fill bucket and a crop tool), stickers, backgrounds, left- and right-click support, file I/O and theme options.
+**Angel Beats! Paint** is an anime-themed paint app created in Python using the pygame module. It has 15 paint tools (including a fill bucket and a crop tool), stickers, backgrounds, left- and right-click support, file I/O and theme options.
 
 Angel Beats! was used as an inspiration for this project, and is copyrighted by Visual Art's and Key.
