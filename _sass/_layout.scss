@@ -210,6 +210,10 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+	
+	ul {
+		list-style-type: none;
+	}
 }
 
 .post-meta {
@@ -291,6 +295,15 @@
 		margin-right:5px;
 		padding:2px;
 	}
+	
+	img {
+		display: inline;
+		padding-right: 7px;
+		border-radius: 0px;
+		width: 15px;
+		margin: 0;
+		vertical-align: baseline;
+	}
 }
 
 /**
@@ -300,6 +313,7 @@
  .related-posts {
 	
 	font-family: 'Arvo', serif;
+	list-style-type: none;
 	
 	 h3 {
 		font-size: 18px;
@@ -309,4 +323,5 @@
 		font-size: $small-font-size;
 		color: $grey-color;
 	}
+	
 }

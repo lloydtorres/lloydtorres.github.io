@@ -19,6 +19,15 @@ layout: default
 	{% for tags in page.categories %}<span>{{ tags }}</span>{% endfor %}
 	</p>
 	{% endif %}
+	
+	<div class="tag-general">
+		<p>Share on:
+		<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"><img src="/images/facebook.png" title="Facebook" alt="Facebook" /></a>
+		<a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=ImperatorTorres" target="_blank"><img src="/images/twitter.png" title="Twitter" alt="Twitter" /></a>
+		<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"><img src="/images/googleplus.png" title="Google+" alt="Google+" /></a>
+		<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source="><img src="/images/linkedin_blue.png" title="LinkedIn" alt="LinkedIn" /></a>
+		</p>
+	</div>
   
 	<h1 class="page-heading">Related Posts</h1>
 	<ul class="related-posts">
