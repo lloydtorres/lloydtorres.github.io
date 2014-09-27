@@ -14,7 +14,7 @@ This is an Android app developed for an Embedded Systems group project. It uses 
 
 <img src="/images/space_screenshot.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
 
-A recreation of **Space Invaders** in Java. A recent update allows users to control the game with gestures using Thalmic Labs's Myo armband using a Lua script.
+A recreation of **Space Invaders** in Java. Originally a school project, I have made major improvements to it over the past few months as a personal project. The game now features a main menu, high score tracking, sounds, and better animations, in addition to the core gameplay itself. A Lua script addon included with the source allows users to control the game with gesture control using Thalmic Labs's Myo gesture armband.
 
 Space Invaders is copyrighted by Taito Corporation. The code is provided by me on a [GNU GPL v3.0 license](https://raw.githubusercontent.com/lloydtorres/space-invaders-recreated/master/LICENSE.txt). You can [check it out](https://github.com/lloydtorres/space-invaders-recreated) on GitHub!
 
