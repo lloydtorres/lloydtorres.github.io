@@ -4,8 +4,8 @@ description: >
   Lloyd Torres is an Electrical Engineering co-op student at the University of Waterloo.
 baseurl: "" # subpath
 url: "http://lloydtorres.com"
+timezone: Canada/Eastern
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-paginate: 5
