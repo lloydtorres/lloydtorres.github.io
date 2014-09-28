@@ -15,14 +15,32 @@
 		</div>
 		
 		<!-- Mobile only -->
-		<a href="#" class="menu-icon"><img src="/images/menu.png" width = "24px" style="padding:10px;"/></a>
+		 <script type="text/javascript">
+			var show = false;
+			$(document).ready(function() {
+				$("#trigger").hide();
+				$("#menu-icon").click(function(){
+					if (!show){
+						$("#trigger").show();
+						show = true;
+					}
+					else {
+						$("#trigger").hide();
+						show = false;
+					};
+				});
+			});
+		 </script>
+		 
+		<a href="#" id="menu-icon" class="menu-icon"><img src="/images/menu.png" width = "24px" style="padding:10px;"/></a>
 	  
-      <div class="trigger">
-		<a href="https://www.linkedin.com/in/lartorres"><img src="/images/linkedin.png" title="LinkedIn" alt="LinkedIn" width = "24px" style="padding:10px;"/></a><br />
-		<a href="https://github.com/lloydtorres"><img src="/images/github.png" title="GitHub" alt="GitHub" width = "24px" style="padding:10px;"/></a><br />
-		<a href="/projects/"><img src="/images/projects.png" title="Projects" alt="Projects" width = "24px" style="padding:10px;"/></a><br />
-		<a href="/log/"><img src="/images/log.png" title="Adventure Log" alt="Adventure Log" width = "24px" style="padding:10px;"/></a>
-      </div>
+		<div id="trigger" class="trigger">
+			<a href="https://www.linkedin.com/in/lartorres"><img src="/images/linkedin.png" title="LinkedIn" alt="LinkedIn" width = "24px" style="padding:10px;"/></a><br />
+			<a href="https://github.com/lloydtorres"><img src="/images/github.png" title="GitHub" alt="GitHub" width = "24px" style="padding:10px;"/></a><br />
+			<a href="/projects/"><img src="/images/projects.png" title="Projects" alt="Projects" width = "24px" style="padding:10px;"/></a><br />
+			<a href="/log/"><img src="/images/log.png" title="Adventure Log" alt="Adventure Log" width = "24px" style="padding:10px;"/></a>
+		</div>
+		
     </nav>
 
   </div>
