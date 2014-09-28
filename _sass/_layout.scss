@@ -215,6 +215,10 @@
 	font-family: 'Arvo', serif;
     font-size: $small-font-size;
     color: $grey-color;
+	
+	@include media-query($on-palm) {
+		display: block;
+	}
 }
 
 .post-link {
