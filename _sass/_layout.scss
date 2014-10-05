@@ -35,10 +35,6 @@
         font-size: 20px;
 		font-family: 'Arvo', serif;
 		color: $mignonic-blue;
-
-        @include media-query($on-laptop) {
-            font-size: 15px;
-        }
     }
 }
 
@@ -155,19 +151,6 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
 @include media-query($on-palm) {
     .footer-col {
         float: none;
@@ -175,8 +158,6 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
@@ -247,10 +228,6 @@
 	color: $mignonic-blue;
     letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 	
 	a:link {
     color: $mignonic-blue;
@@ -264,26 +241,14 @@
         font-size: 24px;
 		font-family: 'Arvo', serif;
 		color: $mignonic-blue;
-
-        @include media-query($on-laptop) {	
-            font-size: 20px;
-        }
     }
 
     h3 {
         font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
     }
 
     h4 {
         font-size: 18px;
-
-        @include media-query($on-laptop) {
-            font-size: 16px;
-        }
     }
 }
 
