@@ -47,8 +47,8 @@ and four different shapes), stickers, and backgrounds.
 
 <img src="/images/kpparade.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
 
-* Simple app built in Java using Swing and AWT.
-* Displays current keyboard input and a list of previous input.
+* Simple app built in Java using Swing and AWT. (check it out on [GitHub](https://github.com/lloydtorres/keypress-parade)!)
+* Displays current keyboard input and a list of previous inputs.
 * Mostly used to test other apps that output keyboard events.
 
 <a href="#" class="subscript">Back to top</a>
