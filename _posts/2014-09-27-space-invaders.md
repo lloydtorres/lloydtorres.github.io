@@ -31,7 +31,7 @@ implement features pretty quickly (with the help of Stack Overflow, of course!).
 better animation, a pause mechanism, an initial main menu and high score tracking. When I first started this project a year ago, 
 such a feat probably would have taken a week or so to complete. Granted, I did have a pretty good framework in place already.
 
-<img src="/images/space_screenshot.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
+<img src="/images/spaceinvaders1.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
 
 So, after more than a year of collecting dust, my recreation of Space Invaders is finally complete! I find that the extra features 
 I've added makes it feel more authentic and exciting. You can check it out on [GitHub](https://github.com/lloydtorres/space-invaders-recreated)

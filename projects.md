@@ -4,69 +4,100 @@ title: Projects
 permalink: /projects/
 ---
 
-<h2 id="stepcounter">Step Counter and Navigator App</h2>
-
-<img src="/images/stepcounter.png" width="200px" title="Step Counter and Navigator App" alt="Step Counter and Navigator App"/>
-
-This is an Android app developed for a group project in an Embedded Systems course. It uses a basic state machine for acceleration 
-data to detect footsteps, and combines that with magnetometer data to determine the user's bearing and displacement. Finally, by 
-using all of this data, we can track the user's movement on a map, and with A* pathfinding, we can plot a route between any two 
-points in the room. A separate algorithm calculates the user's current position and bearing in relation to the next waypoint, 
-and provides the dappropriate instructions to get there.
-
-<h2 id="digital-circuits">VHDL Controllers for Altera DE2 Board</h2>
-
-We developed various simple controllers in VHDL for the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) 
-(Cyclone II FPGA) as a group project for a Digital Circuits course. Over the course of the term, we notably developed two 
-combinational circuits - an arithmetic logic unit and an elevator controller, as well as a sequential circuit for a traffic 
-light controller, which had two modes that operated differently. We used various boolean algebra techniques to simplify our 
-expressions, such as Karnaugh maps and finding  implicants. For the traffic light controller, we planned out its operation by 
-using a state diagram.
-
-The sequential traffic light controller was an interesting challenge for me due to its complexity. It needed to transition between 
-two different states depending on the current user input, and had to reset and activate a counter only once when the user 
-activated a switch. My success in implementing this, and seeing the board function properly, was a truly rewarding experience.
-
-<h2 id="space-invaders">Space Invaders Recreated</h2>
-
-<img src="/images/space_screenshot.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
-
-A recreation of **Space Invaders** in Java. Originally started as a school project, I have made major improvements to it over the 
-past few months as a personal project. The game now features a main menu, high score tracking, sounds, and better animations, 
-in addition to the core gameplay itself. A Lua script addon included with the source allows users to control the game with gesture 
-control using Thalmic Labs's Myo gesture armband.
-
-Space Invaders is copyrighted by Taito Corporation. The code is provided by me on a [GNU GPL v3.0 license](https://raw.githubusercontent.com/lloydtorres/space-invaders-recreated/master/LICENSE.txt). 
-You can [check it out](https://github.com/lloydtorres/space-invaders-recreated) on GitHub!
-
-<h2 id="the-front">The Front</h2>
-
-<img src="/images/thefront.png" width="200px" title="The Front" alt="The Front"/>
-
-**The Front** is a two-player turn-based strategy game inspired by [Advanced Wars](http://en.wikipedia.org/wiki/Wars_(series)) 
-(copyrighted by Intelligent Systems and Nintendo) created in Python using pygame. Players can choose from three different teams 
-(each with its own unique theme) and play in three different maps. There are six units available, each with varying mobility, 
-strength and defence. There is also a revenue system where players can capture more buildings to earn more money for purchasing 
-units.
-
-In terms of implementation, player data was tracked through various 2D-arrays as I had not looked into object-oriented programming 
-when I developed this project. One interesting feature to note is how the game determines a unit's moving range. It considers 
-the unit's own mobility values and considers terrain factors such as forests, mountains and rivers (for example, mechanized units 
-cannot cross the last two terrain types). Using these factors, it uses a non-recursive flood fill algorithm on the terrain array 
-to obtain possible locations. While the algorithm could have been done recursively, I was concerned about memory issues so I opted 
-to use a non-recursive method instead.
+* [Angel Beats! Paint](#paint-project)
+* [The Front](#the-front)
+* [Keypress Parade](#kp-parade)
+* [lloydtorres.com](#website)
+* [Space Invaders Recreated](#space-invaders)
+* [Step Counter and Navigator](#stepcounter)
+* [VHDL Controllers for Altera DE2 Board](#digital-circuits) 
 
 <h2 id="paint-project">Angel Beats! Paint</h2>
 
-<img src="/images/paintproject.png" width="300px" title="Angel Beats! Paint" alt="Angel Beats! Paint"/>
+<img src="/images/paintproject.png" width="350px" title="Angel Beats! Paint" alt="Angel Beats! Paint"/>
 
-**Angel Beats! Paint** is an anime-themed paint app created in Python using pygame. It has 15 adjustable paint tools (pencil, 
-brush, "pen", eraser, colour picker, fill bucket, spray, crop, flip, resize, text, and four shape options), stickers, backgrounds, 
-left- and right-click support, and theme options. It also supports undo and redo (implemented using a simple stack) as well as 
-file I/O to save and load images. It also has some UI enhancements such as a help dialog and a exit confirmation dialog.
+* An [anime-themed](http://en.wikipedia.org/wiki/Angel_Beats!) app implemented with Python and pygame.
+* 15 paint tools with various options (pencil, brush, "pen", eraser, colour picker, fill bucket, spray, crop, flip, resize, text, 
+and four different shapes), stickers, and backgrounds.
+* Four theme options allow users to choose between different backgrounds and music for the app.
+* Supports undo/redo using a stack, and file I/O to save and load images.
+* Various UI enhancements such as a help dialog and an exit confirmation dialog.
 
-This was my first major programming project, and I enjoyed going above and beyond in implementing the various features described 
-above.
+<a href="#" class="subscript">Back to top</a>
 
-[Angel Beats!](http://en.wikipedia.org/wiki/Angel_Beats!) is an anime used as an inspiration for this project, and is copyrighted 
-by Visual Art's and Key.
+<h2 id="the-front">The Front</h2>
+
+<img src="/images/thefront.png" width="250px" title="The Front" alt="The Front"/>
+
+* Two-player turn-based strategy game inspired by [Advanced Wars](http://en.wikipedia.org/wiki/Wars_(series)), implemented with Python and pygame.
+* Players can choose from three different teams, each with its own unique team, and play in three different maps.
+* Six units available for purchase in factories with varying strength, defence and mobility.
+* Revenue system allows users to gain money based on number of captured buildings and purchase units.
+
+**Interesting notes:**
+
+* Unit range is determined by its own mobility value and its surrounding terrain (e.g. some units cannot cross rivers or mountains, 
+  units are slowed down by forests).
+* A non-recursive flood fill algorithm on the terrain then returns the spaces where a unit can move.
+* A non-recursive algorithm was used due to concerns with memory issues.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="kp-parade">Keypress Parade</h2>
+
+<img src="/images/kpparade.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
+
+* Simple app built in Java using Swing and AWT.
+* Displays current keyboard input and a list of previous input.
+* Mostly used to test other apps that output keyboard events.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="website">lloydtorres.com</h2>
+
+<img src="/images/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com"/>
+
+* Personal website built from scratch using Jekyll. (check it out on [GitHub](https://github.com/lloydtorres/lloydtorres.github.io)!)
+* Uses custom CSS and HTML/Liquid templates used by Jekyll to build each page.
+* Uses some JavaScript for site functionality (e.g. closable mobile menu).
+* Designed with both desktop and mobile users in mind.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="space-invaders">Space Invaders Recreated</h2>
+
+<img src="/images/spaceinvaders1.png" width="350px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
+
+* Space Invaders Recreated in Java using Swing and AWT. ([check it out](https://github.com/lloydtorres/space-invaders-recreated) on GitHub!)
+* Core game developed as a school project, but overall app and features grew into a personal project.
+* Features a main menu, high score tracking, sounds, animations in addition to core gameplay.
+* Lua script using Myo Script API add-on allows users to play game using Thalmic Labs's Myo armband.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="stepcounter">Step Counter and Navigator</h2>
+
+<img src="/images/stepcounter.png" width="300px" title="Step Counter and Navigator App" alt="Step Counter and Navigator"/>
+
+* Android app developed for an Embedded Systems course group project.
+* Uses basic state machine on acceleration data to detect footsteps.
+* Uses magnetometer data and step count to track user bearing and displacement.
+* A* pathfinding algorithm plots route from user position to any point on map.
+* Calculates user position and bearing in relation to route to provide directions.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="digital-circuits">VHDL Controllers for Altera DE2 Board</h2>
+
+* Simple controllers in VHDL for the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) 
+(Cyclone II FPGA) for a Digital Circuits group project.
+* Developed two main combinatorial circuits - ALU and elevator controller.
+* Developed a large traffic controller sequential circuit with different modes based on user input.
+* Used various techniques to simplify logic (e.g. Karnaugh maps, De Morgan's laws, implicants, state diagrams).
+
+**Interesting notes:**
+
+* This projects showed me the difference between coding for normal computers and embedded systems - embedded systems tend to be 
+  more fickle when it comes to how you implement things.
+
+<a href="#" class="subscript">Back to top</a>

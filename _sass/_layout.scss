@@ -180,6 +180,9 @@
 		margin-left:  auto;
 		margin-right: auto;
 	}
+	ul {
+		margin-left: 30px;
+	}
 }
 
 .skill-overview {
@@ -206,11 +209,11 @@
 }
 
 .post-list {
-    margin-left: 0;
     list-style: none;
-
+	
     > li {
         margin-bottom: $spacing-unit;
+		margin-left: -30px;
     }
 	
 	ul {
@@ -233,7 +236,11 @@
     font-size: 24px;
 }
 
-
+.subscript {
+	font-size: 10px;
+	font-style: italic;
+	float: right;
+}
 
 /**
  * Posts
@@ -309,7 +316,7 @@
 	font-family: 'Arvo', serif;
 	list-style-type: none;
 	
-	 h3 {
+	h3 {
 		font-size: 18px;
 	}
 	
@@ -318,4 +325,17 @@
 		color: $grey-color;
 	}
 	
+	li {
+		margin-left: -20px;
+	}
+	
+}
+
+/**
+ * Anchors
+ */
+
+#kp-parade, #website, #stepcounter, #digital-circuits, #space-invaders, #the-front, #paint-project {
+    padding-top: 56px;
+    margin-top: -56px;
 }
