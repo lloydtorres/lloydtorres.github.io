@@ -8,6 +8,7 @@ permalink: /projects/
 * [The Front](#the-front)
 * [Keypress Parade](#kp-parade)
 * [lloydtorres.com](#website)
+* [Rocketry Data Acquisition](#rocketry-daq)
 * [Space Invaders Recreated](#space-invaders)
 * [Step Counter and Navigator](#stepcounter)
 * [VHDL Controllers for Altera DE2 Board](#digital-circuits) 
@@ -32,6 +33,7 @@ and four different shapes), stickers, and backgrounds.
 * Two-player turn-based strategy game inspired by [Advanced Wars](http://en.wikipedia.org/wiki/Wars_(series)), implemented with Python and pygame.
 * Players can choose from three different teams, each with its own unique team, and play in three different maps.
 * Six units available for purchase in factories with varying strength, defence and mobility.
+* Skirmish system allows units to combat other units or capture points on the map.
 * Revenue system allows users to gain money based on number of captured buildings and purchase units.
 
 **Interesting notes:**
@@ -61,6 +63,17 @@ and four different shapes), stickers, and backgrounds.
 * Uses custom CSS and HTML/Liquid templates used by Jekyll to build each page.
 * Uses some JavaScript for site functionality (e.g. closable mobile menu).
 * Designed with both desktop and mobile users in mind.
+
+<a href="#" class="subscript">Back to top</a>
+
+<h2 id="rocketry-daq">Rocketry Data Acquisition</h2>
+
+<img src="/images/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
+
+* Created a utility in LabVIEW to read sensor data from a National Instruments DAQ device for rocketry engine tests.
+* Read filtered strain gauge and pressure data and displayed graphs, averages and maximums to the user.
+* Worked with upper-year electrical engineering students to debug and fix DAQ hardware issues.
+* Attended a National Instruments seminar to learn more about data acquisition techniques.
 
 <a href="#" class="subscript">Back to top</a>
 
