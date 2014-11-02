@@ -8,55 +8,11 @@ permalink: /projects/
 
     <div class="col-md-4">
         <div class="project-entry">
-            <a href="/projects/paintproject/"><img src="/images/paintproject-preview.png" title="Angel Beats! Paint" alt="Angel Beats! Paint"/></a>
+            <a href="/projects/stepcounter/"><img src="/images/step-preview.png" title="Step Counter and Navigator" alt="Step Counter and Navigator"/></a>
             <div class="project-desc">
-                <h2><a href="/projects/paintproject/">Angel Beats! Paint</a></h2>
-                <p>An anime-themed paint app built with Python and pygame.</p>
-                <a href="/projects/paintproject/" class="more">Read more...</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-entry">
-            <a href="/projects/thefront/"><img src="/images/thefront-preview.png" title="The Front" alt="The Front"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/thefront/">The Front</a></h2>
-                <p>A two-player turn-based strategy game built with Python and pygame.</p>
-                <a href="/projects/thefront/" class="more">Read more...</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-entry">
-            <a href="/projects/keypressparade/"><img src="/images/kpparade-preview.png" title="Keypress Parade" alt="Keypress Parade"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/keypressparade/">Keypress Parade</a></h2>
-                <p>A simple testing utility built in Java with Swing and AWT.</p>
-                <a href="/projects/keypressparade/" class="more">Read more...</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-entry">
-            <a href="/projects/website/"><img src="/images/website-preview.png" title="lloydtorres.com" alt="lloydtorres.com"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/website/">lloydtorres.com</a></h2>
-                <p>My personal website built with Jekyll and Bootstrap.</p>
-                <a href="/projects/website/" class="more">Read more...</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="project-entry">
-            <a href="/projects/daq/"><img src="/images/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/daq/">Rocketry Data Acquisition</a></h2>
-                <p>A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.</p>
-                <a href="/projects/daq/" class="more">Read more...</a>
+                <h2><a href="/projects/stepcounter/">Step Counter and Navigator</a></h2>
+                <p>An Android app course project that tracks a user and provides directions.</p>
+                <a href="/projects/stepcounter/" class="more">Read more...</a>
             </div>
         </div>
     </div>
@@ -74,11 +30,33 @@ permalink: /projects/
 
     <div class="col-md-4">
         <div class="project-entry">
-            <a href="/projects/stepcounter/"><img src="/images/step-preview.png" title="Step Counter and Navigator" alt="Step Counter and Navigator"/></a>
+            <a href="/projects/thefront/"><img src="/images/thefront-preview.png" title="The Front" alt="The Front"/></a>
             <div class="project-desc">
-                <h2><a href="/projects/stepcounter/">Step Counter and Navigator</a></h2>
-                <p>An Android app course project that tracks a user and provides directions.</p>
-                <a href="/projects/stepcounter/" class="more">Read more...</a>
+                <h2><a href="/projects/thefront/">The Front</a></h2>
+                <p>A two-player turn-based strategy game built with Python and pygame.</p>
+                <a href="/projects/thefront/" class="more">Read more...</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="project-entry">
+            <a href="/projects/paintproject/"><img src="/images/paintproject-preview.png" title="Angel Beats! Paint" alt="Angel Beats! Paint"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/paintproject/">Angel Beats! Paint</a></h2>
+                <p>An anime-themed paint app built with Python and pygame.</p>
+                <a href="/projects/paintproject/" class="more">Read more...</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="project-entry">
+            <a href="/projects/website/"><img src="/images/website-preview.png" title="lloydtorres.com" alt="lloydtorres.com"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/website/">lloydtorres.com</a></h2>
+                <p>My personal website built with Jekyll and Bootstrap.</p>
+                <a href="/projects/website/" class="more">Read more...</a>
             </div>
         </div>
     </div>
@@ -90,6 +68,28 @@ permalink: /projects/
                 <h2><a href="/projects/vhdl/">VHDL Controllers for Altera</a></h2>
                 <p>Simple VHDL controllers for the Altera DE2 board for a course project.</p>
                 <a href="/projects/vhdl/" class="more">Read more...</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="project-entry">
+            <a href="/projects/keypressparade/"><img src="/images/kpparade-preview.png" title="Keypress Parade" alt="Keypress Parade"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/keypressparade/">Keypress Parade</a></h2>
+                <p>A simple testing utility built in Java with Swing and AWT.</p>
+                <a href="/projects/keypressparade/" class="more">Read more...</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="project-entry">
+            <a href="/projects/daq/"><img src="/images/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/daq/">Rocketry Data Acquisition</a></h2>
+                <p>A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.</p>
+                <a href="/projects/daq/" class="more">Read more...</a>
             </div>
         </div>
     </div>
