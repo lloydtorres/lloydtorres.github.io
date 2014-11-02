@@ -65,7 +65,7 @@ permalink: /projects/
         <div class="project-entry">
             <a href="/projects/vhdl/"><img src="/images/altera-preview.png" title="VHDL Controllers for Altera" alt="VHDL Controllers for Altera"/></a>
             <div class="project-desc">
-                <h2><a href="/projects/vhdl/">VHDL Controllers for Altera</a></h2>
+                <h2><a href="/projects/vhdl/">VHDL Controllers for Altera Board</a></h2>
                 <p>Simple VHDL controllers for the Altera DE2 board for a course project.</p>
                 <a href="/projects/vhdl/" class="more">Read more...</a>
             </div>
@@ -85,7 +85,7 @@ permalink: /projects/
 
     <div class="col-md-4">
         <div class="project-entry">
-            <a href="/projects/daq/"><img src="/images/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ"/></a>
+            <a href="/projects/daq/"><img src="/images/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ" style="border: 1px solid #EEEEEE;"/></a>
             <div class="project-desc">
                 <h2><a href="/projects/daq/">Rocketry Data Acquisition</a></h2>
                 <p>A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.</p>
