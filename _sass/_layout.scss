@@ -16,13 +16,13 @@
     margin-top: 3px;
     float: left;
 
-    &:active {
-        color: white;
+    &:link {
+        color: white !important;
     }
 
     &,
     &:visited {
-        color: $white-color;
+        color: white !important;
     }
 
     &:hover {
