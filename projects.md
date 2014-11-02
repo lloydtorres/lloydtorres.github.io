@@ -6,7 +6,7 @@ permalink: /projects/
 
 <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/stepcounter/"><img src="/images/step-preview.png" title="Step Counter and Navigator" alt="Step Counter and Navigator"/></a>
             <div class="project-desc">
@@ -17,7 +17,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/spaceinvaders/"><img src="/images/invaders-preview.png" title="Space Invaders Recreated" alt="Space Invaders Recreated"/></a>
             <div class="project-desc">
@@ -28,7 +28,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/thefront/"><img src="/images/thefront-preview.png" title="The Front" alt="The Front"/></a>
             <div class="project-desc">
@@ -39,7 +39,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/paintproject/"><img src="/images/paintproject-preview.png" title="Angel Beats! Paint" alt="Angel Beats! Paint"/></a>
             <div class="project-desc">
@@ -50,7 +50,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/website/"><img src="/images/website-preview.png" title="lloydtorres.com" alt="lloydtorres.com"/></a>
             <div class="project-desc">
@@ -61,7 +61,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/vhdl/"><img src="/images/altera-preview.png" title="VHDL Controllers for Altera" alt="VHDL Controllers for Altera"/></a>
             <div class="project-desc">
@@ -72,7 +72,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/keypressparade/"><img src="/images/kpparade-preview.png" title="Keypress Parade" alt="Keypress Parade"/></a>
             <div class="project-desc">
@@ -83,7 +83,7 @@ permalink: /projects/
         </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-sm-6 col-md-4">
         <div class="project-entry">
             <a href="/projects/daq/"><img src="/images/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ" style="border: 1px solid #EEEEEE;"/></a>
             <div class="project-desc">
