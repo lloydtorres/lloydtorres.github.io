@@ -37,7 +37,14 @@ $(function() {
 
         <p>It has 15 paint tools with customizable options (pencil, brush, "pen", eraser, colour picker, fill bucket, spray, crop, flip, resize, text, and four different shapes), stickers, and backgrounds. Four theme options allow users to choose between different backgrounds and music for the app.</p>
 
-        <p>It supports undo/redo using a stack, and file I/O to save and load images. Finally, it has various UI enhancements such as a help dialog and an exit confirmation dialog.</p>
+        <p>It supports undo/redo using a stack, and file I/O to save and load images. Finally, it has various UX enhancements such as keyboard shortcuts, a help dialog and an exit confirmation dialog.</p>
+
+        <p><b>Interesting notes:</b></p>
+
+        <ul>
+            <li>A non-recursive flood fill algorithm is used for the fill bucket, which fills large areas quickly.</li>
+            <li>A non-recursive algorithm was used due to concerns with speed and memory issues.</li>
+        </ul>
     </div>
 
 </div>
