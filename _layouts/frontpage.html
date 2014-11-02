@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+    
+        {% include header.html %}
+        {% include google_analytics.html %}
+
+        <div class="bg"></div>
+        <div class="bg-overlay">
+            <div class="container col-md-offset-2 col-md-8">
+                <img src="/images/me.png" class="img-circle" width="200px"/>
+            </div><!-- /container -->
+        </div>
+
+        <div class="coverup">
+            <div class="container pushdown-small page-content col-md-offset-2 col-md-8">
+                {{ content }}
+            </div><!-- /container -->
+        </div>
+
+        {% include footer.html %}
+
+  </body>
+
+</html>
