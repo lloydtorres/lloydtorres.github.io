@@ -152,6 +152,12 @@
         border-radius: 0px;
         border: 2px solid $grey-super-light;
     }
+
+    &:hover {
+        border-bottom: 5px solid $grey-color-dark;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+    }
 }
 
 .project-desc {
