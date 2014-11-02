@@ -9,3 +9,10 @@ timezone: Canada/Eastern
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+gems:
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+
+jekyll-mentions: https://twitter.com
