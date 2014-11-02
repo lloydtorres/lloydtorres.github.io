@@ -13,12 +13,19 @@ categories:
     </div>
 
     <div class="col-md-8">
+        <p><b>Step Counter and Navigator</b> is an Android app (in Java of course) developed for an Embedded Systems course group project. This was my first foray into Android app development.</p>
+
+        <p>There were two components to calculating user displacement:</p>
+
         <ul>
-            <li>Android app developed for an Embedded Systems course group project.</li>
-            <li>Uses basic state machine on acceleration data to detect footsteps.</li>
-            <li>Uses magnetometer data and step count to track user bearing and displacement.</li>
-            <li>A* pathfinding algorithm plots route from user position to any point on map.</li>
-            <li>Calculates user position and bearing in relation to route to provide directions.</li>
+            <li><b>Step Counter:</b> A basic state machine was used on the device's accelerometer data to determine if the user has made a step. Despite its simplicity, we were actually able to get really accurate step counts from our algorithm.</li>
+            <li><b>Magnetometer:</b> The magnetometer was used to get the user's bearing in relation to the real world. Due to noise, this gave us wildly inaccurate data, which gave us a lot of headaches.</li>
         </ul>
+
+        <p>With these two combined, we were able to get the user's displacement around an area. When testing in a magnetic noise free, environment, we were able to get extremely accurate results.</p>
+
+        <p>Using this displacement data and a provided map, we could show the user's current location in a room. When the user enters any destination in the room, we used the A* pathfinding algorithm to find the shortest path from the user's location to the destination. For simplicity, we assumed that the user cannot move diagonally.</p>
+
+        <p>The trickiest part to all of this was actually providing directions for the user as there were many factors to consider. My solution for this was to get the nearest route line segment and compare its direction to the user's current bearing. Using this system, we could tell the user by how much to turn and when to step forward.</p>
     </div>
 </div>
