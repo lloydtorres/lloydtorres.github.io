@@ -1,48 +1,19 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | upcase }}</a>
-
-    <nav class="site-nav">
-		<!-- Desktop only -->
-		
-		<div class="desktop-nav">
-			<a href="https://www.linkedin.com/in/lartorres"><img src="/images/linkedin.png" title="LinkedIn" alt="LinkedIn" width = "24px" style="padding:10px;"/></a>
-			<a href="https://github.com/lloydtorres"><img src="/images/github.png" title="GitHub" alt="GitHub" width = "24px" style="padding:10px;"/></a>
-			<a href="/projects/"><img src="/images/projects.png" title="Projects" alt="Projects" width = "24px" style="padding:10px;"/></a>
-			<a href="/log/"><img src="/images/log.png" title="Adventure Log" alt="Adventure Log" width = "24px" style="padding:10px;"/></a>
-		</div>
-		
-		<!-- Mobile only -->
-		 <script type="text/javascript">
-			var show = false;
-			$(document).ready(function() {
-				$("#trigger").hide();
-				$("#menu-icon").click(function(){
-					if (!show){
-						$("#trigger").show();
-						show = true;
-					}
-					else {
-						$("#trigger").hide();
-						show = false;
-					};
-				});
-			});
-		 </script>
-		 
-		<a href="javascript:void(0)" id="menu-icon" class="menu-icon"><img src="/images/menu.png" width = "24px" style="padding:10px;"/></a>
-	  
-		<div id="trigger" class="trigger">
-			<a href="https://www.linkedin.com/in/lartorres"><img src="/images/linkedin.png" title="LinkedIn" alt="LinkedIn" width = "24px" style="padding:10px;"/></a><br />
-			<a href="https://github.com/lloydtorres"><img src="/images/github.png" title="GitHub" alt="GitHub" width = "24px" style="padding:10px;"/></a><br />
-			<a href="/projects/"><img src="/images/projects.png" title="Projects" alt="Projects" width = "24px" style="padding:10px;"/></a><br />
-			<a href="/log/"><img src="/images/log.png" title="Adventure Log" alt="Adventure Log" width = "24px" style="padding:10px;"/></a>
-		</div>
-		
-    </nav>
-
-  </div>
-
-</header>
+<nav class="navbar-fixed-top site-header" role="navigation" style="z-index:1000;">
+    <div class="container col-md-offset-2 col-md-8">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <img src="/images/menu.png" width = "26px"/>
+            </button>
+            <a class="navbar-brand site-title" href="{{ site.baseurl }}/">{{ site.title | upcase }}</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right site-nav">
+                <li><a href="https://www.linkedin.com/in/lartorres">LinkedIn</a></li>
+                <li><a href="https://github.com/lloydtorres">GitHub</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/log/">Adventure Log</a></li>
+            </ul>
+        </div>
+        <!--/.navbar-collapse -->
+  </div><!-- /container -->
+</nav>

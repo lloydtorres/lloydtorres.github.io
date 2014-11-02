@@ -2,21 +2,18 @@
  * Site header
  */
 .site-header {
-	background-color: $mignonic-blue;
-    min-height: 56px;
-
-    position: fixed;
-	top: 0%;
+    background-color: $mignonic-blue;
+    margin-top: -2px;
+    top: 0%;
     left: 0%;
-	width: 100%;
+    width: 100%;
 }
 
 .site-title {
-	font-family: 'Arvo', serif;
-    font-size: 30px;
-    line-height: 56px;
+    font-family: 'Arvo', serif;
+    font-size: 28px !important;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-top: 3px;
     float: left;
 
     &,
@@ -24,83 +21,23 @@
         color: $white-color;
     }
 
-	&:hover {
-		text-decoration: none;
-	}
-}
-
-.site-content {
-	margin-bottom: $spacing-unit;
-	font-family: 'Roboto', sans-serif;
-	
-    h2 {
-        font-size: 20px;
-		font-family: 'Arvo', serif;
-		color: $mignonic-blue;
+    &:hover {
+        text-decoration: none;
+        color: white !important;
     }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
+    margin-top: 2px !important;
+    
+    a:link, a:visited {
+        color: $white-color;
+        font-family: 'Arvo', serif;
     }
 
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-	
-	.menu-icon {
-		display: none;
-	}
-	
-	.trigger {
-		display: none;
-	}
-	
-	.desktop-nav {
-		clear: both;
-        display: block;
-		padding-bottom: 0px;
-		
-		a:hover {
-			opacity: 0.7;
-		}
-	}
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 7px;
-        right: 20px;
-        background-color: $mignonic-blue;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            text-align: center;
-			line-height: 2;
-        }
-		.desktop-nav {
-			display: none;
-		}
-
-        .trigger {
-            display: block;
-        }
-
-        .page-link {
-            display: table-column;
-        }
+    > li > a:hover {
+        background-color: $grey-color-dark !important;
+        color: white !important;
     }
 }
 
@@ -110,58 +47,13 @@
 .site-footer {
     border-top: 2px solid $grey-color-light;
     padding: $spacing-unit;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
     font-size: 10px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
 
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-	
-	@include media-query($on-palm) {
-		.multiline {
-			display: block;
-		}
-	}
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+    @include media-query($on-palm) {
+        .multiline {
+            display: block;
+        }
     }
 }
 
@@ -169,66 +61,68 @@
  * Page content
  */
 .page-content {
-	margin-top: 60px;
+    margin-top: 57px;
     padding: $spacing-unit 0;
-	font-family: 'Roboto', sans-serif;
-	img {
-		display: block;
-		max-width: 100%;
-		margin: 0 0 1rem;
-		border-radius: 5px;
-		margin-left:  auto;
-		margin-right: auto;
-	}
-	ul {
-		margin-left: 30px;
-	}
+    font-family: 'Roboto', sans-serif;
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 0 1rem;
+        border-radius: 5px;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+    ul {
+        margin-left: 30px;
+    }
 }
 
 .skill-overview {
-	
-	table {
-		width: 100%;
-	}
-	
-	th, td {
-		padding: 7px;
-		vertical-align: top;
-	}
+    
+    table {
+        width: 100%;
+    }
+    
+    th, td {
+        padding: 7px;
+        vertical-align: top;
+    }
 
 }
 
 .page-heading {
-	font-family: 'Arvo', serif;
+    font-family: 'Arvo', serif;
     font-size: 24px;
-	color: $mignonic-blue;
-	
-	a:link {
-		color: $mignonic-blue;
-	}
+    color: $mignonic-blue;
+    margin-top: -20px !important;
+    
+    a:link {
+        color: $mignonic-blue;
+    }
 }
 
 .post-list {
     list-style: none;
-	
+    
     > li {
-        margin-bottom: $spacing-unit;
-		margin-left: -30px;
+        margin-top: -12px;
+        margin-left: -30px;
     }
-	
-	ul {
-		list-style-type: none;
-	}
+    
+    ul {
+        list-style-type: none;
+    }
 }
 
 .post-meta {
-	font-family: 'Arvo', serif;
+    font-family: 'Arvo', serif;
     font-size: $small-font-size;
     color: $grey-color;
-	
-	@include media-query($on-palm) {
-		display: block;
-	}
+    
+    @include media-query($on-palm) {
+        display: block;
+        margin-top: 5px;
+    }
 }
 
 .post-link {
@@ -237,37 +131,100 @@
 }
 
 .subscript {
-	font-size: 10px;
-	font-style: italic;
-	float: right;
+    font-size: 10px;
+    font-style: italic;
+    float: right;
+}
+
+/**
+ * Projects
+ */
+
+.project-entry {
+    background-color: $grey-super-light;
+    width: 100%;
+    min-height: 300px;
+    border-bottom: 5px solid $mignonic-blue;
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+        border-radius: 0px;
+        border: 2px solid $grey-super-light;
+    }
+}
+
+.project-desc {
+
+    padding: 15px;
+    margin-top: -35px;
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+        color: $mignonic-blue;
+
+        a:link {
+            color: $mignonic-blue;
+        }
+    }
+
+    .more {
+        font-size: 12px;
+    }
 }
 
 /**
  * Posts
  */
+
+.post {
+    h1 {
+        font-size: 38px;
+        font-family: 'Arvo', serif;
+        color: $mignonic-blue;
+        letter-spacing: -1px;
+        line-height: 1;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-family: 'Arvo', serif;
+        font-size: 24px;
+        color: $mignonic-blue;
+        margin-top: -1px !important;
+        margin-bottom: 3px !important;
+        
+        a:link {
+            color: $mignonic-blue;
+        }
+    }
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
 
 .post-title {
     font-size: 38px;
-	font-family: 'Arvo', serif;
-	color: $mignonic-blue;
+    font-family: 'Arvo', serif;
+    color: $mignonic-blue;
     letter-spacing: -1px;
     line-height: 1;
-	
-	a:link {
-		color: $mignonic-blue;
-	}
+    margin-top: -2px;
+    
+    a:link {
+        color: $mignonic-blue;
+    }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     h2 {
         font-size: 24px;
-		font-family: 'Arvo', serif;
-		color: $mignonic-blue;
+        font-family: 'Arvo', serif;
+        color: $mignonic-blue;
     }
 
     h3 {
@@ -279,63 +236,57 @@
     }
 }
 
-.tag-general {
-	font-family: 'Arvo', serif;
+.caption {
     font-size: 12px;
-	color: $mignonic-blue;
-	font-weight: bold;
-	
-	span {
-	    color: $white-color;
-		background-color: $mignonic-blue;
-		font-weight: normal;
-		margin-right:5px;
-		padding:2px;
-	}
-	
-	img {
-		display: inline;
-		border-radius: 0px;
-		width: 15px;
-		margin: 0;
-		margin-right:7px;
-		vertical-align: baseline;
-	}
-	
-	a:hover {
-		opacity: 0.7;
-	}
+    font-color: $grey-color-dark;
+    font-style: italic;
 }
 
-/**
- * Related posts
- */
+.tag-general {
+    font-family: 'Arvo', serif;
+    font-size: 12px;
+    color: $mignonic-blue;
+    font-weight: bold;
+    
+    span {
+        color: $white-color;
+        background-color: $mignonic-blue;
+        font-weight: normal;
+        margin-right:5px;
+        padding:2px;
+    }
+    
+    img {
+        display: inline;
+        border-radius: 0px;
+        width: 15px;
+        margin: 0;
+        margin-right:7px;
+        vertical-align: baseline;
+    }
+    
+    a:hover {
+        opacity: 0.75;
+    }
+}
  
- .related-posts {
-	
-	font-family: 'Arvo', serif;
-	list-style-type: none;
-	
-	h3 {
-		font-size: 18px;
-	}
-	
-	small {
-		font-size: $small-font-size;
-		color: $grey-color;
-	}
-	
-	li {
-		margin-left: -20px;
-	}
-	
-}
-
-/**
- * Anchors
- */
-
-#rocketry-daq, #kp-parade, #website, #stepcounter, #digital-circuits, #space-invaders, #the-front, #paint-project {
-    padding-top: 56px;
-    margin-top: -56px;
+.related-posts {
+    
+    font-family: 'Arvo', serif;
+    list-style-type: none;
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    small {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
+    
+    li {
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+    
 }

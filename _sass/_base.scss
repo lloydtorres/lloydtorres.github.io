@@ -23,8 +23,6 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -44,7 +42,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -89,16 +86,19 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
     text-decoration: none;
 
+    &:link {
+        color: $mignonic-blue;
+    }
+
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $mignonic-blue;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $grey-color-dark !important;
+        text-decoration: none !important;
     }
 }
 
@@ -148,30 +148,6 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
 /**
  * Clearfix
  */
@@ -183,8 +159,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
@@ -201,4 +175,46 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.col-center {
+    float: none;
+    margin: 0 auto;
+}
+
+/**
+ * Responsive Slides
+ */
+
+.rslides {
+    position: relative;
+    margin-left: 0px !important;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
 }
