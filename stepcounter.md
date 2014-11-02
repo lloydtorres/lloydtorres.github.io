@@ -13,13 +13,13 @@ categories:
     </div>
 
     <div class="col-sm-8">
-        <p><b>Step Counter and Navigator</b> is an Android app (in Java of course) developed for an Embedded Systems course group project. This was my first foray into Android app development.</p>
+        <p><strong>Step Counter and Navigator</strong> is an Android app (in Java of course) developed for an Embedded Systems course group project. This was my first foray into Android app development.</p>
 
         <p>There were two components to calculating user displacement:</p>
 
         <ul>
-            <li><b>Step Counter:</b> A basic state machine was used on the device's accelerometer data to determine if the user has made a step. Despite its simplicity, we were actually able to get really accurate step counts from our algorithm.</li>
-            <li><b>Magnetometer:</b> The magnetometer was used to get the user's bearing in relation to the real world. Due to noise, this gave us wildly inaccurate data, which gave us a lot of headaches.</li>
+            <li><strong>Step Counter:</strong> A basic state machine was used on the device's accelerometer data to determine if the user has made a step. Despite its simplicity, we were actually able to get really accurate step counts from our algorithm.</li>
+            <li><strong>Magnetometer:</strong> The magnetometer was used to get the user's bearing in relation to the real world. Due to noise, this gave us wildly inaccurate data, which gave us a lot of headaches.</li>
         </ul>
 
         <p>With these two combined, we were able to get the user's displacement around an area. When testing in a magnetic noise free, environment, we were able to get extremely accurate results.</p>

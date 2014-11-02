@@ -32,13 +32,13 @@ $(function() {
     </div>
 
     <div class="col-sm-8">
-        <p><b>The Front</b> is a two-player strategy game inspired by the <a href="http://en.wikipedia.org/wiki/Wars_(series)">Advanced Wars</a> series.</p>
+        <p><strong>The Front</strong> is a two-player strategy game inspired by the <a href="http://en.wikipedia.org/wiki/Wars_(series)">Advanced Wars</a> series.</p>
 
         <p>Players can choose from three different teams, each with its own unique theme, and play in three different maps. The skirmish system then allows players to battle other units or capture points on the map each turn.</p>
 
         <p>The revenue system allows players to make money from captured points and spend money on more units. Six units are available for purchase in factories with varying strength, defence and mobility.</p>
 
-        <p><b>Interesting notes:</b></p>
+        <p><strong>Interesting notes:</strong></p>
 
         <ul>
             <li>Unit range is determined by its own mobility value and its surrounding terrain (e.g. some units cannot cross rivers or mountains, units are slowed down by forests).</li>

@@ -14,7 +14,7 @@ categories:
     </div>
 
     <div class="col-sm-8">
-        <p><b>Space Invaders Recreated</b> is my recreation of the classic game in Java using Swing and AWT. (<a href="https://github.com/lloydtorres/space-invaders-recreated">check it out</a> on GitHub!) The core game started out as a high school project, but the overall project grew into a personal one as I've polished it a lot on my own time.</p>
+        <p><strong>Space Invaders Recreated</strong> is my recreation of the classic game in Java using Swing and AWT. (<a href="https://github.com/lloydtorres/space-invaders-recreated">check it out</a> on GitHub!) The core game started out as a high school project, but the overall project grew into a personal one as I've polished it a lot on my own time.</p>
 
         <p>The core gameplay is extremely polished - animations and sounds and all. The invaders zigzag down the screen and eat through the shields if they get too close. Just like the classic game, the invaders get faster and faster the less of them there are on the screen. A mystery alien also pops up from time to time. The game gets harder and harder each time you clear all invaders. Your high score is also tracked and shown locally!</p>
 

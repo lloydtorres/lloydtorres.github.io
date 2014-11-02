@@ -16,7 +16,7 @@ categories:
     </div>
 
     <div class="col-sm-8">
-        <p>If you're reading this, chances are you're already on <b>lloydtorres.com</b>! Welcome to my website!</p>
+        <p>If you're reading this, chances are you're already on <strong>lloydtorres.com</strong>! Welcome to my website!</p>
 
         <p>This project started in Fall 2014, but it remains an ongoing project as I add new content and continuously polish the site. The site is <a href="https://github.com/lloydtorres/lloydtorres.github.io">hosted on GitHub</a> and is powered by <a href="http://jekyllrb.com/">Jekyll</a>, a static site generator. A lot of the CSS and HTML/Liquid templates used by the site were created by me, with the help of many guides in the Internet.</p>
 
