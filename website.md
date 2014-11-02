@@ -16,12 +16,12 @@ categories:
     </div>
 
     <div class="col-md-8">
-        <ul>
-            <li>Personal website built from scratch using Jekyll. (<a href="https://github.com/lloydtorres/lloydtorres.github.io">check it out</a> on GitHub!)</li>
-            <li>Uses custom CSS and HTML/Liquid templates for Jekyll to build each page.</li>
-            <li>Powered by Bootstrap for a cleaner and more responsive user interface.</li>
-            <li>Uses some JavaScript for site functionality.</li>
-            <li>Designed with both desktop and mobile users in mind.</li>
-        </ul>
+        <p>If you're reading this, chances are you're already on <b>lloydtorres.com</b>! Welcome to my website!</p>
+
+        <p>This project started in Fall 2014, but it remains an ongoing project as I add new content and continuously polish the site. The site is <a href="https://github.com/lloydtorres/lloydtorres.github.io">hosted on GitHub</a> and is powered by <a href="http://jekyllrb.com/">Jekyll</a>, a static site generator. A lot of the CSS and HTML/Liquid templates used by the site were created by me, with the help of many guides in the Internet.</p>
+
+        <p>My site is powered by <a href="http://getbootstrap.com/">Bootstrap</a>, which is wonderful in setting up layouts and responsive elements for both desktop and mobile. Bits and pieces of the site are also powered by JavaScript and jQuery.</p>
+
+        <p>I try my best in ensuring that the site works wonderfully for both desktop and mobile users, and that it looks the same across different modern browsers.</p>
     </div>
 </div>
