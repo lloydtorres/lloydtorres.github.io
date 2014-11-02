@@ -11,11 +11,11 @@ categories:
 ---
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <img src="/images/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com"/>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <p>If you're reading this, chances are you're already on <b>lloydtorres.com</b>! Welcome to my website!</p>
 
         <p>This project started in Fall 2014, but it remains an ongoing project as I add new content and continuously polish the site. The site is <a href="https://github.com/lloydtorres/lloydtorres.github.io">hosted on GitHub</a> and is powered by <a href="http://jekyllrb.com/">Jekyll</a>, a static site generator. A lot of the CSS and HTML/Liquid templates used by the site were created by me, with the help of many guides in the Internet.</p>

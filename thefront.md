@@ -14,7 +14,7 @@ $(function() {
 </script>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <ul class="rslides">
             <li>
                 <img src="/images/thefront-1.png"/>
@@ -31,7 +31,7 @@ $(function() {
         </ul>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <p><b>The Front</b> is a two-player strategy game inspired by the <a href="http://en.wikipedia.org/wiki/Wars_(series)">Advanced Wars</a> series.</p>
 
         <p>Players can choose from three different teams, each with its own unique theme, and play in three different maps. The skirmish system then allows players to battle other units or capture points on the map each turn.</p>

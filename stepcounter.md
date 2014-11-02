@@ -8,11 +8,11 @@ categories:
 ---
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <img src="/images/stepcounter.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <p><b>Step Counter and Navigator</b> is an Android app (in Java of course) developed for an Embedded Systems course group project. This was my first foray into Android app development.</p>
 
         <p>There were two components to calculating user displacement:</p>

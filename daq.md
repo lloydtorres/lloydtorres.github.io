@@ -8,11 +8,11 @@ categories:
 ---
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <img src="/images/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <ul>
             <li>Created a utility in LabVIEW to read sensor data from a National Instruments DAQ device for rocketry engine tests.</li>
             <li>Read filtered strain gauge and pressure data and displayed graphs, averages and maximums to the user.</li>

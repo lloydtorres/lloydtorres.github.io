@@ -14,7 +14,7 @@ $(function() {
 </script>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-sm-4">
         <ul class="rslides">
             <li>
                 <img src="/images/paintproject-1.png"/>
@@ -31,7 +31,7 @@ $(function() {
         </ul>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <p><b>Angel Beats! Paint</b> is an <a href="http://en.wikipedia.org/wiki/Angel_Beats!">anime-themed</a> paint app built in Python with
         pygame.</p>
 
