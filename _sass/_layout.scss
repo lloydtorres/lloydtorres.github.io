@@ -85,6 +85,10 @@
     position: relative;
     min-height: 100%; 
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
 
     img {
