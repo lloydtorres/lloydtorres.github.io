@@ -11,7 +11,7 @@ permalink: /log/
             <h2>
                 <a class="page-heading" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date_to_string }}</span>
             </h2>
-            <p class="text">{{ post.excerpt | strip_html }} <a href="{{ post.url }}"><i><small>Read more...</small></i></a></p>
+            <p class="post-blurb">{{ post.excerpt | strip_html }} <a href="{{ post.url }}"><i><small>Read more...</small></i></a></p>
         </li>
     {% endfor %}
 </ul>
