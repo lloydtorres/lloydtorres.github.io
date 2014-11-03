@@ -87,10 +87,6 @@
     position: relative;
     min-height: 100%; 
     display: flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     align-items: center;
 
     img {
@@ -108,6 +104,8 @@
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    line-height/*\**/: 350px\9; /* IE <_< */
+    vertical-align/*\**/: middle\9;
     text-shadow: 0 0 10px $grey-color-dark;
 }
 
