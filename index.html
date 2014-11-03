@@ -4,10 +4,8 @@ layout: frontpage
 
 <p class="text">I'm an Electrical Engineering student at the <a href="http://uwaterloo.ca/">University of Waterloo</a> 
 interested in software, science and space.</p>
-<p class="text">You can e-mail me <a href="mailto:contact.lloyd.torres@gmail.com">here</a>. You can also find me on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a> 
-and <a href="https://github.com/lloydtorres">GitHub</a>.</p>
 
-<h1 class="post-title"><a href="https://www.linkedin.com/in/lartorres">Overview</a></h1>
+<p class="text">Need to get in touch? Send me an e-mail <a href="mailto:contact.lloyd.torres@gmail.com">here</a>! You can also find me on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a> and <a href="https://github.com/lloydtorres">GitHub</a>.</p>
 
 <table class="skill-overview">
     <tr>
@@ -39,18 +37,38 @@ and <a href="https://github.com/lloydtorres">GitHub</a>.</p>
     </tr>
 </table>
 
-<p class="text">Check me out on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a> for more information. 
-You can also read about my projects <a href="/projects/">here</a>.</p>
+<div class="row">
 
-<h1 class="post-title"><a href="/log/">Adventure Log</a></h1>
+    <div class="col-sm-6">
+        <div class="project-entry card-front">
+            <a href="/projects/"><img src="/images/thefront-preview.png" title="Projects" alt="Projects"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/">Projects</a></h2>
+                <p>Stuff I've been working on, from software to hardware.</p>
+                <ul>
+                    <li><a href="/projects/stepcounter/">Step Counter and Navigator</a> (Android)</li>
+                    <li><a href="/projects/spaceinvaders/">Space Invaders Recreated</a> (Java)</li>
+                    <li><a href="/projects/thefront/">The Front</a> (Python)</li>
+                </ul>
+                <a href="/projects/" class="more">And more...</a>
+            </div>
+        </div>
+    </div>
 
-<ul class="post-list">
-    {% for post in site.posts limit:3 %}
-        <li>
-            <h2>
-                <a class="page-heading" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date_to_string }}</span>
-            </h2>
-            <p class="text">{{ post.excerpt | strip_html }} <a href="{{ post.url }}"><i><small>Read more...</small></i></a></p>
-        </li>
-    {% endfor %}
-</ul>
+    <div class="col-sm-6">
+        <div class="project-entry card-front">
+            <a href="/log/"><img src="/images/log-preview.png" title="Adventure Log" alt="Adventure Log"/></a>
+            <div class="project-desc">
+                <h2><a href="/log/">Adventure Log</a></h2>
+                <p>Every single day there's something wonderful to do.</p>
+                <ul>
+                    {% for post in site.posts limit:3 %}
+                        <li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+                    {% endfor %}
+                </ul>
+                <a href="/log/" class="more">And more...</a>
+            </div>
+        </div>
+    </div>
+
+</div>

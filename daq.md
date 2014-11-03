@@ -4,7 +4,7 @@ title: Rocketry Data Acquisition
 permalink: /projects/daq/
 categories:
 - labview
-- daq
+- ni-daq
 ---
 
 <div class="row">
