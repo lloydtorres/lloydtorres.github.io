@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: feature
 title: Adventure Log
+header: "/images/log-header.png"
 permalink: /log/
 ---
 

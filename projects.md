@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: feature
 title: Projects
+header: "/images/projects-header.png"
 permalink: /projects/
 ---
 

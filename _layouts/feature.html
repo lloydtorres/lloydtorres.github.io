@@ -8,11 +8,18 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <div class="bg"></div>
+        <div class="bg" style="background-image: url({{ page.header }});"></div>
+        
         <div class="bg-overlay">
+            {% if page.picoverlay %}
             <div class="container col-md-offset-2 col-md-8">
-                <img src="/images/me.png" class="img-circle" width="200px" title=":)" alt=":)"/>
+                <img src="{{ page.picoverlay }}" class="img-circle" width="200px"/>
             </div><!-- /container -->
+            {% else %}
+            <div class="container col-md-offset-2 col-md-8">
+                <h1 class="feature-heading">{{ page.title }}</h1>
+            </div><!-- /container -->
+            {% endif %}
         </div>
 
         <div class="coverup">
