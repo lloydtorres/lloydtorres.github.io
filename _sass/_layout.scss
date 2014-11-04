@@ -65,67 +65,74 @@
 /**
  * Jumbotron
  */
-.bg {
+ .curtain-header {
     position: fixed;
-    width: 100%;
+    z-index: -2; 
     height: 350px;
-    top: 0;
-    left:0;
-    z-index: -1;
-
+    width: 100%;
+    overflow: hidden;
+    top: 50px;
+    left: 0px;
     background-repeat: no-repeat;
     background-position: center center;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
 
-.bg-overlay {
-    height: 350px;
-    position: relative;
-    min-height: 100%; 
-    display: flex;
-    align-items: center;
-
-    img {
-        border: 3px solid white;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    @include media-query($on-palm) {
+        top: 55px;
     }
-}
+ }
 
-.feature-heading {
-    font-size: 60px;
-    font-family: 'Arvo', serif;
-    color: white;
-    letter-spacing: -1px;
-    line-height: 1;
+ .curtain-overlay {
+    position: relative;
+    height: 250px;
     text-align: center;
-    line-height/*\**/: 350px\9; /* IE <_< */
-    vertical-align/*\**/: middle\9;
-    text-shadow: 0 0 10px $grey-color-dark;
+    
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 200px;
+        border: 3px solid white;
+    }
+
+    h1 {
+        display: inline-block;
+        font-size: 70px;
+        font-family: 'Arvo', serif;
+        color: white;
+        vertical-align: middle;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-shadow: 0 0 10px $grey-color-dark;
+
+        @include media-query($on-palm) {
+            font-size: 40px;
+        }
+    }
+ }
+
+.curtain-overlay:before {    /* omg centering */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 .coverup {
     background: white;
+    position: relative;
     width: 100%;
     height: 100%;
-    max-height:100%;
     overflow: auto;
-    margin-top: -57px;
+    z-index: 3;
 }
 
 /**
  * Page content
  */
 .pushdown {
-    margin-top: 57px;
-}
-
-.pushdown-small {
     margin-top: 12px;
 }
 
