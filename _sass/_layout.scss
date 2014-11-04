@@ -67,6 +67,12 @@
     }
 }
 
+.social-icons img {
+    width: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
 /**
  * Jumbotron
  */
@@ -75,7 +81,6 @@
     z-index: -2; 
     height: 350px;
     width: 100%;
-    overflow: hidden;
     top: 50px;
     left: 0px;
     background-repeat: no-repeat;
