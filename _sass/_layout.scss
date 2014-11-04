@@ -40,10 +40,15 @@
         font-family: 'Arvo', serif;
     }
 
-    > li > a:hover {
+    > li > a:hover, .active {
         background-color: $grey-color-dark !important;
         color: white !important;
     }
+}
+
+.navicons {
+    padding-right: 3px;
+    width: 15px;
 }
 
 /**
