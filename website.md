@@ -1,6 +1,7 @@
 ---
 layout: project
 title: lloydtorres.com
+github: https://github.com/lloydtorres/lloydtorres.github.io
 color: "#253F6D"
 permalink: /projects/website/
 categories:

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Keypress Parade
+github: https://github.com/lloydtorres/keypress-parade
 color: "#616161"
 permalink: /projects/keypressparade/
 categories:

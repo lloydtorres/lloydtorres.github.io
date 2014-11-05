@@ -34,6 +34,7 @@
                     <div class="col-center">
                         <div class="social-icons-large">
                             <a href="/projects/"><img src="/images/icons/back.png" title="Back to Projects" alt="Back to Projects"/></a>
+                            {% if page.github %}<a href="{{ page.github }}"><img src="/images/icons/github_2.png" title="{{ page.title }} on GitHub" alt="{{ page.title }} on GitHub"/></a>{% endif %}
                         </div>
                     </div>
                     
