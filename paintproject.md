@@ -17,15 +17,15 @@ $(function() {
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
-                <img src="/images/paintproject-1.png"/>
+                <img src="/images/projects/paintproject/paintproject-1.png"/>
                 <p class="caption">Angel Beats! Paint</p>
             </li>
             <li>
-                <img src="/images/paintproject-2.png" alt=""/>
+                <img src="/images/projects/paintproject/paintproject-2.png" alt=""/>
                 <p class="caption">Brushes, stickers, backgrounds and more!</p>
             </li>
             <li>
-                <img src="/images/paintproject-3.png" alt=""/>
+                <img src="/images/projects/paintproject/paintproject-3.png" alt=""/>
                 <p class="caption">Flood-fill bucket demo</p>
             </li>
         </ul>

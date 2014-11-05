@@ -10,7 +10,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4">
-        <img src="/images/kpparade.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
+        <img src="/images/projects/kpparade/kpparade.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
     </div>
 
     <div class="col-sm-8">

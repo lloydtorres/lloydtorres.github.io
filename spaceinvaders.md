@@ -10,7 +10,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4 col-center">
-        <img src="/images/spaceinvaders1.png" width="350px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
+        <img src="/images/projects/spaceinvaders/spaceinvaders.png" width="350px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
     </div>
 
     <div class="col-sm-8">

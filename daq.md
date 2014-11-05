@@ -9,7 +9,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4">
-        <img src="/images/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
+        <img src="/images/projects/daq/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
     </div>
 
     <div class="col-sm-8">

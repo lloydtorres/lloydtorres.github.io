@@ -17,15 +17,15 @@ $(function() {
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
-                <img src="/images/thefront-1.png"/>
+                <img src="/images/projects/thefront/thefront-1.png"/>
                 <p class="caption">The Front</p>
             </li>
             <li>
-                <img src="/images/thefront-2.png" alt=""/>
+                <img src="/images/projects/thefront/thefront-2.png" alt=""/>
                 <p class="caption">Unit range movement demo</p>
             </li>
             <li>
-                <img src="/images/thefront-3.png" alt=""/>
+                <img src="/images/projects/thefront/thefront-3.png" alt=""/>
                 <p class="caption">A skirmish in progress.</p>
             </li>
         </ul>

@@ -12,7 +12,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4">
-        <img src="/images/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com"/>
+        <img src="/images/projects/website/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com"/>
     </div>
 
     <div class="col-sm-8">
