@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 <html>
 
     {% include head.html %}
@@ -8,19 +8,15 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <div class="container">
-            <div class="row">
-                <div class="curtain-header" style="background-image: url({{ page.header }});"></div>
-                
-                <div class="curtain-overlay">
-                    {% if page.picoverlay %}
-                    <img src="{{ page.picoverlay }}" class="img-circle"/>
-                    {% else %}
-                    <h1>{{ page.title }}</h1>
-                    {% endif %}
-                </div>
-            </div>
-        </div><!-- /container -->
+        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% else %}background-color: #1e3b6c;{% endif %}"></div>
+        
+        <div class="curtain-overlay">
+            {% if page.picoverlay %}
+            <img src="{{ page.picoverlay }}" class="img-circle"/>
+            {% else %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+        </div>
 
         <div class="coverup">
             <div class="container pushdown page-content col-md-offset-2 col-md-8">

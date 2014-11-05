@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Angel Beats! Paint
+header: "/images/projects/paintproject/paintproject-header.png"
 permalink: /projects/paintproject/
 categories:
 - python

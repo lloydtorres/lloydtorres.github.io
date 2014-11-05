@@ -1,6 +1,7 @@
 ---
 layout: project
 title: VHDL Controllers for Altera DE2 Board
+header: "/images/projects/vhdl/altera-header.png"
 permalink: /projects/vhdl/
 categories:
 - vhdl

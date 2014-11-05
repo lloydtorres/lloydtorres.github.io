@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Space Invaders Recreated
+color: black
 permalink: /projects/spaceinvaders/
 categories:
 - java

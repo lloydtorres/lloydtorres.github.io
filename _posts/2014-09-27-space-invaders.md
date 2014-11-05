@@ -2,7 +2,7 @@
 layout: post
 title:  "Space Invaders Recreated"
 date:   2014-09-27 01:15:00
-author: Lloyd Torres
+color: black
 permalink: log/space-invaders
 categories:
 - java

@@ -48,7 +48,7 @@
 
 .navicons {
     padding-right: 3px;
-    width: 15px;
+    height: 1em;
 }
 
 /**
@@ -67,10 +67,16 @@
     }
 }
 
-.social-icons img {
-    width: 30px;
-    padding: 5px;
-    padding-bottom: 10px;
+.social-icons {
+    img {
+       width: 30px;
+        padding: 5px;
+        padding-bottom: 10px; 
+    }
+    
+    a:hover {
+        opacity: 0.7;
+    }
 }
 
 /**
@@ -79,7 +85,7 @@
  .curtain-header {
     position: fixed;
     z-index: -2; 
-    height: 500px;
+    height: 350px;
     width: 100%;
     top: 50px;
     left: 0px;
@@ -130,6 +136,58 @@
     display: inline-block;
     vertical-align: middle;
     height: 100%;
+}
+
+
+.curtain-overlay-expanded {
+    position: relative;
+    height: auto;
+}
+
+.expanded-overlay-content {
+    display: block;
+    margin-top: -3px;
+    padding-bottom: 10px;
+
+    a {
+        color: white;
+
+        &:hover {
+            color: white !important;
+            text-decoration: none;
+        }
+
+        &:visited {
+            color: white;
+        }
+    }
+
+    h1 {
+        font-family: 'Arvo', serif;
+        color: white;
+        font-size: 35px;
+        text-shadow: 0 0 10px $grey-color-dark;
+        margin-top: -5px;
+    }
+
+    h3 {
+        font-family: 'Arvo', serif;
+        color: white;
+        font-size: 20px;
+        text-shadow: 0 0 10px $grey-color-dark;
+    }
+
+    .tags {
+        span {
+            font-family: 'Arvo', serif;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: white;
+            color: $mignonic-blue;
+            padding: 2px;
+            margin-right: 5px;
+        }
+    }
 }
 
 .coverup {
@@ -210,13 +268,8 @@
 
 .post-meta {
     font-family: 'Arvo', serif;
-    font-size: $small-font-size;
+    font-size: 15px;
     color: $grey-color;
-    
-    @include media-query($on-mobile) {
-        display: block;
-        margin-top: 5px;
-    }
 }
 
 .post-link {
@@ -298,29 +351,12 @@
         font-family: 'Arvo', serif;
         font-size: 22px;
         color: $mignonic-blue;
-        margin-top: -1px !important;
-        margin-bottom: 3px !important;
+        padding-top: 2px;
+        padding-bottom: 1px;
         
         a:link {
             color: $mignonic-blue;
         }
-    }
-}
-
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 38px;
-    font-family: 'Arvo', serif;
-    color: $mignonic-blue;
-    letter-spacing: -1px;
-    line-height: 1;
-    margin-top: -2px;
-    
-    a:link {
-        color: $mignonic-blue;
     }
 }
 
@@ -348,34 +384,6 @@
     font-style: italic;
 }
 
-.tag-general {
-    font-family: 'Arvo', serif;
-    font-size: 12px;
-    color: $mignonic-blue;
-    font-weight: bold;
-    
-    span {
-        color: $white-color;
-        background-color: $mignonic-blue;
-        font-weight: normal;
-        margin-right:5px;
-        padding:2px;
-    }
-    
-    img {
-        display: inline;
-        border-radius: 0px;
-        width: 15px;
-        margin: 0;
-        margin-right:7px;
-        vertical-align: baseline;
-    }
-    
-    a:hover {
-        opacity: 0.75;
-    }
-}
- 
 .related-posts {
     
     font-family: 'Arvo', serif;
@@ -395,4 +403,28 @@
         margin-top: -10px;
     }
     
+}
+
+.divider {
+    border-top: 2px solid $grey-color-light;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icons-large {
+    display: inline !important;
+
+    img {
+        width: 40px;
+        padding: 5px;
+        display: inline !important;
+        margin-bottom: -1px;
+    }
+
+    a:hover {
+        opacity: 0.7;
+    }
 }

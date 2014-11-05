@@ -2,7 +2,7 @@
 layout: post
 title:  "Hackathons are awesome!"
 date:   2014-09-23 00:15:00
-author: Lloyd Torres
+header: "/images/headers/projects-header.png"
 permalink: log/hackathons-are-awesome
 categories:
 - hackathon

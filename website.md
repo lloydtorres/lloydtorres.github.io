@@ -1,6 +1,7 @@
 ---
 layout: project
 title: lloydtorres.com
+color: "#253F6D"
 permalink: /projects/website/
 categories:
 - html

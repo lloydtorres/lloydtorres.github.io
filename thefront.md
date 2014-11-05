@@ -1,6 +1,7 @@
 ---
 layout: project
 title: The Front
+header: "/images/projects/thefront/thefront-header.png"
 permalink: /projects/thefront/
 categories:
 - python

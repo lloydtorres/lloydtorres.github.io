@@ -2,7 +2,7 @@
 layout: post
 title:  "I <3 Bootstrap"
 date:   2014-11-01 21:53:00
-author: Lloyd Torres
+color: "#59407F"
 permalink: log/i-love-bootstrap
 categories:
 - site

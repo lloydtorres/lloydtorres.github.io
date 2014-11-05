@@ -1,25 +1,49 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="post">
+    {% include head.html %}
 
-    <h2><a href="/projects/">Projects:</a></h2>
-
-    <header class="post-header">
-        <h1>{{ page.title }}</h1>
-    </header>
-
-    {% if page.categories %}
-    <p class="tag-general">Tech:
-        {% for tags in page.categories %}<span>{{ tags }}</span>{% endfor %}
-    </p>
-    {% endif %}
-
-    <article class="post-content">
-        {{ content }}
-    </article>
-
-    <a href="/projects/" class="subscript">Back to Projects</a>
+    <body>
     
-</div>
+        {% include header.html %}
+        {% include google_analytics.html %}
+
+        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}"></div>
+        
+        <div class="curtain-overlay-expanded">
+            <div class="container col-md-offset-2 col-md-8">
+                <div class="expanded-overlay-content">
+                    <h3><a href="/projects/">Projects</a></h3>
+                    <h1>{{ page.title }}</h1>
+                    <p class="tags">
+                    {% for tags in page.categories %}<span>{{ tags }}</span>{% endfor %}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="coverup">
+            <div class="container pushdown page-content col-md-offset-2 col-md-8">
+
+                <div class="post">
+
+                    <article class="post-content">
+                        {{ content }}
+                    </article>
+
+                    <div class="col-center">
+                        <div class="social-icons-large">
+                            <a href="/projects/"><img src="/images/icons/back.png" title="Back to Projects" alt="Back to Projects"/></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div><!-- /container -->
+        </div>
+
+        {% include footer.html %}
+
+  </body>
+
+</html>

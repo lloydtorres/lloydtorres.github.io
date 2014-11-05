@@ -2,7 +2,7 @@
 layout: post
 title:  "New domain"
 date:   2014-09-18 00:57:00
-author: Lloyd Torres
+color: "#253F6D"
 permalink: log/new-domain
 categories:
 - site

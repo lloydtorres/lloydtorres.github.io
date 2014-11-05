@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Step Counter and Navigator
+color: "#A4C639"
 permalink: /projects/stepcounter/
 categories:
 - android
@@ -9,7 +10,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4">
-        <img src="/images/projects/stepcounter/stepcounter.png" width="350px" title="Keypress Parade" alt="Keypress Parade"/>
+        <img src="/images/projects/stepcounter/stepcounter.png" width="350px" title="Step Counter and Navigator" alt="Step Counter and Navigator"/>
     </div>
 
     <div class="col-sm-8">

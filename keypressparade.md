@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Keypress Parade
+color: "#616161"
 permalink: /projects/keypressparade/
 categories:
 - java
