@@ -180,7 +180,9 @@ pre {
 
 .rslides {
     position: relative;
-    margin-left: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
     list-style: none;
     overflow: hidden;
     width: 100%;
@@ -206,7 +208,6 @@ pre {
 .rslides img {
     display: block;
     height: auto;
-    float: left;
     width: 100%;
     border: 0;
 }
