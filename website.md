@@ -14,7 +14,7 @@ categories:
 
 <div class="row">
     <div class="col-sm-4">
-        <img src="/images/projects/website/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com"/>
+        <img src="/images/projects/website/website.png" width="350px" title="lloydtorres.com" alt="lloydtorres.com" style="border: 1px solid #EEEEEE;"/>
     </div>
 
     <div class="col-sm-8">
