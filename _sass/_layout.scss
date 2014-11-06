@@ -15,6 +15,7 @@
     letter-spacing: -1px;
     margin-top: 3px;
     margin-bottom: -1px;
+    margin-left: -17px;
     float: left;
 
     &:link {
@@ -29,6 +30,10 @@
     &:hover {
         text-decoration: none;
         color: white !important;
+    }
+
+    @include media-query($on-laptop) {
+        margin-left: 0px;
     }
 }
 
@@ -250,7 +255,7 @@
 }
 
 .post-blurb {
-    padding-bottom: 20px;
+    padding-bottom: 7px !important;
 }
 
 .post-list {
@@ -327,15 +332,54 @@
             color: $mignonic-blue;
         }
     }
+}
 
-    .more {
+.more {
         font-size: 12px;
-    }
 }
 
 /**
  * Posts
  */
+
+ .log-entry {
+    background-color: $grey-super-light;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid $mignonic-blue;
+    margin-bottom: 20px;
+
+    img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    &:hover {
+        border-bottom: 5px solid $grey-color-dark;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+    }
+}
+
+.log-desc {
+
+    padding: 15px;
+
+    h2 {
+        font-size: 22px;
+        margin-top: -3px;
+        font-family: 'Arvo', serif;
+        color: $mignonic-blue;
+
+        a:link {
+            color: $mignonic-blue;
+        }
+    }
+
+    .post-meta {
+        margin-top: -7px;
+    }
+}
 
 .post {
     h1 {
@@ -345,6 +389,10 @@
         letter-spacing: -1px;
         line-height: 1;
         margin-top: 10px;
+
+        a:link {
+            color: $mignonic-blue;
+        }
     }
 
     h2 {
@@ -357,6 +405,12 @@
         a:link {
             color: $mignonic-blue;
         }
+    }
+
+    h3 {
+        font-family: 'Arvo', serif;
+        color: $mignonic-blue;
+        font-size: 20px;
     }
 }
 
@@ -399,7 +453,7 @@
     }
     
     li {
-        margin-left: -20px;
+        margin-left: -30px;
         margin-top: -10px;
     }
     

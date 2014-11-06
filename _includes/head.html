@@ -6,6 +6,12 @@
     <title>{% if page.title ~= site.title %}{{ page.title }} • Lloyd Torres{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
+    <!-- Facebook meta shenanigans -->
+    <meta property="og:site_name" content="Lloyd Torres"/>
+    <meta property="og:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -14,6 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="/responsiveslides.min.js"></script>
+    <script src="/masonry.pkgd.min.js"></script>
 
     <!-- favicons courtesy of http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
