@@ -4,13 +4,13 @@ title:  "Hackathons are awesome!"
 date:   2014-09-23 00:15:00
 header: "/images/headers/projects-header.png"
 permalink: log/hackathons-are-awesome
-categories:
+tags:
 - hackathon
 - hack the north
 - waterloo
 ---
 
-On September 20th, I had the privilege of attending [Hack the North](http://hackthenorth.com/), a hackathon that was held over 
+On September 20th, I had the privilege of attending <a href="http://hackthenorth.com/">Hack the North</a>, a hackathon that was held over 
 the weekend at the University of Waterloo. I attended not as a participant, not as an event volunteer, but as a rep for my 
 current co-op company, Thalmic Labs.
 

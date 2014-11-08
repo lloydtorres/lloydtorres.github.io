@@ -4,7 +4,7 @@ title:  "New domain"
 date:   2014-09-18 00:57:00
 color: "#253F6D"
 permalink: log/new-domain
-categories:
+tags:
 - site
 ---
 

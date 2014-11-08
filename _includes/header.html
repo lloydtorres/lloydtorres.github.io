@@ -1,11 +1,13 @@
 <!-- magic Liquid selector -->
 {% assign setActive = 'none' %}
 {% assign urlArray = page.url | split:"/" %}
-{% for section in urlArray %}
+{% for section in urlArray limit: 2 %}
     {% if section == 'projects' %}
         {% assign setActive = 'projects' %}
     {% elsif section == 'log' %}
         {% assign setActive = 'log' %}
+    {% elsif section == 'tag' %}
+        {% assign setActive = 'none' %}
     {% elsif section == 'index.html' %}
         {% assign setActive = 'about' %}
     {% endif %}

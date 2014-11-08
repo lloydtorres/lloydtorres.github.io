@@ -16,7 +16,7 @@
                     <h3><a href="/log/">Adventure Log</a></h3>
                     <h1>{{ page.title }}</h1>
                     <p class="tags">
-                    {% for tags in page.categories %}<span>{{ tags }}</span>{% endfor %}
+                    {% for tags in page.tags %}<span><a href="/tag/{{ tags }}/">{{ tags }}</a></span>{% endfor %}
                     </p>
                 </div>
             </div>

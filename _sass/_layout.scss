@@ -191,6 +191,19 @@
             color: $mignonic-blue;
             padding: 2px;
             margin-right: 5px;
+
+                a {
+                    color: $mignonic-blue;
+
+                    &:hover {
+                        color: $grey-color-dark !important;
+                        text-decoration: none;
+                    }
+
+                    &:visited {
+                        color: $mignonic-blue;
+                    }
+                }
         }
     }
 }

@@ -4,11 +4,11 @@ title:  "I <3 Bootstrap"
 date:   2014-11-01 21:53:00
 color: "#59407F"
 permalink: log/i-love-bootstrap
-categories:
+tags:
 - site
 ---
 
-I honestly can't believe why I've never used [Bootstrap](http://getbootstrap.com/) before! It's AMAZING and I LOVE IT! It makes web dev much more easier and more fun! I was so excited to use it that I pulled an all-nighter on Halloween night to start revamping my site.
+I honestly can't believe why I've never used <a href="http://getbootstrap.com/">Bootstrap</a> before! It's AMAZING and I LOVE IT! It makes web dev much more easier and more fun! I was so excited to use it that I pulled an all-nighter on Halloween night to start revamping my site.
 
 With Bootstrap, it's now super easy to make site elements responsive to user input. It's also easier to align elements along the screen, which makes for a cleaner look. Also, I don't have to worry as much about formatting on mobile since Bootstrap takes care of it!
 

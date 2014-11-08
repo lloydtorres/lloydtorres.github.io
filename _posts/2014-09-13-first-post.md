@@ -4,7 +4,7 @@ title:  "First!"
 date:   2014-09-13 23:17:00
 color: "#253F6D"
 permalink: log/first-post
-categories:
+tags:
 - site
 ---
 

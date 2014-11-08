@@ -5,6 +5,7 @@
 
     <title>{% if page.title ~= site.title %}{{ page.title }} • Lloyd Torres{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
     <!-- Facebook meta shenanigans -->
     <meta property="og:site_name" content="Lloyd Torres"/>

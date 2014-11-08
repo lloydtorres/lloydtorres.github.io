@@ -4,12 +4,12 @@ title:  "Night sky: visiting the Gustav Bakos Observatory"
 date:   2014-11-06 02:45:00
 header: "/images/blog/20141106/observatory-header.png"
 permalink: log/night-sky-visiting-gustav-bakos-observatory
-categories:
+tags:
 - astronomy
 - waterloo
 ---
 
-I decided to drop by the University of Waterloo's [Gustav Bakos Observatory](https://uwaterloo.ca/astrophysics-and-gravitation/gustav-bakos-observatory) yesterday night on a whim, despite the fact that it was somewhat overcast. The observatory opens its doors to the public on the first Wednesday of every month. It was raining the last time it was open, so I decided to take advantage of this opportunity.
+I decided to drop by the University of Waterloo's <a href="https://uwaterloo.ca/astrophysics-and-gravitation/gustav-bakos-observatory">Gustav Bakos Observatory</a> yesterday night on a whim, despite the fact that it was somewhat overcast. The observatory opens its doors to the public on the first Wednesday of every month. It was raining the last time it was open, so I decided to take advantage of this opportunity.
 
 To be honest, since the event doesn't seem to be well advertised (as far as I know), I was expecting there to be few people present in the event. To my surprise, there was a full house during the event - the original room for the opening talk didn't have enough room so the presenter had to move to the larger room across the hall. There were people from all over the place there - from university students to local families visiting. It was heartwarming to see that public interest in astronomy remains high!
 

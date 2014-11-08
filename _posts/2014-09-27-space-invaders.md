@@ -4,13 +4,13 @@ title:  "Space Invaders Recreated"
 date:   2014-09-27 01:15:00
 color: black
 permalink: log/space-invaders
-categories:
+tags:
 - java
 - projects
 ---
 
 Over the past three days I've been revisiting an old project of mine - a 
-[recreation of Space Invaders](https://github.com/lloydtorres/space-invaders-recreated) in Java. It originally started out as a 
+<a href="https://github.com/lloydtorres/space-invaders-recreated">recreation of Space Invaders</a> in Java. It originally started out as a 
 school project - in high school, we were given the task of developing a simple game in our first foray into object-oriented 
 programming. Space Invaders seemed like a challenging project so I went with it.
 
@@ -31,7 +31,9 @@ implement features pretty quickly (with the help of Stack Overflow, of course!).
 better animation, a pause mechanism, an initial main menu and high score tracking. When I first started this project a year ago, 
 such a feat probably would have taken a week or so to complete. Granted, I did have a pretty good framework in place already.
 
-<img src="/images/projects/spaceinvaders/spaceinvaders.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
+<figure>
+    <img src="/images/projects/spaceinvaders/spaceinvaders.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
+</figure>
 
 So, after more than a year of collecting dust, my recreation of Space Invaders is finally complete! I find that the extra features 
 I've added makes it feel more authentic and exciting. You can check it out on [GitHub](https://github.com/lloydtorres/space-invaders-recreated)
