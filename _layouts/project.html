@@ -8,16 +8,7 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <script>
-            $(function(){
-                $.stellar({
-                    horizontalScrolling: false,
-                    verticalOffset: 40
-                });
-            });
-        </script>
-
-        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}" data-stellar-background-ratio="0.5">
+        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}">
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
                     <div class="expanded-overlay-content">

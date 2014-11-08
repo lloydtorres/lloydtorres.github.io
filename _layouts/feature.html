@@ -8,16 +8,7 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <script>
-            $(function(){
-                $.stellar({
-                    horizontalScrolling: false,
-                    verticalOffset: 40
-                });
-            });
-        </script>
-
-        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% else %}background-color: #1e3b6c;{% endif %}" data-stellar-background-ratio="0.5">  
+        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% else %}background-color: #1e3b6c;{% endif %}">  
             <div class="curtain-overlay">
                 {% if page.picoverlay %}
                 <img src="{{ page.picoverlay }}" class="img-circle"/>
