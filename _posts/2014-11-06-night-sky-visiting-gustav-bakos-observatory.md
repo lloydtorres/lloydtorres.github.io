@@ -15,13 +15,16 @@ To be honest, since the event doesn't seem to be well advertised (as far as I kn
 
 The event started with a talk from an astronomer, who was a Masters student at Waterloo. He quickly went over pretty basic stuff that I kind of knew already - such as the composition of Jupiter's Gallilean moons, the relative sizes of planets and large telescopes in use elsewhere. Afterwards there was a rush to line up to the observatory's telescope - the line streched out for more than three flights of stairs. I was fortunately one of the first ones there.
 
-<img src="/images/blog/20141106/telescope.jpg" width="500px" />
+<figure>
+    <img src="/images/blog/20141106/telescope.jpg" width="500px" />
+</figure>
 
 The observatory has a 12-inch telescope. Since it was kind of overcast and there were random clouds in the sky, the only object we could really clearly see was the Moon. Nevertheless, being able to see the Moon up close - with its various maria and craters - was still a wonderful sight to see. This actually marks the first time I've looked into a non-toy telescope. It was truly amazing how much detail you could see. I tried to take a picture through the lens but the resulting image doesn't come close to capturing the beauty of actually seeing it in person.
 
-<img src="/images/blog/20141106/moon.jpg" width="500px" />
-
-<div class="col-center"><p class="caption">Not even close.</p></div>
+<figure>
+    <img src="/images/blog/20141106/moon.jpg" width="500px" />
+    <figcaption>Not even close.</figcaption>
+</figure>
 
 Astronomy is awesome.
 

@@ -36,22 +36,20 @@ ul, ol, dl, figure,
 }
 
 /**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-/**
  * Figures
  */
-figure > img {
+figure {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 12px;
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: 12px;
+    font-color: $grey-color-dark;
+    font-style: italic;
 }
 
 /**
@@ -139,7 +137,7 @@ pre {
 }
 
 /**
- * Clearfix
+ * Helpers
  */
 %clearfix {
 
