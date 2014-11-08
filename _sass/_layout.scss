@@ -218,6 +218,18 @@
     margin-top: 12px;
 }
 
+.intro {
+    padding-bottom: 20px;
+
+    .emphasis {
+        font-size: 17px;
+
+        @include media-query($on-palm) {
+        font-size: 19px;
+    }
+    }
+}
+
 .page-content {
     padding: $spacing-unit 0;
     font-family: 'Roboto', sans-serif;
@@ -240,7 +252,7 @@
 
 .resume-container {
     background-color: $grey-color-light;
-    margin-top: 15px;
+    margin-top: 40px;
     border-bottom: 5px solid $mignonic-blue;
 
     &:hover {
