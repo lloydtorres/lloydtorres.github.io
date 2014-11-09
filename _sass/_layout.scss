@@ -219,7 +219,7 @@
 }
 
 .intro {
-    padding-bottom: 20px;
+    margin-bottom: 15px;
 
     .emphasis {
         font-size: 17px;
@@ -252,7 +252,8 @@
 
 .resume-container {
     background-color: $grey-color-light;
-    margin-top: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-bottom: 5px solid $mignonic-blue;
 
     &:hover {
@@ -560,12 +561,16 @@
 }
 
 .divider {
-    border-top: 2px solid $grey-color-light;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    
+    height: 50px;
+
+    .inner {
+        border-bottom: 2px solid $grey-color-light;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .social-icons-large {
