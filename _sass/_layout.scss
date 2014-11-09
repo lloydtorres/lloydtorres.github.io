@@ -219,14 +219,24 @@
 }
 
 .intro {
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+    p {
+        font-size: 15px;
+
+        @include media-query($on-palm) {
+            font-size: 18px;
+        }
+
+    }
 
     .emphasis {
         font-size: 17px;
 
         @include media-query($on-palm) {
-        font-size: 19px;
-    }
+            font-size: 20px;
+        }
     }
 }
 
@@ -252,8 +262,8 @@
 
 .resume-container {
     background-color: $grey-color-light;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     border-bottom: 5px solid $mignonic-blue;
 
     &:hover {

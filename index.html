@@ -1,106 +1,138 @@
 ---
-layout: feature
-header: "/images/headers/header.png"
-picoverlay: "/images/other/me.png"
 ---
+<!DOCTYPE html>
+<html>
 
-<div class="intro">
-    <p class="emphasis">I'm <strong>Lloyd — an Electrical Engineering co-op student</strong> at the <a href="http://uwaterloo.ca/">University of Waterloo</a> with a passion for software, science and space. I'm open to co-op or internship opportunities in engineering, as well as working on interesting and challenging projects.</p>
+    {% include head.html %}
 
-    <p>I've lived in three countries so far, each with its own set of unique flavours, experiences and memories. This has provided me with a broader and more diverse way of looking at things. For the past few years I've constantly been on the move, which has taught me the value of being flexible and adaptable in challenging or unfamiliar situations.</p>
+    <body>
+    
+        {% include header.html %}
+        {% include google_analytics.html %}
 
-    <p>Need to get in touch? Send me an e-mail <a href="mailto:contact.lloyd.torres@gmail.com">here</a>! You can also find me on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a>, <a href="https://github.com/lloydtorres">GitHub</a> and <a href="https://twitter.com/ImperatorTorres">Twitter</a>.</p>
-</div>
+        <div class="curtain-header" style="background-image: url('/images/headers/header.png');">  
+            <div class="curtain-overlay">
+                <img src="/images/other/me.png" class="img-circle"/>
+            </div>
+        </div>
 
-<div class="divider"><div class="inner"></div></div>
+        <div class="coverup">
+            <div class="container page-content col-md-offset-2 col-md-8">
 
-<div class="resume-container">
-    <div class="resume-content">
-        <h2><a href="https://www.linkedin.com/in/lartorres">Résumé</a></h2>
+                <div class="intro">
+                    <p class="emphasis">I'm <strong>Lloyd — an Electrical Engineering co-op student</strong> at the <a href="http://uwaterloo.ca/">University of Waterloo</a> with a passion for software, science and space. I'm open to co-op or internship opportunities in engineering, as well as working on interesting and challenging projects.</p>
 
-        <div class="row col-md-offset-1 col-md-10 job-container">
-            <div class="col-sm-6 job-padding-override">
-                <div class="job-entry">
-                    <span><strong><a href="https://www.thalmic.com/">Thalmic Labs</a></strong></span>
-                    <span class="position">QA Engineering Co-op</span>
-                    <span class="caption">Fall 2014</span>
+                    <p>I've lived in three countries so far, each with its own set of unique flavours, experiences and memories. This has provided me with a broader and more diverse way of looking at things. For the past few years I've constantly been on the move, which has taught me the value of being flexible and adaptable in challenging or unfamiliar situations.</p>
+
+                    <p>Need to get in touch? Send me an e-mail <a href="mailto:contact.lloyd.torres@gmail.com">here</a>! You can also find me on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a>, <a href="https://github.com/lloydtorres">GitHub</a> and <a href="https://twitter.com/ImperatorTorres">Twitter</a>.</p>
                 </div>
-            </div>
-            <div class="col-sm-6 job-padding-override">
-                <div class="job-entry">
-                    <span><strong><a href="http://www.christiedigital.com/">Christie Digital Systems</a></strong></span>
-                    <span class="position">Engineering QA Specialist (Co-op)</span>
-                    <span class="caption">Winter 2014</span>
+
+            </div><!-- /container -->
+        </div>
+
+        <div class="curtain-header" style="background-image: url('/images/headers/resume-header.png');">
+            <div class="container col-md-offset-2 col-md-8">
+
+                <div class="resume-container">
+                    <div class="resume-content">
+                        <h2><a href="https://www.linkedin.com/in/lartorres">Résumé</a></h2>
+
+                        <div class="row col-md-offset-1 col-md-10 job-container">
+                            <div class="col-sm-6 job-padding-override">
+                                <div class="job-entry">
+                                    <span><strong><a href="https://www.thalmic.com/">Thalmic Labs</a></strong></span>
+                                    <span class="position">QA Engineering Co-op</span>
+                                    <span class="caption">Fall 2014</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 job-padding-override">
+                                <div class="job-entry">
+                                    <span><strong><a href="http://www.christiedigital.com/">Christie Digital Systems</a></strong></span>
+                                    <span class="position">Engineering QA Specialist (Co-op)</span>
+                                    <span class="caption">Winter 2014</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <table class="skill-overview">
+                            <tr>
+                                <td><strong>Languages</strong></td>
+                                <td>Fluent in <strong>Python</strong>, <strong>Java</strong>, <strong>C#</strong>. Works with <strong>Android development</strong>, <strong>Bash</strong>, <strong>C++</strong>, 
+                                <strong>CSS</strong>, <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>LabVIEW</strong>, <strong>Lua</strong>, <strong>VHDL</strong>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>System</strong></td>
+                                <td>Proficient in <strong>Windows</strong>, familiar with <strong>OS X</strong> and <strong>Linux</strong>. Testing experience with <strong>Windows</strong>, 
+                                <strong>OS X</strong>, <strong>iOS</strong>, <strong>Android</strong>, <strong>Google Glass</strong>, <strong>Myo Armband</strong>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Software</strong></td>
+                                <td><strong>IDEs:</strong> Eclipse, IntelliJ <strong>Revision Control:</strong> Git, SVN <strong>Stories/Issues:</strong> TestTrack, Pivotal Tracker, 
+                                JIRA <strong>Other:</strong> Microsoft Office, cmd/terminal, VMWare, Adobe Photoshop, Sony Vegas</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Hardware</strong></td>
+                                <td>Altera DE2 Board (Cyclone II FPGA), breadboards, oscilloscopes, multimeters</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Web</strong></td>
+                                <td>Some development experience using <strong>Jekyll</strong>, <strong>Bootstrap</strong> and <strong>Wikia</strong>.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Interests</strong></td>
+                                <td>Fencing, archery, space exploration, programming, reading, cartoons, graphic design, video games.</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-            </div>
+
+            </div><!-- /container -->
         </div>
-        
-        <table class="skill-overview">
-            <tr>
-                <td><strong>Languages</strong></td>
-                <td>Fluent in <strong>Python</strong>, <strong>Java</strong>, <strong>C#</strong>. Works with <strong>Android development</strong>, <strong>Bash</strong>, <strong>C++</strong>, 
-                <strong>CSS</strong>, <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>LabVIEW</strong>, <strong>Lua</strong>, <strong>VHDL</strong>.</td>
-            </tr>
-            <tr>
-                <td><strong>System</strong></td>
-                <td>Proficient in <strong>Windows</strong>, familiar with <strong>OS X</strong> and <strong>Linux</strong>. Testing experience with <strong>Windows</strong>, 
-                <strong>OS X</strong>, <strong>iOS</strong>, <strong>Android</strong>, <strong>Google Glass</strong>, <strong>Myo Armband</strong>.</td>
-            </tr>
-            <tr>
-                <td><strong>Software</strong></td>
-                <td><strong>IDEs:</strong> Eclipse, IntelliJ <strong>Revision Control:</strong> Git, SVN <strong>Stories/Issues:</strong> TestTrack, Pivotal Tracker, 
-                JIRA <strong>Other:</strong> Microsoft Office, cmd/terminal, VMWare, Adobe Photoshop, Sony Vegas</td>
-            </tr>
-            <tr>
-                <td><strong>Hardware</strong></td>
-                <td>Altera DE2 Board (Cyclone II FPGA), breadboards, oscilloscopes, multimeters</td>
-            </tr>
-            <tr>
-                <td><strong>Web</strong></td>
-                <td>Some development experience using <strong>Jekyll</strong>, <strong>Bootstrap</strong> and <strong>Wikia</strong>.</td>
-            </tr>
-            <tr>
-                <td><strong>Interests</strong></td>
-                <td>Fencing, archery, space exploration, programming, reading, cartoons, graphic design, video games.</td>
-            </tr>
-        </table>
-    </div>
-</div>
 
-<div class="divider"><div class="inner"></div></div>
+        <div class="coverup">
+            <div class="container page-content col-md-offset-2 col-md-8">
 
-<div class="row">
+                <div class="row">
 
-    <div class="col-sm-6">
-        <div class="project-entry card-front">
-            <a href="/projects/"><img src="/images/projects/thefront/thefront-preview.png" title="Projects" alt="Projects"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/">Projects</a></h2>
-                <p>Stuff I've been working on, from software to hardware.</p>
-                <ul>
-                    <li><a href="/projects/stepcounter/">Step Counter and Navigator</a></li>
-                    <li><a href="/projects/spaceinvaders/">Space Invaders Recreated</a></li>
-                    <li><a href="/projects/thefront/">The Front</a></li>
-                </ul>
-                <a href="/projects/" class="more">And more...</a>
-            </div>
+                    <div class="col-sm-6">
+                        <div class="project-entry card-front">
+                            <a href="/projects/"><img src="/images/projects/thefront/thefront-preview.png" title="Projects" alt="Projects"/></a>
+                            <div class="project-desc">
+                                <h2><a href="/projects/">Projects</a></h2>
+                                <p>Stuff I've been working on, from software to hardware.</p>
+                                <ul>
+                                    <li><a href="/projects/stepcounter/">Step Counter and Navigator</a></li>
+                                    <li><a href="/projects/spaceinvaders/">Space Invaders Recreated</a></li>
+                                    <li><a href="/projects/thefront/">The Front</a></li>
+                                </ul>
+                                <a href="/projects/" class="more">And more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="project-entry card-front">
+                            <a href="/log/"><img src="/images/headers/log-preview.png" title="Adventure Log" alt="Adventure Log"/></a>
+                            <div class="project-desc">
+                                <h2><a href="/log/">Adventure Log</a></h2>
+                                <p>Every single day there's something wonderful to do.</p>
+                                <ul>
+                                    {% for post in site.posts limit:3 %}
+                                        <li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                                <a href="/log/" class="more">And more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- /container -->
         </div>
-    </div>
 
-    <div class="col-sm-6">
-        <div class="project-entry card-front">
-            <a href="/log/"><img src="/images/headers/log-preview.png" title="Adventure Log" alt="Adventure Log"/></a>
-            <div class="project-desc">
-                <h2><a href="/log/">Adventure Log</a></h2>
-                <p>Every single day there's something wonderful to do.</p>
-                <ul>
-                    {% for post in site.posts limit:3 %}
-                        <li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-                <a href="/log/" class="more">And more...</a>
-            </div>
-        </div>
-    </div>
+        {% include footer.html %}
 
-</div>
+  </body>
+
+</html>
