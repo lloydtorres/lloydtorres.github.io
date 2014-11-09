@@ -570,14 +570,38 @@
     text-align: center;
 }
 
+.div-column-left {
+    float: left;
+    width: 33%;
+    @include media-query($on-mobile) {
+        width: 17%;
+    }
+}
+
+.div-column-right {
+    float: right;
+    width: 33%;
+    @include media-query($on-mobile) {
+        width: 17%;
+    }
+}
+
+.div-column-center {
+    display: inline-block;
+    width: 33%;
+    @include media-query($on-mobile) {
+        width: 66%;
+    }
+}
+
 .divider {
     
     height: 50px;
 
     .inner {
-        border-bottom: 2px solid $grey-color-light;
+        border-bottom: 3px solid $grey-color-light;
         height: 50%;
-        width: 50%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
