@@ -3,6 +3,7 @@ layout: post
 title:  "Space Invaders Recreated"
 date:   2014-09-27 01:15:00
 color: black
+preview: "/images/projects/spaceinvaders/spaceinvaders.png"
 permalink: log/space-invaders
 tags:
 - java
