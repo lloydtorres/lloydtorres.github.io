@@ -23,3 +23,7 @@ categories:
         <p>Other than the core gameplay, I've added other features such as a main menu and a pause option during the game. I've also added a Lua script plugin that uses the Myo Script API. This means that you can use Thalmic Labs's Myo armband to play the game! Try it out!</p> 
     </div>
 </div>
+
+<div class="col-center" style="margin-top: 17px;">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/Zl6OlQRLjsk" frameborder="0" allowfullscreen></iframe>
+</div>
