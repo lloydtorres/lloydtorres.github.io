@@ -24,6 +24,6 @@ categories:
     </div>
 </div>
 
-<div class="col-center" style="margin-top: 17px;">
+<div class="embed-responsive embed-responsive-16by9 col-center" style="margin-top: 17px;">
     <iframe width="560" height="315" src="//www.youtube.com/embed/Zl6OlQRLjsk" frameborder="0" allowfullscreen></iframe>
 </div>
