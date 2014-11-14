@@ -16,3 +16,4 @@ gems:
 - jekyll-sitemap
 
 jekyll-mentions: https://twitter.com
+tag_dir: /log/tag

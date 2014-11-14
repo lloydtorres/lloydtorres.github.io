@@ -23,7 +23,7 @@ permalink: /projects/
             <a href="/projects/spaceinvaders/"><img src="/images/projects/spaceinvaders/invaders-preview.png" title="Space Invaders Recreated" alt="Space Invaders Recreated"/></a>
             <div class="project-desc">
                 <h2><a href="/projects/spaceinvaders/">Space Invaders Recreated</a></h2>
-                <p>Space Invaders in Java with Swing and AWT.</p>
+                <p>Space Invaders in Java with Swing and AWT; gesture controlled using Myo armband and Lua plugin.</p>
                 <a href="/projects/spaceinvaders/" class="more">Read more...</a>
             </div>
         </div>
