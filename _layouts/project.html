@@ -9,6 +9,11 @@
         {% include google_analytics.html %}
 
         <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}">
+            {% if page.picoverlay %}
+            <div class="curtain-overlay">
+                <img src="{{ page.picoverlay }}" class="border-override" />
+            </div>
+            {% else %}
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
                     <div class="expanded-overlay-content">
@@ -20,7 +25,19 @@
                     </div>
                 </div>
             </div>
+            {% endif %}
         </div>
+
+        {% if page.google_play or page.myo_market %}
+        <div class="market-badges">
+            {% if page.google_play %}
+            <a href="{{ page.google_play }}"><img src="/images/icons/ps_badge.png" /></a>
+            {% endif %}
+            {% if page.myo_market %}
+            <a href="{{ page.myo_market }}"><img src="/images/icons/myo_badge.png" /></a>
+            {% endif %}
+        </div>
+        {% endif %}
 
         <div class="coverup">
             <div class="container pushdown page-content col-md-offset-2 col-md-8">

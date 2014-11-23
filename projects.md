@@ -9,6 +9,17 @@ permalink: /projects/
 
     <div class="col-sm-6 col-md-4">
         <div class="project-entry">
+            <a href="/projects/myodialer/"><img src="/images/projects/myodialer/myodialer-preview.png" title="Myo Dialer" alt="Myo Dialer"/></a>
+            <div class="project-desc">
+                <h2><a href="/projects/myodialer/">Myo Dialer</a></h2>
+                <p>What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts at a flick of the wrist.</p>
+                <a href="/projects/myodialer/" class="more">Read more...</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+        <div class="project-entry">
             <a href="/projects/stepcounter/"><img src="/images/projects/stepcounter/step-preview.png" title="Step Counter and Navigator" alt="Step Counter and Navigator"/></a>
             <div class="project-desc">
                 <h2><a href="/projects/stepcounter/">Step Counter and Navigator</a></h2>
