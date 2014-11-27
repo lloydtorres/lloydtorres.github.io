@@ -23,7 +23,7 @@ categories:
 
 <div class="row paddup paddown">
     <div class="col-sm-4 col-center">
-        <img src="/images/projects/myodialer/myodialer-gestures.png" width="300px" title="Assign gestures to contacts in Myo Dialer." alt="Assign gestures to contacts in Myo Dialer."/>
+        <img src="/images/projects/myodialer/myodialer-gestures.png" width="300px" title="Assign up to four contacts to gestures in Myo Dialer." alt="Assign gestures to contacts in Myo Dialer."/>
     </div>
 
     <div class="col-sm-8">
