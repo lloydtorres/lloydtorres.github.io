@@ -9,6 +9,8 @@ categories:
 - android
 - java
 - myo
+description: What’s easier than 1-touch quick dial? Myo Dialer!
+preview_image: "/images/projects/myodialer/myodialer-top.png"
 ---
 
 <div class="row paddown">

@@ -8,6 +8,8 @@ categories:
 - java
 - swing
 - awt
+- description: Keypress Parade is a simple testing utility built in Java with Swing and AWT.
+- preview_image: "/images/projects/kpparade/kpparade.png"
 ---
 
 <div class="row">

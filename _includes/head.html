@@ -4,15 +4,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title ~= site.title %}{{ page.title }} • Lloyd Torres{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
     <!-- Facebook meta shenanigans -->
     <meta property="og:site_name" content="Lloyd Torres"/>
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:image" content="{% if page.preview_image %}{{ site.url }}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
 
+    <!-- Twitter meta shenanigans -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ImperatorTorres">
+    <meta name="twitter:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:creator" content="@ImperatorTorres">
+    <meta name="twitter:image" content="{% if page.preview_image %}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
+
+    <!-- Google+ meta shenanigans -->
+    <meta itemprop="name" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="image" content="{% if page.preview_image %}{{ site.url }}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}">
+
+    <!-- Styling -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

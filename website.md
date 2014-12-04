@@ -10,6 +10,7 @@ categories:
 - javascript
 - jekyll
 - bootstrap
+description: My personal website built with Jekyll and Bootstrap.
 ---
 
 <div class="row">
