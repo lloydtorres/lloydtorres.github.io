@@ -8,6 +8,7 @@ permalink: log/night-sky-visiting-gustav-bakos-observatory
 tags:
 - astronomy
 - waterloo
+description: I decided to drop by the University of Waterloo's Gustav Bakos Observatory yesterday night on a whim, despite the fact that it was somewhat overcast.
 ---
 
 I decided to drop by the University of Waterloo's <a href="https://uwaterloo.ca/astrophysics-and-gravitation/gustav-bakos-observatory">Gustav Bakos Observatory</a> yesterday night on a whim, despite the fact that it was somewhat overcast. The observatory opens its doors to the public on the first Wednesday of every month. It was raining the last time it was open, so I decided to take advantage of this opportunity.

@@ -6,6 +6,7 @@ color: "#253F6D"
 permalink: log/first-post
 tags:
 - site
+description: I've been trying to get Jekyll to work properly for the past few hours, but now it works! Hurrah!
 ---
 
 I've been trying to get Jekyll to work properly for the past few hours, but now it works! Hurrah!

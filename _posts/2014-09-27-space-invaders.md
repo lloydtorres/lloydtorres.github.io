@@ -8,6 +8,7 @@ permalink: log/space-invaders
 tags:
 - java
 - projects
+description: Over the past three days I've been revisiting an old project of mine - a recreation of Space Invaders in Java.
 ---
 
 Over the past three days I've been revisiting an old project of mine - a 

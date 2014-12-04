@@ -11,7 +11,7 @@ categories:
 - myo
 - lua
 description: Space Invaders Recreated is my recreation of the classic game in Java using Swing and AWT.
-preview_image: "/images/projects/spaceinvaders/spaceinvaders.png"
+preview: "/images/projects/spaceinvaders/spaceinvaders.png"
 ---
 
 <div class="row">

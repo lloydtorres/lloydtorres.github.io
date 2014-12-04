@@ -7,7 +7,7 @@ categories:
 - python
 - pygame
 description: Angel Beats! Paint is an anime-themed paint app built in Python with pygame.
-preview_image: "/images/projects/paintproject/paintproject-1.png"
+preview: "/images/projects/paintproject/paintproject-1.png"
 ---
 
 <script>

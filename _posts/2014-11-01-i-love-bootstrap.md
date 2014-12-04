@@ -6,6 +6,7 @@ color: "#59407F"
 permalink: log/i-love-bootstrap
 tags:
 - site
+description: I honestly can't believe why I've never used Bootstrap before!
 ---
 
 I honestly can't believe why I've never used <a href="http://getbootstrap.com/">Bootstrap</a> before! It's AMAZING and I LOVE IT! It makes web dev much more easier and more fun! I was so excited to use it that I pulled an all-nighter on Halloween night to start revamping my site.

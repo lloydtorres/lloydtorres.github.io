@@ -7,7 +7,7 @@ categories:
 - android
 - java
 description: Step Counter and Navigator is an Android app (in Java of course) developed for an Embedded Systems course group project.
-preview_image: "/images/projects/stepcounter/stepcounter.png"
+preview: "/images/projects/stepcounter/stepcounter.png"
 ---
 
 <div class="row">

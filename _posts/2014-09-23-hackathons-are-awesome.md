@@ -9,6 +9,7 @@ tags:
 - hackathon
 - hack the north
 - waterloo
+description: On September 20th, I had the privilege of attending Hack the North, a hackathon that was held over the weekend at the University of Waterloo.
 ---
 
 On September 20th, I had the privilege of attending <a href="http://hackthenorth.com/">Hack the North</a>, a hackathon that was held over 

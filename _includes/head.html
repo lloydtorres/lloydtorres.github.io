@@ -13,7 +13,7 @@
     <meta property="og:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:image" content="{% if page.preview_image %}{{ site.url }}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
+    <meta property="og:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
 
     <!-- Twitter meta shenanigans -->
     <meta name="twitter:card" content="summary">
@@ -21,12 +21,12 @@
     <meta name="twitter:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:creator" content="@ImperatorTorres">
-    <meta name="twitter:image" content="{% if page.preview_image %}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
+    <meta name="twitter:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
 
     <!-- Google+ meta shenanigans -->
     <meta itemprop="name" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta itemprop="image" content="{% if page.preview_image %}{{ site.url }}{{ page.preview_image }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}">
+    <meta itemprop="image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}">
 
     <!-- Styling -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
