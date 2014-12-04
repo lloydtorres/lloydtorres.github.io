@@ -6,8 +6,7 @@ color: "#253F6D"
 permalink: log/new-domain
 tags:
 - site
-description: I finally got my own personal domain! I got it from Namecheap since I've been hearing a lot of good things about them. I hope
-they deliver.
+description: I finally got my own personal domain!
 ---
 
 I finally got my own personal domain! I got it from Namecheap since I've been hearing a lot of good things about them. I hope
