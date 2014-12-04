@@ -13,7 +13,10 @@ categories:
 
 <div class="row paddown">
     <div class="col-sm-8">
-        <div class="featuretext-lg"><p>What’s easier than 1-touch quick dial?</p> <p><strong style="color:#00bdde;">Myo Dialer</strong>!</p></div>
+        <div class="featuretext-lg">
+            <p>What’s easier than 1-touch quick dial?</p>
+            <p><strong style="color:#00bdde;">Myo Dialer</strong> was built from the idea that mobile devices make more sense with your Myo armband.</p>
+        </div>
     </div>
 
     <div class="col-sm-4 col-center">
@@ -27,15 +30,17 @@ categories:
     </div>
 
     <div class="col-sm-8">
-        <div class="featuretext-md"><p><strong style="color:#00bdde;">Myo Dialer</strong> was built from the idea that mobile devices make more sense with your Myo armband.</p>
+        <div class="featuretext-md">
+            <p>Simply assign a contact with a gesture combination and you will be able to make calls with a flick of a wrist. There’s no need to even take your phone out of your pocket.</p>
 
-        <p>Simply assign a contact with a gesture combination and you will be able to make calls hands-free. There’s no need to even take your phone out of your pocket.</p></div> 
+            <p>Personalize your experience — <strong style="color:#00bdde;">Myo Dialer</strong> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+        </div> 
     </div>
 </div>
 
 <div class="col-center paddup paddown">
     <p class= "featuretext-lg">Get <strong style="color:#00bdde;">Myo Dialer</strong> on your Android phone today!</p>
-    <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.0.3 firmware.</p>
+    <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.1.3 firmware.</p>
     <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" width="150px"/></a> 
 </div> 
 
