@@ -30,7 +30,7 @@ preview: "/images/projects/myodialer/myodialer-top.png"
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
             <p>What’s easier than 1-touch quick dial?</p>
-            <p><span class="cyan-emph">Myo Dialer</span></p>
+            <p><span class="cyan-emph" style="font-size: 50px;">Myo Dialer</span></p>
             <p><span class="cyan-emph">Myo Dialer</span> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
     </div>
@@ -61,7 +61,7 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <strong style="color:#00bdde;">Myo Dialer</strong> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
         </div>
     </div>
 </div>
