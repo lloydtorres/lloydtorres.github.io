@@ -35,6 +35,10 @@
     @include media-query($on-laptop) {
         margin-left: 0px;
     }
+
+    @include media-query($on-mobile) {
+        margin-top: 5px;
+    }
 }
 
 .site-nav {
@@ -52,36 +56,32 @@
     }
 }
 
+.menu-button {
+    color: white;
+    font-size: 30px !important;
+    vertical-align: 0 !important;
+    line-height: 20px !important;
+    @include media-query($on-mobile) {
+        margin-top: 3px;
+    }
+}
+
 .navicons {
     padding-right: 3px;
-    height: 1em;
 }
 
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 2px solid $grey-color-light;
     padding: $spacing-unit;
     font-size: 10px;
     color: $grey-color;
-
-    @include media-query($on-palm) {
-        .multiline {
-            display: block;
-        }
-    }
 }
 
 .social-icons {
-    img {
-       width: 30px;
+    span {
         padding: 5px;
-        padding-bottom: 10px; 
-    }
-    
-    a:hover {
-        opacity: 0.7;
     }
 }
 
@@ -605,7 +605,7 @@
     float: left;
     width: 33%;
     @include media-query($on-mobile) {
-        width: 17%;
+        width: 10%;
     }
 }
 
@@ -613,7 +613,7 @@
     float: right;
     width: 33%;
     @include media-query($on-mobile) {
-        width: 17%;
+        width: 10%;
     }
 }
 
@@ -621,16 +621,16 @@
     display: inline-block;
     width: 33%;
     @include media-query($on-mobile) {
-        width: 66%;
+        width: 80%;
     }
 }
 
 .divider {
     
-    height: 50px;
+    height: 37px;
 
     .inner {
-        border-bottom: 3px solid $grey-color-light;
+        border-bottom: 2px solid $grey-color-light;
         height: 50%;
         width: 100%;
         margin-left: auto;
@@ -641,15 +641,9 @@
 .social-icons-large {
     display: inline !important;
 
-    img {
-        width: 40px;
+    span {
         padding: 5px;
-        display: inline !important;
         margin-bottom: -1px;
-    }
-
-    a:hover {
-        opacity: 0.7;
     }
 }
 
