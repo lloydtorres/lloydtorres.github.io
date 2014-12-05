@@ -14,16 +14,25 @@ description: What’s easier than 1-touch quick dial? Myo Dialer!
 preview: "/images/projects/myodialer/myodialer-top.png"
 ---
 
-<div class="row paddown">
-    <div class="col-sm-8">
-        <div class="featuretext-lg">
+<div class="row paddown paddup">
+    <div class="col-sm-8 hidden-xs">
+        <div class="featuretext-md">
             <p>What’s easier than 1-touch quick dial?</p>
+            <p><strong style="font-size: 50px; color:#00bdde;">Myo Dialer</strong></p>
             <p><strong style="color:#00bdde;">Myo Dialer</strong> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
     </div>
 
     <div class="col-sm-4 col-center">
         <img src="/images/projects/myodialer/myodialer-top.png" width="300px" title="Myo Dialer" alt="Myo Dialer"/>
+    </div>
+
+    <div class="col-sm-8 visible-xs">
+        <div class="featuretext-md">
+            <p>What’s easier than 1-touch quick dial?</p>
+            <p><strong style="font-size: 50px; color:#00bdde;">Myo Dialer</strong></p>
+            <p><strong style="color:#00bdde;">Myo Dialer</strong> was built from the idea that mobile devices make more sense with your Myo armband.</p>
+        </div>
     </div>
 </div>
 
@@ -35,9 +44,25 @@ preview: "/images/projects/myodialer/myodialer-top.png"
     <div class="col-sm-8">
         <div class="featuretext-md">
             <p>Simply assign a contact with a gesture combination and you will be able to make calls with a flick of a wrist. There’s no need to even take your phone out of your pocket.</p>
-
-            <p>Personalize your experience — <strong style="color:#00bdde;">Myo Dialer</strong> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
         </div> 
+    </div>
+</div>
+
+<div class="row paddown paddup">
+    <div class="col-sm-8 hidden-xs">
+        <div class="featuretext-md">
+            <p>Personalize your experience — <strong style="color:#00bdde;">Myo Dialer</strong> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+        </div>
+    </div>
+
+    <div class="col-sm-4 col-center">
+        <img src="/images/projects/myodialer/myodialer-settings.png" width="300px" title="Personalize your experience with Myo Dialer." alt="Personalize your experience with Myo Dialer."/>
+    </div>
+
+    <div class="col-sm-8 visible-xs">
+        <div class="featuretext-md">
+            <p>Personalize your experience — <strong style="color:#00bdde;">Myo Dialer</strong> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+        </div>
     </div>
 </div>
 
