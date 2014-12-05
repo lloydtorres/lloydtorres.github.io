@@ -40,8 +40,9 @@
 .site-nav {
     margin-top: 2px !important;
     
-    a:link, a:visited {
+    a:link, a:visited, a:active {
         color: $white-color;
+        background-color: $mignonic-blue !important;
         font-family: 'Arvo', serif;
     }
 
