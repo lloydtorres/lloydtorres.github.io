@@ -40,13 +40,13 @@
 .site-nav {
     margin-top: 2px !important;
     
-    a:link, a:visited, a:active {
+    a:link, a:visited {
         color: $white-color;
-        background-color: $mignonic-blue !important;
+        background-color: $mignonic-blue;
         font-family: 'Arvo', serif;
     }
 
-    > li > a:hover, .active {
+    a:hover, .active {
         background-color: $grey-color-dark !important;
         color: white !important;
     }
