@@ -61,7 +61,7 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> allows you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
         </div>
     </div>
 </div>
@@ -77,10 +77,12 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
-<h2>The Story</h2>
+<div class="paddown">
+    <h2>The Story</h2>
 
-<strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an internal hackathon at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.
+    <strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an internal hackathon at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.
 
-Its design was inspired by the beautiful Material Design guidelines introduced by Google for Android 5.0 Lollipop. This allows Myo Dialer to blend seamlessly when it calls on native Lollipop apps to obtain contact information or make calls to assigned contacts.
+    Its design was inspired by the beautiful Material Design guidelines introduced by Google for Android 5.0 Lollipop. This allows Myo Dialer to blend seamlessly when it calls on native Lollipop apps to obtain contact information or make calls to assigned contacts.
 
-Myo Dialer will be continuously updated to improve performance, add features and support future Myo SDK releases.
+    Myo Dialer will be continuously updated to improve performance, add features and support future Myo SDK releases.
+</div>
