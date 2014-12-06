@@ -34,7 +34,7 @@
             <a href="{{ page.google_play }}"><img src="/images/icons/ps_badge.png" /></a>
             {% endif %}
             {% if page.myo_market %}
-            <a href="{{ page.myo_market }}"><img src="/images/icons/myo_badge.png" /></a>
+            <a href="{{ page.myo_market }}"><img src="/images/icons/myo_badge.png" style="border-radius: 5px; border: 1px solid white;"/></a>
             {% endif %}
         </div>
         {% endif %}
@@ -47,6 +47,25 @@
                     <article class="post-content">
                         {{ content }}
                     </article>
+
+                    <div class="div-column-left">
+                        <div class="divider"><div class="inner"></div></div>
+                    </div>
+                    <div class="div-column-center">
+                        <div class="col-center">
+                            <div class="social-icons-large">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Facebook"/><span class="fa fa-facebook-square fa-2x"></span></a>
+                                <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=ImperatorTorres" target="_blank" title="Twitter"/><span class="fa fa-twitter-square fa-2x"></span></a>
+                                <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Google+"/><span class="fa fa-google-plus-square fa-2x"></span></a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=" target="_blank" title="LinkedIn"/><span class="fa fa-linkedin-square fa-2x"></span></a>
+                                <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Reddit"/><span class="fa fa-reddit-square fa-2x"></span></a>
+                                <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.description }}" target="_blank" title="Tumblr"/><span class="fa fa-tumblr-square fa-2x"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-column-right">
+                        <div class="divider"><div class="inner"></div></div>
+                    </div>
 
                     <div class="col-center">
                         <div class="social-icons-large">
