@@ -21,6 +21,11 @@ the late hours of the night. I loved how there were various tech experts that yo
 on your project. I especially loved that sponsor companies were more than happy to lend out their tech and expertise, which 
 allowed participants to bring their hacks to their fullest potential.
 
+<div class="padaround">
+    <blockquote class="twitter-tweet" lang="en" align="center"><p><a href="https://twitter.com/ImperatorTorres">@ImperatorTorres</a> They really are!</p>&mdash; Hack the North (@HackTheNorth) <a href="https://twitter.com/HackTheNorth/status/513502093752414208">September 21, 2014</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
 As for myself, I was stationed at my company's booth, helping out devs who were using our tech, the 
 [Myo gesture control armband](https://www.thalmic.com/en/myo/). I enjoyed hearing about the hacks  they were working on, and I 
 was amazed at the variety of projects they came up with using the Myo. Great job guys!
