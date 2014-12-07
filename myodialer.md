@@ -80,9 +80,11 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 <div class="paddown">
     <h2>The Story</h2>
 
-    <p><strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an internal hackathon at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.</p>
+    <p><strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an <a href="http://lloydtorres.com/log/myo-dialer-27-hour-hackathon/">internal hackathon</a> at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.</p>
 
     <p>Its design was inspired by the beautiful Material Design guidelines introduced by Google for Android 5.0 Lollipop. This allows Myo Dialer to blend seamlessly when it calls on native Lollipop apps to obtain contact information or make calls to assigned contacts.</p>
 
     <p>Myo Dialer will be continuously updated to improve performance, add features and support future Myo SDK releases.</p>
+
+    <p>Got a question, request or comment? <a href="mailto:contact.lloyd.torres@gmail.com">Send me an e-mail!</a></p>
 </div>
