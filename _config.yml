@@ -14,5 +14,4 @@ gems:
 - jekyll-redirect-from
 - jekyll-sitemap
 
-jekyll-mentions: https://twitter.com
 tag_dir: /log/tag
