@@ -615,6 +615,9 @@
     @include media-query($on-mobile) {
         width: 10%;
     }
+    @include media-query($on-palm) {
+        width: 20%;
+    }
 }
 
 .div-column-right {
@@ -623,6 +626,9 @@
     @include media-query($on-mobile) {
         width: 10%;
     }
+    @include media-query($on-palm) {
+        width: 20%;
+    }
 }
 
 .div-column-center {
@@ -630,6 +636,9 @@
     width: 33%;
     @include media-query($on-mobile) {
         width: 80%;
+    }
+    @include media-query($on-palm) {
+        width: 60%;
     }
 }
 
