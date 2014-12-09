@@ -79,6 +79,30 @@
     color: $grey-color;
 }
 
+.foot-column-left {
+    float: left;
+    width: 35%;
+    @include media-query($on-mobile) {
+        width: 20%;
+    }
+}
+
+.foot-column-right {
+    float: right;
+    width: 35%;
+    @include media-query($on-mobile) {
+        width: 20%;
+    }
+}
+
+.foot-column-center {
+    display: inline-block;
+    width: 25%;
+    @include media-query($on-mobile) {
+        width: 50%;
+    }
+}
+
 .social-icons {
     span {
         padding: 5px;
