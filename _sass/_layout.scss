@@ -635,34 +635,25 @@
 
 .div-column-left {
     float: left;
-    width: 33%;
+    width: 25%;
     @include media-query($on-mobile) {
         width: 10%;
-    }
-    @include media-query($on-palm) {
-        width: 20%;
     }
 }
 
 .div-column-right {
     float: right;
-    width: 33%;
+    width: 25%;
     @include media-query($on-mobile) {
         width: 10%;
-    }
-    @include media-query($on-palm) {
-        width: 20%;
     }
 }
 
 .div-column-center {
     display: inline-block;
-    width: 33%;
+    width: 45%;
     @include media-query($on-mobile) {
         width: 80%;
-    }
-    @include media-query($on-palm) {
-        width: 60%;
     }
 }
 
