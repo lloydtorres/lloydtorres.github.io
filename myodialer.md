@@ -18,7 +18,7 @@ preview: "/images/projects/myodialer/myodialer-top.png"
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
             <p>What’s easier than 1-touch quick dial?</p>
-            <p><span class="cyan-emph" style="font-size: 50px;">Myo Dialer</span></p>
+            <p class="cyan-emph" style="font-size: 50px;">Myo Dialer</p>
             <p><span class="cyan-emph">Myo Dialer</span> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
     </div>
@@ -29,8 +29,10 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>What’s easier than 1-touch quick dial?</p>
-            <p><span class="cyan-emph" style="font-size: 50px;">Myo Dialer</span></p>
+            <div class="col-center">
+                <p>What’s easier than 1-touch quick dial?</p>
+                <p style="font-size: 50px; color: #00bdde;">Myo Dialer</p>
+            </div>
             <p><span class="cyan-emph">Myo Dialer</span> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
     </div>
@@ -51,7 +53,11 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 <div class="row paddown paddup">
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, notify you of incoming calls by vibrating your Myo armband and reject calls with a fist<sup>*</sup>.</p>
+        </div>
+
+        <div class="featuretext-sm">
+            <p>* Experimental feature. May not work on all phones.</p>
         </div>
     </div>
 
@@ -61,7 +67,11 @@ preview: "/images/projects/myodialer/myodialer-top.png"
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> allows you start all calls sent from the app on speakerphone, and can let you know of incoming calls by vibrating your Myo armband.</p>
+            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, notify you of incoming calls by vibrating your Myo armband and reject calls with a fist*.</p>
+        </div>
+
+        <div class="featuretext-sm">
+            <p>* Experimental feature. May not work on all phones.</p>
         </div>
     </div>
 </div>
