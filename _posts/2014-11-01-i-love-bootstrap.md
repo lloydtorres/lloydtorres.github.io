@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I <3 Bootstrap"
+title:  "I ♥ Bootstrap"
 date:   2014-11-01 21:53:00
 color: "#59407F"
 permalink: log/i-love-bootstrap
@@ -19,4 +19,4 @@ I've also added [ResponsiveSlides.js](http://responsiveslides.com/) to some of t
 
 Anyways, shoutout to [@david_valleau](https://twitter.com/david_valleau) ([check out](http://davidvalleau.com/) his site) for showing me Bootstrap! Also thanks to many others whose site sources I went through for Bootstrap examples. :P
 
-TL;DR: <3 Bootstrap
+TL;DR: ♥ Bootstrap
