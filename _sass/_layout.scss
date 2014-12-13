@@ -357,10 +357,17 @@
         display: block;
     }
 
-    .position {
-        font-size: 12px;
+    strong {
+        font-size: 14px;
         @include media-query($on-palm) {
-            font-size: 15px;
+            font-size: 17px;
+        }
+    }
+
+    .position {
+        font-size: 14px;
+        @include media-query($on-palm) {
+            font-size: 17px;
         }
     }
 }
@@ -375,6 +382,10 @@
 .skill-overview {
     margin-left: -7px !important;
     margin-right: 7px !important;
+    font-size: 14px;
+    @include media-query($on-palm) {
+        font-size: 17px;
+    }
     
     table {
         width: 100%;
