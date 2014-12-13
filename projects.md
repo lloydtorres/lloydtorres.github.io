@@ -13,8 +13,9 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/myodialer/">Myo Dialer</a></h2>
                 <p>What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts with a flick of a wrist.</p>
-                <a href="/projects/myodialer/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer" class="lefticons" title="Myo Dialer on Google Play"><span class="fa fa-android"></span></a>
+            <a href="/projects/myodialer/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -24,8 +25,8 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/stepcounter/">Step Counter and Navigator</a></h2>
                 <p>An Android app course project that tracks a user and provides directions.</p>
-                <a href="/projects/stepcounter/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="/projects/stepcounter/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -35,8 +36,9 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/spaceinvaders/">Space Invaders Recreated</a></h2>
                 <p>Space Invaders in Java with Swing and AWT; gesture controlled using Myo armband and Lua plugin.</p>
-                <a href="/projects/spaceinvaders/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="https://github.com/lloydtorres/space-invaders-recreated" class="lefticons" title="Space Invaders Recreated on GitHub"><span class="fa fa-github"></span></a>
+            <a href="/projects/spaceinvaders/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -46,8 +48,8 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/thefront/">The Front</a></h2>
                 <p>A two-player turn-based strategy game built with Python and pygame.</p>
-                <a href="/projects/thefront/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="/projects/thefront/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -57,8 +59,8 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/paintproject/">Angel Beats! Paint</a></h2>
                 <p>An anime-themed paint app built with Python and pygame.</p>
-                <a href="/projects/paintproject/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="/projects/paintproject/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -68,8 +70,9 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/website/">lloydtorres.com</a></h2>
                 <p>My personal website built with Jekyll and Bootstrap.</p>
-                <a href="/projects/website/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="https://github.com/lloydtorres/lloydtorres.github.io" class="lefticons" title="lloydtorres.com on GitHub"><span class="fa fa-github"></span></a>
+            <a href="/projects/website/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -79,8 +82,8 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/vhdl/">VHDL Controllers for Altera Board</a></h2>
                 <p>Simple VHDL controllers for the Altera DE2 board for a course project.</p>
-                <a href="/projects/vhdl/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="/projects/vhdl/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -90,8 +93,9 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/keypressparade/">Keypress Parade</a></h2>
                 <p>A simple testing utility built in Java with Swing and AWT.</p>
-                <a href="/projects/keypressparade/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="https://github.com/lloydtorres/keypress-parade" class="lefticons" title="Keypress Parade on GitHub"><span class="fa fa-github"></span></a>
+            <a href="/projects/keypressparade/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 
@@ -101,8 +105,8 @@ permalink: /projects/
             <div class="project-desc">
                 <h2><a href="/projects/daq/">Rocketry Data Acquisition</a></h2>
                 <p>A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.</p>
-                <a href="/projects/daq/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
+            <a href="/projects/daq/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
         </div>
     </div>
 </div>
