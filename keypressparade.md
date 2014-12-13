@@ -5,11 +5,15 @@ github: https://github.com/lloydtorres/keypress-parade
 color: "#616161"
 permalink: /projects/keypressparade/
 categories:
+- projects
+tags:
 - java
 - swing
 - awt
-description: Keypress Parade is a simple testing utility built in Java with Swing and AWT.
+description: A simple testing utility built in Java with Swing and AWT.
 preview: "/images/projects/kpparade/kpparade.png"
+prev_banner: "/images/projects/kpparade/kpparade-preview.png"
+sequence: -2
 ---
 
 <div class="row">

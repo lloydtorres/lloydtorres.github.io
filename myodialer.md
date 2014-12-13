@@ -7,11 +7,15 @@ google_play: https://play.google.com/store/apps/details?id=com.lloydtorres.myodi
 myo_market: https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer
 permalink: /projects/myodialer/
 categories:
+- projects
+tags:
 - android
 - java
 - myo
-description: What’s easier than 1-touch quick dial? Myo Dialer!
+description: What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts with a flick of a wrist.
 preview: "/images/projects/myodialer/myodialer-top.png"
+prev_banner: "/images/projects/myodialer/myodialer-preview.png"
+sequence: -9
 ---
 
 <div class="row paddown paddup">

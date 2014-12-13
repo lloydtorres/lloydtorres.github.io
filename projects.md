@@ -5,108 +5,34 @@ header: "/images/headers/projects-header.png"
 permalink: /projects/
 ---
 
+{% assign pages = site.pages | sort: 'sequence' %}
+
 <div class="row">
 
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/myodialer/"><img src="/images/projects/myodialer/myodialer-preview.png" title="Myo Dialer" alt="Myo Dialer"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/myodialer/">Myo Dialer</a></h2>
-                <p>What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts with a flick of a wrist.</p>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer" class="lefticons" title="Myo Dialer on Google Play"><span class="fa fa-android"></span></a>
-            <a href="/projects/myodialer/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
+    {% for file in pages %}
+        {% for cat in file.categories %}
+            {% if cat == 'projects' %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="project-entry">
+                        <a href="{{ file.url }}"><img src="{{ file.prev_banner }}" title="{{ file.title }}" alt="{{ file.title }}"/></a>
+                        <div class="project-desc">
+                            <h2><a href="{{ file.url }}">{{ file.title }}</a></h2>
+                            <p>{{ file.description }}</p>
+                        </div>
+                        <div class="lefticons">
+                            {% if file.google_play %}
+                                <a href="{{ file.google_play }}" title="{{ file.title }} on Google Play"><span class="fa fa-android"></span></a>
+                            {% endif %}
+                            {% if file.github %}
+                                <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-github"></span></a>
+                            {% endif %}
+                        </div>
+                        
+                        <a href="{{ file.url }}" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/stepcounter/"><img src="/images/projects/stepcounter/step-preview.png" title="Step Counter and Navigator" alt="Step Counter and Navigator"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/stepcounter/">Step Counter and Navigator</a></h2>
-                <p>An Android app course project that tracks a user and provides directions.</p>
-            </div>
-            <a href="/projects/stepcounter/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/spaceinvaders/"><img src="/images/projects/spaceinvaders/invaders-preview.png" title="Space Invaders Recreated" alt="Space Invaders Recreated"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/spaceinvaders/">Space Invaders Recreated</a></h2>
-                <p>Space Invaders in Java with Swing and AWT; gesture controlled using Myo armband and Lua plugin.</p>
-            </div>
-            <a href="https://github.com/lloydtorres/space-invaders-recreated" class="lefticons" title="Space Invaders Recreated on GitHub"><span class="fa fa-github"></span></a>
-            <a href="/projects/spaceinvaders/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/thefront/"><img src="/images/projects/thefront/thefront-preview.png" title="The Front" alt="The Front"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/thefront/">The Front</a></h2>
-                <p>A two-player turn-based strategy game built with Python and pygame.</p>
-            </div>
-            <a href="/projects/thefront/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/paintproject/"><img src="/images/projects/paintproject/paintproject-preview.png" title="Angel Beats! Paint" alt="Angel Beats! Paint"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/paintproject/">Angel Beats! Paint</a></h2>
-                <p>An anime-themed paint app built with Python and pygame.</p>
-            </div>
-            <a href="/projects/paintproject/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/website/"><img src="/images/projects/website/website-preview.png" title="lloydtorres.com" alt="lloydtorres.com"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/website/">lloydtorres.com</a></h2>
-                <p>My personal website built with Jekyll and Bootstrap.</p>
-            </div>
-            <a href="https://github.com/lloydtorres/lloydtorres.github.io" class="lefticons" title="lloydtorres.com on GitHub"><span class="fa fa-github"></span></a>
-            <a href="/projects/website/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/vhdl/"><img src="/images/projects/vhdl/altera-preview.png" title="VHDL Controllers for Altera" alt="VHDL Controllers for Altera"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/vhdl/">VHDL Controllers for Altera Board</a></h2>
-                <p>Simple VHDL controllers for the Altera DE2 board for a course project.</p>
-            </div>
-            <a href="/projects/vhdl/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/keypressparade/"><img src="/images/projects/kpparade/kpparade-preview.png" title="Keypress Parade" alt="Keypress Parade"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/keypressparade/">Keypress Parade</a></h2>
-                <p>A simple testing utility built in Java with Swing and AWT.</p>
-            </div>
-            <a href="https://github.com/lloydtorres/keypress-parade" class="lefticons" title="Keypress Parade on GitHub"><span class="fa fa-github"></span></a>
-            <a href="/projects/keypressparade/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4">
-        <div class="project-entry">
-            <a href="/projects/daq/"><img src="/images/projects/daq/daq-preview.png" title="Rocketry DAQ" alt="Rocketry DAQ" style="border: 1px solid #EEEEEE;"/></a>
-            <div class="project-desc">
-                <h2><a href="/projects/daq/">Rocketry Data Acquisition</a></h2>
-                <p>A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.</p>
-            </div>
-            <a href="/projects/daq/" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
-        </div>
-    </div>
 </div>

@@ -4,10 +4,14 @@ title: The Front
 header: "/images/projects/thefront/thefront-header.png"
 permalink: /projects/thefront/
 categories:
+- projects
+tags:
 - python
 - pygame
-description: The Front is a two-player strategy game inspired by the Advanced Wars series.
+description: A two-player turn-based strategy game built with Python and pygame.
 preview: "/images/projects/thefront/thefront-1.png"
+prev_banner: "/images/projects/thefront/thefront-preview.png"
+sequence: -6
 ---
 
 <script>

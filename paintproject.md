@@ -4,10 +4,14 @@ title: Angel Beats! Paint
 header: "/images/projects/paintproject/paintproject-header.png"
 permalink: /projects/paintproject/
 categories:
+- projects
+tags:
 - python
 - pygame
-description: Angel Beats! Paint is an anime-themed paint app built in Python with pygame.
+description: An anime-themed paint app built with Python and pygame.
 preview: "/images/projects/paintproject/paintproject-1.png"
+prev_banner: "/images/projects/paintproject/paintproject-preview.png"
+sequence: -5
 ---
 
 <script>

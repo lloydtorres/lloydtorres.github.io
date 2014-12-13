@@ -4,10 +4,14 @@ title: Rocketry Data Acquisition
 header: "/images/projects/daq/daq-header.png"
 permalink: /projects/daq/
 categories:
+- projects
+tags:
 - labview
 - ni-daq
 description: A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.
 preview: "/images/projects/daq/rocketry_daq.png"
+prev_banner: "/images/projects/daq/daq-preview.png"
+sequence: -1
 ---
 
 <div class="row">

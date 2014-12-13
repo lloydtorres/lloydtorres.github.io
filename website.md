@@ -5,12 +5,16 @@ github: https://github.com/lloydtorres/lloydtorres.github.io
 color: "#253F6D"
 permalink: /projects/website/
 categories:
+- projects
+tags:
 - html
 - css
 - javascript
 - jekyll
 - bootstrap
 description: My personal website built with Jekyll and Bootstrap.
+prev_banner: "/images/projects/website/website-preview.png"
+sequence: -4
 ---
 
 <div class="row">

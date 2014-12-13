@@ -5,13 +5,17 @@ github: https://github.com/lloydtorres/space-invaders-recreated
 color: black
 permalink: /projects/spaceinvaders/
 categories:
+- projects
+tags:
 - java
 - swing
 - awt
 - myo
 - lua
-description: Space Invaders Recreated is my recreation of the classic game in Java using Swing and AWT.
+description: Space Invaders in Java with Swing and AWT; gesture controlled using Myo armband and Lua plugin.
 preview: "/images/projects/spaceinvaders/spaceinvaders.png"
+prev_banner: "/images/projects/spaceinvaders/invaders-preview.png"
+sequence: -7
 ---
 
 <div class="row">

@@ -4,10 +4,14 @@ title: Step Counter and Navigator
 color: "#A4C639"
 permalink: /projects/stepcounter/
 categories:
+- projects
+tags:
 - android
 - java
-description: Step Counter and Navigator is an Android app (in Java of course) developed for an Embedded Systems course group project.
+description: An Android app course project that tracks a user and provides directions.
 preview: "/images/projects/stepcounter/stepcounter.png"
+prev_banner: "/images/projects/stepcounter/step-preview.png"
+sequence: -8
 ---
 
 <div class="row">

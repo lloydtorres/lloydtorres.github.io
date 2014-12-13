@@ -4,10 +4,14 @@ title: VHDL Controllers for Altera DE2 Board
 header: "/images/projects/vhdl/altera-header.png"
 permalink: /projects/vhdl/
 categories:
+- projects
+tags:
 - vhdl
 - altera
 description: Simple VHDL controllers for the Altera DE2 board for a course project.
 preview: "/images/projects/vhdl/altera-preview.png"
+prev_banner: "/images/projects/vhdl/altera-preview.png"
+sequence: -3
 ---
 
 * Simple controllers in VHDL for the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) 
