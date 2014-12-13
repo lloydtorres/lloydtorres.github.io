@@ -12,7 +12,7 @@ permalink: /projects/
             <a href="/projects/myodialer/"><img src="/images/projects/myodialer/myodialer-preview.png" title="Myo Dialer" alt="Myo Dialer"/></a>
             <div class="project-desc">
                 <h2><a href="/projects/myodialer/">Myo Dialer</a></h2>
-                <p>What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts at a flick of a wrist.</p>
+                <p>What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts with a flick of a wrist.</p>
                 <a href="/projects/myodialer/" class="more">Read more...</a>
             </div>
         </div>
