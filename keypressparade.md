@@ -10,7 +10,7 @@ tags:
 - java
 - swing
 - awt
-description: A simple testing utility built in Java with Swing and AWT.
+description: A simple keyboard input testing utility built with Java.
 preview: "/images/projects/kpparade/kpparade.png"
 prev_banner: "/images/projects/kpparade/kpparade-preview.png"
 sequence: -2

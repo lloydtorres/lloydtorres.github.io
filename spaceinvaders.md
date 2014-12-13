@@ -12,7 +12,7 @@ tags:
 - awt
 - myo
 - lua
-description: Space Invaders in Java with Swing and AWT; gesture controlled using Myo armband and Lua plugin.
+description: Space Invaders in Java; gesture controlled using the Myo armband and a Lua connector.
 preview: "/images/projects/spaceinvaders/spaceinvaders.png"
 prev_banner: "/images/projects/spaceinvaders/invaders-preview.png"
 sequence: -7
