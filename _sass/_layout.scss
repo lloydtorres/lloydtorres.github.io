@@ -447,6 +447,7 @@
  */
 
 .project-entry {
+    position: relative;
     background-color: $grey-super-light;
     width: 100%;
     min-height: 300px;
@@ -489,7 +490,13 @@
 }
 
 .more {
-        font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 12px;
 }
 
 /**
@@ -497,6 +504,7 @@
  */
 
  .log-entry {
+    position: relative;
     background-color: $grey-super-light;
     width: 100%;
     height: auto;
@@ -522,8 +530,8 @@
 }
 
 .log-desc {
-
     padding: 15px;
+    margin-bottom: 15px;
 
     h2 {
         font-size: 22px;

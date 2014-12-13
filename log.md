@@ -27,8 +27,8 @@ var msnry = new Masonry( container, {
                     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     <p class="post-meta">{{ post.date | date_to_string }}</p>
                     <p>{{ post.excerpt | strip_html }}</p>
-                    <a href="{{ post.url }}" class="more">Read more...</a>
                 </div>
+                <a href="{{ post.url }}" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
             </div>
         </div>
     </div>
