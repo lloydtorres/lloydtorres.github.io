@@ -26,6 +26,9 @@ permalink: /projects/
                             {% if file.github %}
                                 <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-github"></span></a>
                             {% endif %}
+                            {% if file.youtube %}
+                                <a href="{{ file.youtube }}" title="{{ file.title }} on YouTube"><span class="fa fa-youtube-play"></span></a>
+                            {% endif %}
                         </div>
                         
                         <a href="{{ file.url }}" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>

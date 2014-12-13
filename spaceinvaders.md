@@ -2,6 +2,7 @@
 layout: project
 title: Space Invaders Recreated
 github: https://github.com/lloydtorres/space-invaders-recreated
+youtube: https://www.youtube.com/watch?v=Zl6OlQRLjsk
 color: black
 permalink: /projects/spaceinvaders/
 categories:

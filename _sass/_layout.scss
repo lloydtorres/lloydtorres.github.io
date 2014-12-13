@@ -512,9 +512,13 @@
     display: block;
     padding: 10px;
     padding-left: 17px;
-    font-size: 20px;
-    @include media-query($on-palm) {
-        font-size: 23px;
+
+    span {
+        margin-right: 7px;
+        font-size: 20px;
+        @include media-query($on-palm) {
+            font-size: 23px;
+        }
     }
 }
 
