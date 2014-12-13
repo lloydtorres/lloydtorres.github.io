@@ -2,6 +2,7 @@
 layout: project
 title: Keypress Parade
 github: https://github.com/lloydtorres/keypress-parade
+download: https://github.com/lloydtorres/keypress-parade/releases/download/v1.0/keypress-parade.jar
 color: "#616161"
 permalink: /projects/keypressparade/
 categories:
