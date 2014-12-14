@@ -34,7 +34,7 @@ permalink: /projects/
                             {% endif %}
                         </div>
                         
-                        <a href="{{ file.url }}" class="more">Read more <span class="fa fa-chevron-circle-right"></span></a>
+                        <a href="{{ file.url }}" class="more">Read more<span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
             {% endif %}

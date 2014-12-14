@@ -485,6 +485,9 @@
     @include media-query($on-palm) {
         font-size: 15px;
     }
+    span {
+        margin-left: 5px;
+    }
 }
 
 .lefticons {
