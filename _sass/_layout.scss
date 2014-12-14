@@ -18,16 +18,7 @@
     margin-left: -17px;
     float: left;
 
-    &:link {
-        color: white !important;
-    }
-
-    &,
-    &:visited {
-        color: white !important;
-    }
-
-    &:hover {
+    &:hover, &:visited, &:link, &:active, &:focus {
         text-decoration: none;
         color: white !important;
     }
@@ -43,14 +34,14 @@
 
 .site-nav {
     margin-top: 2px !important;
+    font-family: 'Arvo', serif;
     
-    a:link, a:visited {
+    a:link, a:visited, a:active {
         color: $white-color;
         background-color: $mignonic-blue;
-        font-family: 'Arvo', serif;
     }
 
-    a:hover, .active {
+    a:hover, a:focus, .active {
         background-color: $grey-color-dark !important;
         color: white !important;
     }
@@ -177,13 +168,8 @@
     a {
         color: white;
 
-        &:hover {
+        &:hover, &:visited, &:link, &:active {
             color: white !important;
-            text-decoration: none;
-        }
-
-        &:visited {
-            color: white;
         }
     }
 
@@ -212,18 +198,13 @@
             padding: 2px;
             margin-right: 5px;
 
-                a {
-                    color: $mignonic-blue;
+            a:link, a:active, a:visited {
+                color: $mignonic-blue !important;
+            }
 
-                    &:hover {
-                        color: $grey-color-dark !important;
-                        text-decoration: none;
-                    }
-
-                    &:visited {
-                        color: $mignonic-blue;
-                    }
-                }
+            a:hover, a:focus {
+                color: $grey-color-dark !important;
+            }
         }
     }
 }
@@ -351,7 +332,7 @@
     color: white;
     background-color: #253F6D;
 
-    a:link, a:hover, a:visited {
+    a {
         color: white !important;
     }
 
@@ -464,6 +445,7 @@
 
     &:hover {
         border-bottom: 5px solid $grey-color-dark;
+        box-shadow: 0 0 20px 5px #999;
         -moz-box-shadow: 0 0 20px 5px #999;
         -webkit-box-shadow: 0 0 20px 5px #999;
     }
@@ -541,6 +523,7 @@
 
     &:hover {
         border-bottom: 5px solid $grey-color-dark;
+        box-shadow: 0 0 20px 5px #999;
         -moz-box-shadow: 0 0 20px 5px #999;
         -webkit-box-shadow: 0 0 20px 5px #999;
     }
