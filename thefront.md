@@ -1,7 +1,7 @@
 ---
 layout: project
 title: The Front
-header: "/images/projects/thefront/thefront-header.png"
+header: "/images/projects/thefront/thefront-header.jpg"
 permalink: /projects/thefront/
 categories:
 - projects
@@ -9,8 +9,8 @@ tags:
 - python
 - pygame
 description: A two-player turn-based strategy game built with Python and pygame.
-preview: "/images/projects/thefront/thefront-1.png"
-prev_banner: "/images/projects/thefront/thefront-preview.png"
+preview: "/images/projects/thefront/thefront-1.jpg"
+prev_banner: "/images/projects/thefront/thefront-preview.jpg"
 sequence: -6
 ---
 
@@ -24,15 +24,15 @@ $(function() {
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
-                <img src="/images/projects/thefront/thefront-1.png"/>
+                <img src="/images/projects/thefront/thefront-1.jpg"/>
                 <p class="caption">The Front</p>
             </li>
             <li>
-                <img src="/images/projects/thefront/thefront-2.png" alt=""/>
+                <img src="/images/projects/thefront/thefront-2.jpg" alt=""/>
                 <p class="caption">Unit range movement demo</p>
             </li>
             <li>
-                <img src="/images/projects/thefront/thefront-3.png" alt=""/>
+                <img src="/images/projects/thefront/thefront-3.jpg" alt=""/>
                 <p class="caption">A skirmish in progress.</p>
             </li>
         </ul>

@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Projects
-header: "/images/headers/projects-header.png"
+header: "/images/headers/projects-header.jpg"
 permalink: /projects/
 ---
 

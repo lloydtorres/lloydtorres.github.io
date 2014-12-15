@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Angel Beats! Paint
-header: "/images/projects/paintproject/paintproject-header.png"
+header: "/images/projects/paintproject/paintproject-header.jpg"
 permalink: /projects/paintproject/
 categories:
 - projects
@@ -9,8 +9,8 @@ tags:
 - python
 - pygame
 description: An anime-themed paint app built with Python and pygame.
-preview: "/images/projects/paintproject/paintproject-1.png"
-prev_banner: "/images/projects/paintproject/paintproject-preview.png"
+preview: "/images/projects/paintproject/paintproject-1.jpg"
+prev_banner: "/images/projects/paintproject/paintproject-preview.jpg"
 sequence: -5
 ---
 
@@ -24,15 +24,15 @@ $(function() {
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
-                <img src="/images/projects/paintproject/paintproject-1.png"/>
+                <img src="/images/projects/paintproject/paintproject-1.jpg"/>
                 <p class="caption">Angel Beats! Paint</p>
             </li>
             <li>
-                <img src="/images/projects/paintproject/paintproject-2.png" alt=""/>
+                <img src="/images/projects/paintproject/paintproject-2.jpg" alt=""/>
                 <p class="caption">Brushes, stickers, backgrounds and more!</p>
             </li>
             <li>
-                <img src="/images/projects/paintproject/paintproject-3.png" alt=""/>
+                <img src="/images/projects/paintproject/paintproject-3.jpg" alt=""/>
                 <p class="caption">Flood-fill bucket demo</p>
             </li>
         </ul>

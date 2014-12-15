@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Rocketry Data Acquisition
-header: "/images/projects/daq/daq-header.png"
+header: "/images/projects/daq/daq-header.jpg"
 permalink: /projects/daq/
 categories:
 - projects
