@@ -57,7 +57,7 @@ sequence: -9
 <div class="row paddown paddup">
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, notify you of incoming calls by vibrating your Myo armband and reject calls with a fist<sup>*</sup>.</p>
+            <p>Customize your experience — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist*, start all calls sent from the app on speakerphone, and get notified on incoming calls by vibrating your Myo armband.</p>
         </div>
 
         <div class="featuretext-sm">
@@ -71,7 +71,7 @@ sequence: -9
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Personalize your experience — <span class="cyan-emph">Myo Dialer</span> lets you start all calls sent from the app on speakerphone, notify you of incoming calls by vibrating your Myo armband and reject calls with a fist*.</p>
+            <p>Customize your experience — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist*, start all calls sent from the app on speakerphone, and get notified on incoming calls by vibrating your Myo armband.</p>
         </div>
 
         <div class="featuretext-sm">
