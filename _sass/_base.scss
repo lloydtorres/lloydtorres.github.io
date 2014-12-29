@@ -20,8 +20,8 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     padding-top: 50px;
-    @include media-query($on-palm) {
-        padding-top: 55px;
+    @include media-query($on-laptop) {
+        padding-top: 70px;
     }
 }
 
