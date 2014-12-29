@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title ~= site.title %}{{ page.title }}  //  Lloyd Torres{% else %}{{ site.title }}{% endif %}</title>
@@ -10,11 +10,11 @@
 
     <!-- Facebook meta shenanigans -->
     <meta property="og:site_name" content="Lloyd Torres"/>
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}">
 
     <!-- Twitter meta shenanigans -->
     <meta name="twitter:card" content="summary">
@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:creator" content="@ImperatorTorres">
-    <meta name="twitter:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}" />
+    <meta name="twitter:image" content="{% if page.preview %}{{ site.url }}{{ page.preview }}{% else %}{{ site.url }}/images/other/preview_image.jpg{% endif %}">
 
     <!-- Google+ meta shenanigans -->
     <meta itemprop="name" content="{% if page.title ~= site.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
