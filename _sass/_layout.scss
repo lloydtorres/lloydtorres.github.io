@@ -7,6 +7,13 @@
     top: 0%;
     left: 0%;
     width: 100%;
+    z-index: 1000;
+
+    span {
+        @include media-query($on-laptop) {
+            margin-top: 11px;
+        }
+    }
 }
 
 .site-title {
@@ -25,10 +32,7 @@
 
     @include media-query($on-laptop) {
         margin-left: 0px;
-    }
-
-    @include media-query($on-mobile) {
-        margin-top: 5px;
+        margin-top: 12px;
     }
 }
 
