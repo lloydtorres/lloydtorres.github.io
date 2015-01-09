@@ -153,6 +153,12 @@ pre {
     text-align: center;
 }
 
+.white-link {
+    a:link, a:active, a:visited {
+        color: white;
+    }
+}
+
 /**
  * Icons
  */

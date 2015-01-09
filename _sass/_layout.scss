@@ -216,10 +216,14 @@
     overflow: auto;
 }
 
-.full-error-background {
+/**
+ * 404'd
+ */
+.error-background {
+    position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url('/images/other/404.jpg');
+    background-color: #b8b8b8;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
@@ -227,6 +231,53 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.error-message {
+    color: white;
+    margin-top: 80px;
+    text-shadow: 0 0 10px $grey-color-dark;
+
+    h1 {
+        font-size: 80px;
+        font-family: 'Arvo', serif;
+        letter-spacing: -1px;
+        line-height: 1;
+    }
+
+    .subtitle {
+        margin-top: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+
+        @include media-query($on-mobile) {
+            font-size: 20px;
+        }
+    }
+
+    a:link, a:active, a:visited {
+        color: white;
+    }
+}
+
+.error-footer {
+    position: fixed;
+    font-size: 10px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.error-corner-img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    width: 230px;
 }
 
 /**
