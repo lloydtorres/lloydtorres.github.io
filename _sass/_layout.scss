@@ -261,6 +261,10 @@
     a:link, a:active, a:visited {
         color: white;
     }
+
+    @include media-query($on-mobile) {
+        margin-top: 50px;
+    }
 }
 
 .error-footer {
