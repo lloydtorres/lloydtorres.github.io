@@ -286,6 +286,10 @@
     right: 0;
     padding: 20px;
     width: 230px;
+
+    @include media-query($on-mobile) {
+        width: 200px;
+    }
 }
 
 /**
