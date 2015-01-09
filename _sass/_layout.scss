@@ -223,6 +223,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
+    z-index: -1000;
     background-color: #b8b8b8;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -237,6 +238,7 @@
     color: white;
     margin-top: 80px;
     text-shadow: 0 0 10px $grey-color-dark;
+    z-index: 10;
 
     h1 {
         font-size: 80px;
@@ -269,6 +271,7 @@
 
 .error-footer {
     position: fixed;
+    z-index: 10;
     font-size: 10px;
     color: white;
     bottom: 0;
@@ -278,6 +281,7 @@
 
 .error-corner-img {
     position: fixed;
+    z-index: 5;
     bottom: 0;
     right: 0;
     padding: 20px;
