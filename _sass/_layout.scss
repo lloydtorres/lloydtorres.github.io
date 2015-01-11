@@ -531,9 +531,7 @@
 
     &:hover {
         border-bottom: 5px solid $grey-color-dark;
-        box-shadow: 0 0 20px 5px #999;
-        -moz-box-shadow: 0 0 20px 5px #999;
-        -webkit-box-shadow: 0 0 20px 5px #999;
+        background-color: $grey-less-light;
     }
 }
 
@@ -612,9 +610,7 @@
 
     &:hover {
         border-bottom: 5px solid $grey-color-dark;
-        box-shadow: 0 0 20px 5px #999;
-        -moz-box-shadow: 0 0 20px 5px #999;
-        -webkit-box-shadow: 0 0 20px 5px #999;
+        background-color: $grey-less-light;
     }
 }
 
