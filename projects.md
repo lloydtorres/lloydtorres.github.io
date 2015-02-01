@@ -23,6 +23,9 @@ permalink: /projects/
                             {% if file.google_play %}
                                 <a href="{{ file.google_play }}" title="{{ file.title }} on Google Play"><span class="fa fa-android"></span></a>
                             {% endif %}
+                            {% if file.link %}
+                                <a href="{{ file.link }}" title="{{ file.title }} on the Web"><span class="fa fa-external-link"></span></a>
+                            {% endif %}
                             {% if file.github %}
                                 <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-github"></span></a>
                             {% endif %}
