@@ -73,6 +73,7 @@
                         <div class="social-icons-large">
                             <a href="/projects/" title="Back to Projects"><span class="fa fa-chevron-circle-left fa-3x"></span></a>
                             {% if page.github %}<a href="{{ page.github }}" title="{{ page.title }} on GitHub"><span class="fa fa-github fa-3x"></span></a>{% endif %}
+                            {% if page.link %}<a href="{{ page.link }}" title="{{ page.title }} on the Web"><span class="fa fa-external-link fa-3x"></span></a>{% endif %}
                             {% if page.download %}<a href="{{ page.download }}" title="Download {{ page.title }}"><span class="fa fa-download fa-3x"></span></a>{% endif %}
                         </div>
                     </div>
