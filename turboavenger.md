@@ -37,7 +37,7 @@ $(function() {
 
 <p><strong>Turbo Avenger</strong> is a web app! Try it out <a href="https://turboavenger.herokuapp.com">here</a>!</p>
 
-<p><strong>Turbo Avenger</strong> is a web app built for the 2015 Kik Hackathon (sponsored by Kik!), held from 30 January—1 February at the University of Waterloo. It was a group effort by Navjot Panesar, Andy Liang and myself. I worked on the project's frontend while Navjot and Andy worked on the backend. The full stack consists of AngularJS for the front end and Node.js and MongoDB for the backend. Google OAuth was used to authenticate and register users.</p>
+<p><strong>Turbo Avenger</strong> is a web app built for the 2015 Kik Hackathon (sponsored by Kik!), held from 30 January—1 February at the University of Waterloo. It made it to the top 10 (out of 30+ submissions) after pitching it to a panel of judges. It was a group effort by Navjot Panesar, Andy Liang and myself. I worked on the project's frontend while Navjot and Andy worked on the backend. The full stack consists of AngularJS for the front end and Node.js and MongoDB for the backend. Google OAuth was used to authenticate and register users.</p>
 
 <p>The app was inspired by the one problem every student has faced: procrastination. As humans, we are naturally tempted to [finish later]</p>
 
