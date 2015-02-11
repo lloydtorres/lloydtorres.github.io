@@ -373,21 +373,25 @@
     }
 }
 
-.resume-container {
+.resume-space {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.resume-card {
     position: relative;
     background-color: $grey-color-light;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
     border-bottom: 5px solid $mignonic-blue;
 }
 
 .resume-content {
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     h2 {
         margin-top: -3px;
-        margin-bottom: -1px;
+        margin-bottom: 5px;
         font-size: 22px;
         font-family: 'Arvo', serif;
         color: $mignonic-blue;
@@ -396,42 +400,32 @@
             color: $mignonic-blue;
         }
     }
+
 }
 
-.job-container {
-    padding-top: 10px;
-}
-
-.job-padding-override {
-    padding: 5px !important;
-    margin: 0 !important;
+.resume-entry {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .job-entry {
     width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
+    display: block;
     font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: #253F6D;
 
     a {
-        color: white !important;
+        color: black !important;
     }
 
-    span {
-        display: block;
-    }
-
-    strong {
-        font-size: 14px;
+    .company {
+        font-size: 15px;
+        font-weight: bold;
         @include media-query($on-palm) {
-            font-size: 17px;
+            font-size: 18px;
         }
     }
 
@@ -443,11 +437,17 @@
     }
 }
 
-.job-desc {
-    color: white;
-    height: 50%;
-    text-align: center;
-    vertical-align: middle;
+.resume-divider {
+    
+    height: 15px;
+
+    .inner {
+        border-bottom: 2px solid $grey-color;
+        height: 50%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .skill-overview {

@@ -37,58 +37,101 @@
         <div class="curtain-header" style="background-image: url('/images/headers/resume-header.jpg');">
             <div class="container col-md-offset-2 col-md-8">
 
-                <div class="resume-container">
-                    <div class="resume-content">
-                        <h2><a href="https://www.linkedin.com/in/lartorres">Résumé</a></h2>
+                        <script>
+                        var $container = $('#masonry');
+                        $container.imagesLoaded( function() {
+                            $container.masonry({
+                                columnWidth: '.col-sm-6',
+                                itemSelector: '.col-sm-6'
+                            });
+                        });
+                        </script>
 
-                        <div class="row col-md-offset-1 col-md-10 job-container">
-                            <div class="col-sm-6 job-padding-override">
+                <div class="row resume-space js-masonry" id="masonry" data-masonry-options='{ "columnWidth": ".col-sm-6", "itemSelector": ".col-sm-6" }'>
+
+                    <div class="col-sm-6">
+
+                        <div class="resume-card resume-down-margin">
+                            <div class="resume-content">
+                                <h2><a href="https://www.linkedin.com/in/lartorres">Résumé</a></h2>
+
                                 <div class="job-entry">
-                                    <span><strong><a href="https://www.thalmic.com/">Thalmic Labs</a></strong></span>
-                                    <span class="position">QA Engineering Co-op</span>
-                                    <span class="caption">Fall 2014 • Kitchener, ON</span>
+                                    <div class="company"><a href="https://www.thalmic.com/">Thalmic Labs</a></div>
+                                    <div>QA Engineering Co-op</div>
+                                    <div class="caption">September 2014 — December 2014 // Kitchener, Ontario, Canada</div>
                                 </div>
+
+                                <div class="resume-divider"><div class="inner"></div></div>
+
+                                <div class="job-entry">
+                                    <div class="company"><a href="http://www.christiedigital.com/">Christie Digital Systems</a></div>
+                                    <div>Engineering QA Specialist (Co-op)</div>
+                                    <div class="caption">January 2014 — April 2014 // Kitchener, Ontario, Canada</div>
+                                </div>
+
                             </div>
-                            <div class="col-sm-6 job-padding-override">
-                                <div class="job-entry">
-                                    <span><strong><a href="http://www.christiedigital.com/">Christie Digital Systems</a></strong></span>
-                                    <span class="position">Engineering QA Specialist (Co-op)</span>
-                                    <span class="caption">Winter 2014 • Kitchener, ON</span>
+                            <a href="https://www.linkedin.com/in/lartorres" class="more">View on LinkedIn<span class="fa fa-chevron-circle-right"></span></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <div class="resume-card">
+                            <div class="resume-content">
+                                <h2>Software</h2>
+
+                                <div class="resume-entry">
+                                    <p><strong>Proficient:</strong> Python, Java, C#</p>
+                                    <p><strong>Comfortable:</strong> Android development, Bash, C++, CSS, HTML, JavaScript, Lua, Matlab</p>
+                                    <p><strong>Limited:</strong> ARM Assembly (THUMB), LabVIEW, VHDL</p>
                                 </div>
+
+                                <div class="resume-divider"><div class="inner"></div></div>
+
+                                <div class="resume-entry">
+                                    <p><strong>Systems:</strong> Windows (proficient), OS X and Linux (some experience); testing experience with Windows, OS X, Android, iOS</p>
+                                    <p><strong>Development:</strong> Android Studio, cmd/terminal, Eclipse, Git, IntelliJ, Sublime Text</p>
+                                    <p><strong>Web:</strong> Jekyll, Liquid, Sass, Bootstrap; AngularJS (limited)</p>
+                                    <p><strong>Other:</strong> JIRA, Pivotal Tracker, TestTrack, VMWare, Microsoft Office, Adobe Photoshop, Sony Vegas</p>
+                                </div>
+
                             </div>
                         </div>
-                        
-                        <table class="skill-overview">
-                            <tr>
-                                <td><strong>Languages</strong></td>
-                                <td>Fluent in <strong>Python</strong>, <strong>Java</strong>, <strong>C#</strong>. Works with <strong>Android development</strong>, <strong>Bash</strong>, <strong>C++</strong>, 
-                                <strong>CSS</strong>, <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>LabVIEW</strong>, <strong>Lua</strong>, <strong>VHDL</strong>.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>System</strong></td>
-                                <td>Proficient in <strong>Windows</strong>, familiar with <strong>OS X</strong> and <strong>Linux</strong>. Testing experience with <strong>Windows</strong>, 
-                                <strong>OS X</strong>, <strong>iOS</strong>, <strong>Android</strong>, <strong>Google Glass</strong>, <strong>Myo Armband</strong>.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Software</strong></td>
-                                <td><strong>IDEs:</strong> Android Studio, Eclipse, IntelliJ <strong>Revision Control:</strong> Git, SVN <strong>Stories/Issues:</strong> TestTrack, Pivotal Tracker, 
-                                JIRA <strong>Other:</strong> Microsoft Office, cmd/terminal, VMWare, Adobe Photoshop, Sony Vegas</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Hardware</strong></td>
-                                <td>Altera DE2 Board (Cyclone II FPGA), breadboards, oscilloscopes, multimeters</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Web</strong></td>
-                                <td>Some development experience using <strong>Jekyll</strong>, <strong>Bootstrap</strong>, <strong>AngularJS</strong> and <strong>Wikia</strong>.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Interests</strong></td>
-                                <td>Fencing, archery, space exploration, programming, reading, filmmaking, graphic design, video games, cartoons.</td>
-                            </tr>
-                        </table>
+
                     </div>
-                    <a href="https://www.linkedin.com/in/lartorres" class="more">View on LinkedIn<span class="fa fa-chevron-circle-right"></span></a>
+
+                    <div class="col-sm-6">
+
+                        <div class="resume-card">
+                            <div class="resume-content">
+                                <h2>Hardware</h2>
+
+                                <div class="resume-entry">
+                                    <p><strong>Analog:</strong> Breadboards, oscilloscopes, multimeters</p>
+                                    <p><strong>Digital:</strong> Altera DE2 Board (Cyclone II FPGA), ARM Cortex-M3</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <div class="resume-card">
+                            <div class="resume-content">
+                                <h2>Interests</h2>
+
+                                <div class="resume-entry">
+                                    <p>Fencing, archery, space exploration, programming, reading, filmmaking, graphic design, video games, cartoons</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div><!-- /container -->
