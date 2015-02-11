@@ -388,6 +388,7 @@
 .resume-content {
     padding: 15px;
     margin-bottom: 15px;
+    width: 100%;
 
     h2 {
         margin-top: -3px;
@@ -406,14 +407,13 @@
 .resume-entry {
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .job-entry {
-    width: 100%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100%;
     display: block;
     font-family: 'Roboto', sans-serif;
 
@@ -426,13 +426,6 @@
         font-weight: bold;
         @include media-query($on-palm) {
             font-size: 18px;
-        }
-    }
-
-    .position {
-        font-size: 14px;
-        @include media-query($on-palm) {
-            font-size: 17px;
         }
     }
 }
@@ -448,26 +441,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-.skill-overview {
-    margin-left: -7px !important;
-    margin-right: 7px !important;
-    font-size: 14px;
-    @include media-query($on-palm) {
-        font-size: 17px;
-    }
-    
-    table {
-        width: 100%;
-    }
-    
-    th, td {
-        font-family: 'Roboto', sans-serif;
-        padding: 7px;
-        vertical-align: top;
-    }
-
 }
 
 .page-heading {
