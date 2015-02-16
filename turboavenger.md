@@ -20,18 +20,22 @@ sequence: -10
 
 <script>
 $(function() {
-    $(".rslides").responsiveSlides({timeout: 3500, maxwidth:500});
+    $(".rslides").responsiveSlides({timeout: 5000, maxwidth:500});
 });
 </script>
 
 <ul class="rslides">
     <li>
         <img src="/images/projects/turboavenger/turboavenger1.png"/>
-        <p class="caption">Turbo Avenger's login page.</p>
+        <p class="caption">Login to Turbo Avenger with your Google account!</p>
     </li>
     <li>
         <img src="/images/projects/turboavenger/turboavenger2.png"/>
-        <p class="caption">Getting ahead on Turbo Avenger!</p>
+        <p class="caption">Get ahead on your quests with Turbo Avenger!</p>
+    </li>
+    <li>
+        <img src="/images/projects/turboavenger/turboavenger3.png"/>
+        <p class="caption">Create new quests and tasks for you and your friends!</p>
     </li>
 </ul>
 
@@ -39,6 +43,6 @@ $(function() {
 
 <p>The app was inspired by the one problem every student has faced: procrastination. As humans, we are naturally tempted to [finish later]</p>
 
-<p>To solve this, Turbo Avenger lets users to sign up for quests (i.e. tasks) with their friends. Each quest is split up into challenges. Users gain points when they finish their challenges ahead of time. Users can then compete with each other to see who can conquer challenges the fastest. In fact, users can see how everyone is doing on a global leaderboard. Thus, Turbo Avenger fights the great temptation of procrastination with another human trait: competition.</p>
+<p>To solve this, Turbo Avenger lets users to sign up for quests (i.e. lists of to-dos) with their friends. Each quest is split up into tasks. Users gain points when they finish their tasks ahead of time. Users can then compete with each other to see who can conquer challenges the fastest. In fact, users can see how everyone is doing on a global leaderboard. Thus, Turbo Avenger fights the great temptation of procrastination with another human trait: competition.</p>
 
 <p>I built the frontend of the site from scratch with the help of Bootstrap. Once the site's static templates and formatting were done, I had a crash course on AngularJS, which we used to interact with the backend database. I also used bits of pieces of jQuery to make the site more responsive to user actions. AngularJS and jQuery allowed me to bring life to a static website, and it was a fun (and occasionally frustrating) learning experience to use them both on the fly.</p>
