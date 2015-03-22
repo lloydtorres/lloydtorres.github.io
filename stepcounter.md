@@ -31,7 +31,7 @@ sequence: -8
 
         <p>With these two combined, we were able to get the user's displacement around an area. When testing in a magnetic noise free, environment, we were able to get extremely accurate results.</p>
 
-        <p>Using this displacement data and a provided map, we could show the user's current location in a room. When the user enters any destination in the room, we used the A* pathfinding algorithm to find the shortest path from the user's location to the destination. For simplicity, we assumed that the user cannot move diagonally.</p>
+        <p>Using this displacement data and a provided map, we could show the user's current location in a room. When the user enters any destination in the room, we used Dijkstra's pathfinding algorithm to find the shortest path from the user's location to the destination. For simplicity, we assumed that the user cannot move diagonally.</p>
 
         <p>The trickiest part to all of this was actually providing directions for the user as there were many factors to consider. My solution for this was to get the nearest route line segment and compare its direction to the user's current bearing. Using this system, we could tell the user by how much to turn and when to step forward.</p>
     </div>
