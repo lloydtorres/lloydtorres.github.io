@@ -11,7 +11,7 @@ tags:
 description: A two-player turn-based strategy game built with Python and pygame.
 preview: "/images/projects/thefront/thefront-1.jpg"
 prev_banner: "/images/projects/thefront/thefront-preview.jpg"
-sequence: -6
+sequence: -4
 ---
 
 <script>

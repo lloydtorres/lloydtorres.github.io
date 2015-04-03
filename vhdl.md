@@ -11,7 +11,7 @@ tags:
 description: Simple VHDL controllers for the Altera DE2 board for a first-year Digital Circuits course.
 preview: "/images/projects/vhdl/altera-preview.jpg"
 prev_banner: "/images/projects/vhdl/altera-preview.jpg"
-sequence: -3
+sequence: -7
 ---
 
 * Programmed simple controllers in VHDL for the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) 

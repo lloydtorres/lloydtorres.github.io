@@ -14,7 +14,7 @@ tags:
 - bootstrap
 description: My personal website built with Jekyll and Bootstrap.
 prev_banner: "/images/projects/website/website-preview.png"
-sequence: -4
+sequence: -1
 ---
 
 <div class="row">

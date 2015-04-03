@@ -15,7 +15,7 @@ tags:
 description: Gamified to-do lists. Web app developed at the 2015 Kik Hackathon.
 preview: "/images/projects/turboavenger/turboavenger1.png"
 prev_banner: "/images/projects/turboavenger/turboavenger-preview.png"
-sequence: -10
+sequence: -11
 ---
 
 <script>

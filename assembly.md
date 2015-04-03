@@ -12,7 +12,7 @@ tags:
 description: ARM Assembly programs on a NXP Cortex M3 processor for a second-year Digital Computers course.
 preview: "/images/projects/assembly/assembly-preview.jpg"
 prev_banner: "/images/projects/assembly/assembly-preview.jpg"
-sequence: -6.5
+sequence: -8
 ---
 
 <div class="embed-responsive embed-responsive-16by9 col-center" style="margin-bottom: 17px;">
