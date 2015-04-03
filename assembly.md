@@ -2,6 +2,7 @@
 layout: project
 title: ARM Assembly on Cortex-M3 Processor
 header: "/images/projects/assembly/assembly-header.jpg"
+youtube: https://www.youtube.com/watch?v=9cHzSLg4TP8
 permalink: /projects/assembly/
 categories:
 - projects
