@@ -57,7 +57,7 @@ sequence: -10
 <div class="row paddown paddup">
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
-            <p>Customize your experience — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist*, start all calls sent from the app on speakerphone, and get notified on incoming calls by vibrating your Myo armband.</p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.*</p>
         </div>
 
         <div class="featuretext-sm">
@@ -66,12 +66,12 @@ sequence: -10
     </div>
 
     <div class="col-sm-4 col-center">
-        <img src="/images/projects/myodialer/myodialer-settings.png" width="300px" title="Personalize your experience with Myo Dialer." alt="Personalize your experience with Myo Dialer."/>
+        <img src="/images/projects/myodialer/myodialer-controls.png" width="300px" title="Control your phone calls with Myo Dialer." alt="Personalize your experience with Myo Dialer."/>
     </div>
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Customize your experience — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist*, start all calls sent from the app on speakerphone, and get notified on incoming calls by vibrating your Myo armband.</p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.*</p>
         </div>
 
         <div class="featuretext-sm">
@@ -80,8 +80,20 @@ sequence: -10
     </div>
 </div>
 
+<div class="row paddup paddown">
+    <div class="col-sm-4 col-center">
+        <img src="/images/projects/myodialer/myodialer-settings.png" width="300px" title="Personalize your experience with Myo Dialer." alt="Assign up to four contacts to gestures in Myo Dialer."/>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="featuretext-md">
+            <p>Customize your experience — with <span class="cyan-emph">Myo Dialer</span>, you can start all calls on speakerphone and get your Myo to ring on incoming calls.</p>
+        </div> 
+    </div>
+</div>
+
 <div class="col-center paddup paddown">
-    <p class= "featuretext-lg">Get <span class="cyan-emph">Myo Dialer</span> on your Android phone today!</p>
+    <p class= "featuretext-lg">Get <span class="cyan-emph">Myo Dialer</span> on Android today!</p>
     <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.1.4 firmware or greater.</p>
     <span class="paddown">
         <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" class="market-badges-large"/></a>
