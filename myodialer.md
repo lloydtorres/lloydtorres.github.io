@@ -112,5 +112,7 @@ sequence: -10
 
     <p>Myo Dialer will be continuously updated to improve performance, add features and support future Myo SDK releases.</p>
 
+    <p>On March 9th, 2015, Myo Dialer <a href="https://twitter.com/ImperatorTorres/status/575100368754970624">passed 1,000 downloads</a> on Google Play.</p>
+
     <p>Got a question, request or comment? <a href="mailto:contact.lloyd.torres@gmail.com">Send me an e-mail!</a></p>
 </div>
