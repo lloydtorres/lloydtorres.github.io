@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Waterloo 2A ECE: A Postmortem Analysis"
+title:  "Surviving Waterloo ECE's 2A Term"
 date:   2015-05-01 15:30:00
 header: "/images/blog/20150501/2a-header.jpg"
 preview: "/images/blog/20150501/2a-preview.jpg"
-permalink: log/waterloo-2a-ece-postmortem-analysis
+permalink: log/surviving-waterloo-ece-2a-term
 tags:
 - waterloo
 - ece
