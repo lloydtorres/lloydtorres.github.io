@@ -22,47 +22,37 @@
             </div>
         </div>
 
-        <div class="coverup white-background">
+        <div class="coverup">
             <div class="container pushdown page-content col-md-offset-2 col-md-8">
 
                 <div class="post">
-                    <p class="post-meta">{{ page.date | date_to_string }}</p>
 
                     <article class="post-content">
+                        <p class="post-meta">{{ page.date | date_to_string }}</p>
                         {{ content }}
                     </article>
 
                     <div class="col-center">
-                        <div class="div-column-left">
-                            <div class="divider"><div class="inner"></div></div>
-                        </div>
-                        <div class="div-column-center">
-                            <div class="col-center">
-                                <div class="social-icons-large">
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Facebook"/><span class="fa fa-facebook-square fa-2x"></span></a>
-                                    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=ImperatorTorres" target="_blank" title="Twitter"/><span class="fa fa-twitter-square fa-2x"></span></a>
-                                    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Google+"/><span class="fa fa-google-plus-square fa-2x"></span></a>
-                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.excerpt | strip_html }}&source=" target="_blank" title="LinkedIn"/><span class="fa fa-linkedin-square fa-2x"></span></a>
-                                    <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Reddit"/><span class="fa fa-reddit-square fa-2x"></span></a>
-                                    <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.excerpt | strip_html }}" target="_blank" title="Tumblr"/><span class="fa fa-tumblr-square fa-2x"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-column-right">
-                            <div class="divider"><div class="inner"></div></div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-center">
                         <div class="social-icons-large">
-                            <a href="/log/" title="Back to Adventure Log"/><span class="fa fa-chevron-circle-left fa-3x"></span></a>
+                            <a href="/log/" title="Back to Adventure Log"/><span class="fa fa-chevron-circle-left fa-2x"></span></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Facebook"/><span class="fa fa-facebook-square fa-2x"></span></a>
+                            <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=ImperatorTorres" target="_blank" title="Twitter"/><span class="fa fa-twitter-square fa-2x"></span></a>
+                            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Google+"/><span class="fa fa-google-plus-square fa-2x"></span></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.excerpt | strip_html }}&source=" target="_blank" title="LinkedIn"/><span class="fa fa-linkedin-square fa-2x"></span></a>
+                            <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Reddit"/><span class="fa fa-reddit-square fa-2x"></span></a>
+                            <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.excerpt | strip_html }}" target="_blank" title="Tumblr"/><span class="fa fa-tumblr-square fa-2x"></span></a>
                         </div>
                     </div>
                     
-                    {% if page.noComments == true %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
-
                 </div>
+
+                <div class="post">
+                    <div class="post-comments">
+                        {% if page.noComments == true %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
+                    </div>
+                </div>
+
+
 
             </div>
         </div>

@@ -652,10 +652,27 @@
     }
 }
 
+.post {
+    margin-top: 10px;
+    -moz-box-shadow: 0px 3px 5px #AAA;
+    -webkit-box-shadow: 0px 3px 5px #AAA;
+    -o-box-shadow:  0px 3px 5px #AAA;
+    box-shadow: 0px 3px 5px #AAA;
+    background: white;
+}
+
 .post-content {
+    padding: 20px;
     margin-bottom: $spacing-unit;
     font-family: 'Roboto', sans-serif;
+
+    p {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
     h2 {
+        margin-top: 40px;
         font-size: 17px;
         text-transform: uppercase;
         font-family: 'Raleway', sans-serif;
@@ -669,6 +686,11 @@
     h4 {
         font-size: 18px;
     }
+}
+
+.post-comments {
+    padding: 20px;
+
 }
 
 .caption {
@@ -742,6 +764,8 @@
 }
 
 .social-icons-large {
+    margin-top: -20px !important;
+    padding-bottom: 20px !important;
     span {
         padding: 5px;
         margin-bottom: -1px;
@@ -757,7 +781,8 @@
 
 .market-badges {
     position: relative;
-    margin-top: -10px;
+    margin-top: -15px;
+    margin-bottom: 20px;
     text-align: center;
 
     img {
