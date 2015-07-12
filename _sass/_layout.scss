@@ -752,9 +752,34 @@
     }
 }
 
+.external-link-box {
+    background-color: $mignonic-blue;
+    height: 40px;
+    width: 100%;
+    display: table;
+    span {
+        margin-right: 5px;
+    }
+}
+
+.external-link-cell {
+    p {
+        color: white;
+        margin: 0 auto !important;
+    }
+
+    display: table-cell;
+    &:hover {
+        text-decoration: none !important;
+        background-color: $grey-color-dark;
+    }
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .post-comments {
     padding: 20px;
-
 }
 
 .caption {

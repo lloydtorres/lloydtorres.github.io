@@ -15,10 +15,9 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    background-color: $grey-super-light;
+    background-color: $grey-super-light !important;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     padding-top: 50px;
     @include media-query($on-laptop) {

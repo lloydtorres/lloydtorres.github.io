@@ -40,6 +40,7 @@
 
                     <div class="col-center">
                         <div class="social-icons-large">
+                            <a href="/projects/" title="Back to Projects"><span class="fa fa-chevron-circle-left fa-2x"></span></a>
                             <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Facebook"/><span class="fa fa-facebook-square fa-2x"></span></a>
                             <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=ImperatorTorres" target="_blank" title="Twitter"/><span class="fa fa-twitter-square fa-2x"></span></a>
                             <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Google+"/><span class="fa fa-google-plus-square fa-2x"></span></a>
@@ -48,14 +49,59 @@
                             <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.excerpt | strip_html }}" target="_blank" title="Tumblr"/><span class="fa fa-tumblr-square fa-2x"></span></a>
                         </div>
                     </div>
-
-                    <div class="col-center">
-                        <div class="social-icons-large">
-                            <a href="/projects/" title="Back to Projects"><span class="fa fa-chevron-circle-left fa-3x"></span></a>
-                            {% if page.github %}<a href="{{ page.github }}" title="{{ page.title }} on GitHub"><span class="fa fa-github fa-3x"></span></a>{% endif %}
-                            {% if page.link %}<a href="{{ page.link }}" title="{{ page.title }} on the Web"><span class="fa fa-external-link fa-3x"></span></a>{% endif %}
-                            {% if page.download %}<a href="{{ page.download }}" title="Download {{ page.title }}"><span class="fa fa-download fa-3x"></span></a>{% endif %}
+                    <!--
+                    Liquid Math LOL
+                    {%if page.github %}
+                    {% increment count %}
+                    {% endif %}
+                    {%if page.link %}
+                    {% increment count %}
+                    {% endif %}
+                    {%if page.download %}
+                    {% increment count %}
+                    {% endif %}
+                    -->
+                    <div class="hidden-xs">
+                        <div class="external-link-box">
+                            {% if page.github %}
+                            <a href="{{ page.github }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Code">
+                                <p><span class="fa fa-github"></span>Open Code</p>
+                            </a>
+                            {% endif %}
+                            {% if page.link %}
+                            <a href="{{ page.link }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Website">
+                                <p><span class="fa fa-external-link"></span>Open Website</p>
+                            </a>
+                            {% endif %}
+                            {% if page.download %}
+                            <a href="{{ page.download }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Download">
+                                <p><span class="fa fa-download"></span>Download</p>
+                            </a>
+                            {% endif %}
                         </div>
+                    </div>
+                    <div class="visible-xs">
+                        {% if page.github %}
+                        <div class="external-link-box">
+                            <a href="{{ page.github }}" class="external-link-cell" style="width: 100%;" title="Open Code">
+                                <p><span class="fa fa-github"></span>Open Code</p>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if page.link %}
+                        <div class="external-link-box">
+                            <a href="{{ page.link }}" class="external-link-cell" style="width: 100%;" title="Open Website">
+                                <p><span class="fa fa-external-link"></span>Open Website</p>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if page.download %}
+                        <div class="external-link-box">
+                            <a href="{{ page.download }}" class="external-link-cell" style="width: 100%;" title="Download">
+                                <p><span class="fa fa-download"></span>Download</p>
+                            </a>
+                        </div>
+                        {% endif %}
                     </div>
                     
                 </div>
