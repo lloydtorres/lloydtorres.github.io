@@ -14,8 +14,10 @@ permalink: /projects/
             {% if cat == 'projects' %}
                 <div class="col-sm-6">
                     <div class="project-entry">
-                        <a href="{{ file.url }}"><img src="{{ file.prev_banner }}" title="{{ file.title }}" alt="{{ file.title }}"/></a>
-                        <div class="project-desc">
+                        <div class="log-img">
+                            <a href="{{ file.url }}"><img src="{{ file.prev_banner }}" title="{{ file.title }}" alt="{{ file.title }}"/></a>
+                        </div>
+                        <div class="log-desc">
                             <h2><a href="{{ file.url }}">{{ file.title }}</a></h2>
                             <p>{{ file.description }}</p>
                         </div>
