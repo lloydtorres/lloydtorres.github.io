@@ -134,6 +134,10 @@
         vertical-align: middle;
         width: 200px;
         border: 3px solid white;
+
+        @include media-query($on-mobile) {
+            width: 150px;
+        }
     }
 
     h1 {
@@ -156,7 +160,7 @@
     }
 
     @include media-query($on-mobile) {
-        height: 150px;
+        height: 200px;
     }
  }
 
@@ -526,7 +530,6 @@
     img {
         width: 100%;
         border-radius: 0px;
-        border: 1px solid $grey-less-light;
         top: -9999px;
         bottom: -9999px;
         left: -9999px;
@@ -604,7 +607,6 @@
     img {
         width: 100%;
         border-radius: 0px;
-        border: 1px solid $grey-less-light;
         top: -9999px;
         bottom: -9999px;
         left: -9999px;
@@ -624,6 +626,11 @@
     height: 150px;
     position: relative;
     overflow: hidden;
+    border: 1px solid $grey-less-light;
+
+    @include media-query($on-mobile) {
+        height: 120px;
+    }
 }
 
 .log-desc {
@@ -776,7 +783,7 @@
 
 .market-badges {
     position: relative;
-    margin-top: -15px;
+    margin-top: -10px;
     margin-bottom: 20px;
     text-align: center;
 
@@ -784,6 +791,13 @@
         height: 35px;
         margin-left: 7px;
         margin-right: 7px;
+
+        @include media-query($on-mobile) {
+            height: 30px;
+            margin-top: 5px;
+            margin-left: 4px;
+            margin-right: 4px;
+        }
     }
 }
 
