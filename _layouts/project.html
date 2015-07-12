@@ -61,6 +61,7 @@
                     {% increment count %}
                     {% endif %}
                     -->
+                    {% if page.github or page.link or page.download %}
                     <div class="hidden-xs">
                         <div class="external-link-box">
                             {% if page.github %}
@@ -103,6 +104,7 @@
                         </div>
                         {% endif %}
                     </div>
+                    {% endif %}
                     
                 </div>
 
