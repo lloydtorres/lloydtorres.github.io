@@ -9,9 +9,9 @@ tags:
 - android
 - java
 description: An Android app course project that tracks a user and provides directions.
-preview: "/images/projects/stepcounter/stepcounter.png"
-prev_banner: "/images/projects/stepcounter/step-preview.png"
-sequence: -6
+preview: "/images/projects/stepcounter/stepcounter-preview.png"
+prev_banner: "/images/projects/stepcounter/stepcounter-preview.png"
+sequence: -5
 ---
 
 <div class="row">

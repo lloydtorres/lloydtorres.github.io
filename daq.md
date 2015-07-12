@@ -10,8 +10,8 @@ tags:
 - ni-daq
 description: A National Instruments LabVIEW utility used for engine tests by the Waterloo Rocketry Team.
 preview: "/images/projects/daq/rocketry_daq.png"
-prev_banner: "/images/projects/daq/daq-preview.png"
-sequence: -3
+prev_banner: "/images/projects/daq/rocketry_daq.png"
+sequence: -1
 ---
 
 <div class="row">

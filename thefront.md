@@ -9,9 +9,9 @@ tags:
 - python
 - pygame
 description: A two-player turn-based strategy game built with Python and pygame.
-preview: "/images/projects/thefront/thefront-1.jpg"
-prev_banner: "/images/projects/thefront/thefront-preview.jpg"
-sequence: -4
+preview: "/images/projects/thefront/thefront-2.jpg"
+prev_banner: "/images/projects/thefront/thefront-2.jpg"
+sequence: -2
 ---
 
 <script>
