@@ -120,6 +120,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    @media (max-width: $on-palm) {
+        background-attachment: scroll;
+    }
  }
 
  .super-intro {
