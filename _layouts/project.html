@@ -13,6 +13,7 @@
             <div class="curtain-overlay">
                 <img src="{{ page.picoverlay }}" class="border-override" />
             </div>
+            <div class="curtain-spacer"></div>
             {% else %}
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
@@ -23,12 +24,13 @@
                         {% for tags in page.tags %}<span>{{ tags }}</span>{% endfor %}
                         </p>
                     </div>
+                    <div class="curtain-spacer"></div>
                 </div>
             </div>
             {% endif %}
         </div>
 
-        <div class="coverup">
+        <div class="content-lifter">
 
             <div class="container pushdown page-content col-md-offset-2 col-md-8">
 

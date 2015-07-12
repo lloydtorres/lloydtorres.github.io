@@ -262,6 +262,15 @@
     height: auto;
 }
 
+.curtain-spacer {
+    height: 350px;
+    content: '';
+}
+
+.content-lifter {
+    margin-top: -380px;
+}
+
 .expanded-overlay-content {
     display: block;
     margin-top: -3px;
