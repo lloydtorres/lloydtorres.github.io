@@ -74,6 +74,11 @@ After the midterm, you'll look at applications of the Laplace transform (such as
 
 Similar to your previous math courses, there are mandatory assignments every week (except for midterm week) on the topics you're currently learning. Our assignments were rather difficult, each one needing almost 12 hours to complete. Our tutorials were run by our professor, where he went over concepts taught in tutorials and usually taught new topics. This is one tutorial you wouldn't want to miss.
 
+<figure>
+    <img src="/images/blog/20150501/205homework.jpg" width="500px" />
+    <figcaption>Apparently this wasn't a valid answer to a graphing question at the end of a long derivation.</figcaption>
+</figure>
+
 The lab for this course is done as the same time as the MATH 215 labs (see the schedule above). It's essentially a course on using [Matlab](http://en.wikipedia.org/wiki/Matlab), and runs completely separate from the lectures. Labs are done every week, and they consist of going through a document and copy-pasting commands and results to and from Matlab. There's a lab exam at the end where you regurgitate what you've been doing in the labs for the past four months. The labs should be straightforward and easy to do. You should do your best to get close to perfect in the labs since they'll end up being the mark that boosts your overall ECE 205 mark.
 
 This course was one of the reasons why I transferred from Electrical Engineering to Computer Engineering. This is the last calculus course for CE students, while EE students will have to take another one in their 2B term. The previous calculus courses in ECE still made a lot of sense to me, but I found differential equations a bit harder to understand. There's a lot of memorizing common solutions for certain differential equations, so it was harder to get an intuition for solving them in general.
@@ -106,6 +111,11 @@ As mentioned before, the first week of the course is a review of the entire ECE 
 
 Next, before the midterm, you'll go over pass-band gains and common filter circuits, [Bode plots](http://en.wikipedia.org/wiki/Bode_plot), [RLC circuits](http://en.wikipedia.org/wiki/RLC_circuit) and their frequency responses, and diodes, your first look at a nonlinear circuit element. After the midterm, you'll mostly focus on transistors such as [MOSFETs](http://en.wikipedia.org/wiki/MOSFET) and [BJTs](http://en.wikipedia.org/wiki/Bipolar_junction_transistor).
 
+<figure>
+    <img src="/images/blog/20150501/240notes.jpg" width="500px" />
+    <figcaption>A snippet from our BJT notes. I didn't take this specifically for this post, my Google Photos archive is full of these.</figcaption>
+</figure>
+
 Like your previous circuits course, there is a set of optional problems every week, which the TA goes over in a tutorial. (Read: tutorials are optional but helpful.)
 
 Labs are done every other week, and the lab topics match up closely with the topics being taught in class. There's a thorough set of questions and measurements you have to get for your prelab, and postlab reports, which involve the use of an app called [Multisim](http://www.ni.com/multisim/). For the labs themselves, you'll have to bring your electronics kit given to you in first year and build some of the circuits ahead of time. You should label all the components in your kit for your convenience. Other than that, labs simply consist of building the circuit and taking measurements with the oscilloscope. I recommend doing really well in the labs as they'll boost your marks greatly.
@@ -137,6 +147,11 @@ A lot of the midterm and final exam's content come from class discussions, so it
 The other engineering programs actually take Linear Algebra in first year, so this course is pretty straightforward. Topics included before the midterm are a review of complex numbers, vectors, solving systems of linear equations using [Gaussian elimination](http://en.wikipedia.org/wiki/Gaussian_elimination), matrix algebra, [determinants](http://en.wikipedia.org/wiki/Determinant), and [eigenvalues and eigenvectors](http://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors).
 
 After the midterm, you'll study [vector spaces](http://en.wikipedia.org/wiki/Vector_space), [spanning sets](http://en.wikipedia.org/wiki/Linear_span), [basis vectors](http://en.wikipedia.org/wiki/Basis_(linear_algebra)), [subspaces](http://en.wikipedia.org/wiki/Linear_subspace), [projections](http://en.wikipedia.org/wiki/Projection_(linear_algebra)), [linear mappings](http://en.wikipedia.org/wiki/Linear_map) and [similar matrices](http://en.wikipedia.org/wiki/Matrix_similarity). The content itself isn't hard, the problem is that there is a lot of them to learn and memorize.
+
+<figure>
+    <img src="/images/blog/20150501/215board.jpg" width="500px" />
+    <figcaption>Linear algebra. Probably.</figcaption>
+</figure>
 
 Like your typical math course, there are weekly mandatory assignments (except for midterm week). Compared to ECE 205, the assignments in MATH 215 are extremely straightforward to do. There is a weekly tutorial where a TA goes over the topics in the weekly assignment, so it's useful to go to clear up any uncertainties. The midterm and final should be straightforward, it's just that there's a lot to memorize. Note that the final is more proof-heavy compared to the midterm.
 

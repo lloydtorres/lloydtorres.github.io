@@ -122,6 +122,68 @@
     background-size: cover;
  }
 
+ .super-intro {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font: 0/0 a;
+
+    .super-container {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -100px;
+    }
+
+    h1 {
+        display: inline-block;
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 30px;
+        text-transform: uppercase;
+        color: white;
+        margin-right: -30px;
+        line-height: 1;
+        text-shadow: 0 0 10px $grey-color-dark;
+
+        @include media-query($on-mobile) {
+            font-size: 40px;
+            letter-spacing: 20px;
+            margin-right: -20px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-shadow: 0 0 10px $grey-color-dark;
+        margin-top: 10px;
+        font-weight: bold;
+
+        @include media-query($on-mobile) {
+            margin-top: 30px;
+        }
+    }
+
+    .super-social-icons {
+        margin-top: 100px;
+
+        span {
+            margin-left: 20px;
+            margin-right: 20px;
+            color: white;
+        }
+    }
+ }
+
+ .super-intro:before {    /* omg centering */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
  .curtain-overlay {
     width: 100%;
     margin: 0 auto;
