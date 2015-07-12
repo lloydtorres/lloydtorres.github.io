@@ -2,7 +2,7 @@
 layout: post
 title:  "Hackathons are awesome!"
 date:   2014-09-23 00:15:00
-header: "/images/headers/hackthenorth-bg.jpg"
+header: "/images/blog/20140923/hackthenorth-bg.jpg"
 preview: "/images/blog/20140923/htn-preview.jpg"
 permalink: log/hackathons-are-awesome
 tags:
