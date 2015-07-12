@@ -82,12 +82,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
+    -webkit-transition: color 300ms;
+    -moz-transition:    color 300ms;
+    -o-transition:      color 300ms;
+    transition:         color 300ms;
+
     &:link, &:visited, &:active {
         color: $mignonic-blue;
     }
 
     &:hover, &:focus {
         color: $grey-color-dark !important;
+        text-decoration: none !important;
     }
 }
 

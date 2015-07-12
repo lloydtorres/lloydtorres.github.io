@@ -32,15 +32,22 @@
 .site-nav {
     margin-top: 2px !important;
     font-family: 'Roboto', serif;
-    
-    a:link, a:visited, a:active {
-        color: $white-color;
-        background-color: $mignonic-blue;
-    }
 
-    a:hover, a:focus {
-        background-color: $grey-color-dark !important;
-        color: white !important;
+    a {
+        -webkit-transition: background-color 300ms;
+        -moz-transition:    background-color 300ms;
+        -o-transition:      background-color 300ms;
+        transition:         background-color 300ms;
+
+        &:link, &:visited, &:active {
+            color: $white-color;
+            background-color: $mignonic-blue;
+        }
+
+        &:hover, &:focus {
+            background-color: $grey-color-dark !important;
+            color: white !important;
+        }
     }
 
     .active {
@@ -127,7 +134,7 @@
  }
 
  .super-intro {
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -162,7 +169,7 @@
         font-family: 'Roboto', sans-serif;
         color: white;
         text-shadow: 0 0 10px $grey-color-dark;
-        margin-top: 10px;
+        margin-top: 20px;
         font-weight: bold;
 
         @include media-query($on-palm) {
@@ -177,6 +184,18 @@
             margin-left: 20px;
             margin-right: 20px;
             color: white;
+            -webkit-transition: -webkit-transform 250ms, text-shadow 100ms;
+            -moz-transition:    -moz-transform 250ms, text-shadow 100ms;
+            -o-transition:      -o-transform 250ms, text-shadow 100ms;
+            transition:         transform 250ms, text-shadow 100ms;
+
+            &:hover, &:visited, &:link, &:active, &:focus {
+                -webkit-transform: translateY(-5px);
+                -moz-transform: translateY(-5px);
+                -o-transform: translateY(-5px);
+                transform: translateY(-5px);
+                text-shadow: 0 0 20px $grey-super-light;
+            }
         }
     }
  }
@@ -249,10 +268,18 @@
     padding-bottom: 10px;
 
     a {
-        color: white;
+        -webkit-transition: text-shadow 300ms;
+        -moz-transition:    text-shadow 300ms;
+        -o-transition:      text-shadow 300ms;
+        transition:         text-shadow 300ms;
 
-        &:hover, &:visited, &:link, &:active {
+        &:link, &:visited, &:active {
             color: white !important;
+        }
+
+        &:hover, &:focus {
+            color: white !important;
+            text-shadow: 0 0 5px $grey-super-light;
         }
     }
 
@@ -283,12 +310,20 @@
             padding: 2px;
             margin-right: 5px;
 
-            a:link, a:active, a:visited {
-                color: $mignonic-blue !important;
-            }
+            a {
+                -webkit-transition: color 300ms;
+                -moz-transition:    color 300ms;
+                -o-transition:      color 300ms;
+                transition:         color 300ms;
 
-            a:hover, a:focus {
-                color: $grey-color-dark !important;
+                &:link, &:visited, &:active {
+                    color: $mignonic-blue !important;
+                }
+
+                &:hover, &:focus {
+                    color: $grey-color-dark !important;
+                    text-decoration: none !important;
+                }
             }
         }
     }
@@ -511,10 +546,6 @@
     margin-bottom: 10px;
     display: block;
     font-family: 'Roboto', sans-serif;
-
-    a {
-        color: black !important;
-    }
 
     .company {
         font-size: 15px;
@@ -767,6 +798,11 @@
 }
 
 .external-link-cell {
+    -webkit-transition: background-color 300ms;
+    -moz-transition:    background-color 300ms;
+    -o-transition:      background-color 300ms;
+    transition:         background-color 300ms;
+
     p {
         color: white;
         margin: 0 auto !important;
