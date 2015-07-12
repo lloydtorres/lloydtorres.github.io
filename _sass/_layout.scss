@@ -161,7 +161,7 @@
         margin-top: 10px;
         font-weight: bold;
 
-        @include media-query($on-mobile) {
+        @include media-query($on-palm) {
             margin-top: 30px;
         }
     }
@@ -215,9 +215,9 @@
         text-shadow: 0 0 10px $grey-color-dark;
 
         @include media-query($on-mobile) {
-            font-size: 20px;
-            letter-spacing: 10px;
-            margin-right: -10px;
+            font-size: 30px;
+            letter-spacing: 15px;
+            margin-right: -15px;
         }
     }
 
