@@ -440,8 +440,13 @@
 }
 
 .pusharound {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.superpusharound {
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
 }
 
 .paddup {
@@ -508,8 +513,8 @@
 }
 
 .resume-space {
-    margin-top: 45px;
-    margin-bottom: 38px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .resume-card {
@@ -521,6 +526,17 @@
     -webkit-box-shadow: 0px 3px 5px #333;
     -o-box-shadow:  0px 3px 5px #333;
     box-shadow: 0px 3px 5px #333;
+    -webkit-transition: -webkit-box-shadow 250ms;
+    -moz-transition:    -moz-box-shadow 250ms;
+    -o-transition:      -o-box-shadow 250ms;
+    transition:         box-shadow 250ms;
+
+    &:hover {
+        -moz-box-shadow: 0px 3px 10px #111;
+        -webkit-box-shadow: 0px 3px 10px #111;
+        -o-box-shadow: 0px 3px 10px #111;
+        box-shadow: 0px 3px 10px #111;
+    }
 }
 
 .resume-content {
