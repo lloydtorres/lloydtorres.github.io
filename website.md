@@ -30,5 +30,7 @@ sequence: -9
         <p>My site uses <a href="http://getbootstrap.com/">Bootstrap</a>, which is wonderful in setting up layouts and responsive elements for both desktop and mobile. Bits and pieces of the site are also powered by JavaScript and jQuery — <a href="http://responsiveslides.com/">ResponsiveSlides.js</a> for image slides and <a href="http://masonry.desandro.com/">Masonry</a> for uneven width alignment, for example.</p>
 
         <p>I try my best to ensure that my site works seamlessly between desktop and mobile users, and that it is consistent across different modern browsers.</p>
+
+        <p>If you're interested, there's an easter egg hidden somewhere in the site. See if you can find it!</p>
     </div>
 </div>
