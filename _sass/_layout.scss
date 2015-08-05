@@ -31,7 +31,7 @@
 
 .site-nav {
     margin-top: 2px !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     @include media-query($on-palm) {
         font-size: 18px;
@@ -82,7 +82,7 @@
 .site-footer {
     padding: $spacing-unit;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     color: $grey-color;
 }
 
@@ -173,7 +173,7 @@
 
     p {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Roboto', sans-serif;
         color: white;
         text-shadow: 0 0 10px $grey-color-dark;
         margin-top: 20px;
@@ -185,7 +185,11 @@
     }
 
     .mobile-subtitle {
-        margin-top: 20px;
+        margin-top: 30px;
+
+        p {
+            margin-top: 0px;
+        }
     }
 
     .super-social-icons {
@@ -307,7 +311,7 @@
 
     .tags {
         span {
-            font-family: 'Roboto', sans-serif !important;
+            font-family: 'Roboto', sans-serif;
             text-transform: lowercase;
             font-size: 12px;
             font-weight: bold;
@@ -369,7 +373,7 @@
 
     .subtitle {
         font-size: 15px;
-        font-family: 'Roboto', sans-serif !important;
+        font-family: 'Roboto', sans-serif;
         margin-left: 10px;
 
         @include media-query($on-palm) {
@@ -385,6 +389,7 @@
     right: 0;
     margin-right: 8px;
     z-index: 11;
+    text-shadow: 0 0 10px $grey-color-dark;
 
     p {
         color: white;
@@ -414,6 +419,9 @@
 .tavi {
     width: 250px;
     animation: tavi 4s linear infinite alternate;
+    -webkit-animation: tavi 4s linear infinite alternate;
+    -moz-animation: tavi 4s linear infinite alternate;
+    -o-animation: tavi 4s linear infinite alternate;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -454,28 +462,37 @@
 .err-cloud1 {
     width: 100px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     right: -1000px;
     z-index: 6;
-    animation: cloud 60s linear 5s infinite;
+    animation: cloud 67s linear 5s infinite;
+    -webkit-animation: cloud 67s linear 5s infinite;
+    -moz-animation: cloud 67s linear 5s infinite;
+    -o-animation: cloud 67s linear 5s infinite;
 }
 
 .err-cloud2 {
-    width: 150px;
+    width: 300px;
     position: absolute;
     top: 45%;
     right: -1000px;
     z-index: 7;
-    animation: cloud 30s linear 2s infinite;
+    animation: cloud 37s linear 2s infinite;
+    -webkit-animation: cloud 37s linear 2s infinite;
+    -moz-animation: cloud 37s linear 2s infinite;
+    -o-animation: cloud 37s linear 2s infinite;
 }
 
 .err-cloud3 {
-    width: 300px;
+    width: 600px;
     position: absolute;
-    top: 60%;
+    top: 65%;
     right: -1000px;
     z-index: 9;
-    animation: cloud 15s linear infinite;
+    animation: cloud 17s linear infinite;
+    -webkit-animation: cloud 17s linear infinite;
+    -moz-animation: cloud 17s linear infinite;
+    -o-animation: cloud 17s linear infinite;
 }
 
 @-webkit-keyframes cloud {
@@ -560,7 +577,7 @@
 
 .page-content {
     padding: $spacing-unit 0;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: auto !important;
 
@@ -640,7 +657,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     display: block;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 
     .company {
         font-size: 15px;
@@ -682,7 +699,7 @@
 }
 
 .post-meta {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: $grey-color;
 }
@@ -859,7 +876,7 @@
 .post-content {
     padding: 20px;
     margin-bottom: $spacing-unit;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     min-height: 350px;
 
     p {
@@ -927,17 +944,17 @@
 
 .featuretext-lg {
     font-size: 28px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .featuretext-md {
     font-size: 21px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .featuretext-sm {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cyan-emph {
