@@ -411,6 +411,12 @@
 .tavi {
     width: 250px;
     animation: tavi 4s linear infinite alternate;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 @-webkit-keyframes tavi {
@@ -431,6 +437,15 @@
 @keyframes tavi {
     from   {transform: translateY(8px) rotate(2deg);}
     to     {transform: translateY(-8px) rotate(-2deg);}
+}
+
+.err-cloud {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .err-cloud1 {
