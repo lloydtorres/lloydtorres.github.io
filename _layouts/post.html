@@ -11,9 +11,7 @@
         {% if page.show_toc %}
         <script type="text/javascript">
             $(document).ready(function(){
-                // setup page
-                $('#toc').hide();
-
+                // setup listeners
                 $('#toc-action').click(function () {
                     $('#toc').fadeIn('fast');
                 });
