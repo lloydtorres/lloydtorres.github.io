@@ -5,6 +5,7 @@ date:   2015-05-01 15:30:00
 header: "/images/blog/20150501/2a-header.jpg"
 preview: "/images/blog/20150501/2a-preview.jpg"
 permalink: log/surviving-waterloo-ece-2a-term
+show_toc: true
 tags:
 - waterloo
 - ece

@@ -8,6 +8,35 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
+        {% if page.show_toc %}
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // setup page
+                $('#toc').hide();
+
+                $('#toc-action').click(function () {
+                    $('#toc').fadeIn('fast');
+                });
+
+                $('#dialog-close').click(function () {
+                    $('#toc').fadeOut('fast');
+                });
+
+                $('#toc-list').click(function () {
+                    $('#toc').fadeOut('fast');
+                });
+
+                // build table of contents
+                var h2InPage = $(this).find('h2');
+                for (i=1; i < h2InPage.length; i++) {
+                    var id = h2InPage[i].id;
+                    var txt = h2InPage[i].innerHTML;
+                    $("#toc-list").append('<li><a href="#' + id + '">' + txt + '</a></li>');
+                }
+            });
+        </script>
+        {% endif %}
+
         <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/log-header.png');{% endif %}">
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
@@ -19,7 +48,7 @@
                         </p>
                     </div>
                     <div class="curtain-spacer"></div>
-                </div>
+                </div><!-- /container -->
             </div>
         </div>
 
@@ -27,6 +56,20 @@
             <div class="container pushdown page-content col-md-offset-2 col-md-8">
 
                 <div class="post">
+
+                    {% if page.show_toc %}
+                    <div class="toc-action" id="toc-action"><span class="fa fa-list-ul fa-lg"></span></div>
+                    <div class="dialog-tint" id="toc">
+                        <div class="dialog-container col-xs-12 col-md-4">
+                            <div class="dialog-content">
+                                <h2>Table of Contents</h2>
+                                <a href="javascript:void(0)"><span class="fa fa-times fa-lg dialog-close" id="dialog-close"></span></a>
+                                <ul id="toc-list">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
 
                     <article class="post-content">
                         <p class="post-meta">{{ page.date | date_to_string }}</p>
@@ -52,9 +95,7 @@
                     </div>
                 </div>
 
-
-
-            </div>
+            </div><!-- /container -->
         </div>
 
     {% include footer.html %}

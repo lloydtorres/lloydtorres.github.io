@@ -871,6 +871,105 @@
     background: white;
 }
 
+.toc-action {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #486BA6;
+    -moz-box-shadow: 0px 3px 5px #333;
+    -webkit-box-shadow: 0px 3px 5px #333;
+    -o-box-shadow:  0px 3px 5px #333;
+    box-shadow: 0px 3px 5px #333;
+    position: fixed;
+    z-index: 1500;
+    bottom: 20px;
+    right: 20px;
+
+    -webkit-transition: background-color 300ms;
+    -moz-transition:    background-color 300ms;
+    -o-transition:      background-color 300ms;
+    transition:         background-color 300ms;
+
+    &:hover {
+        background-color: $grey-color-dark;
+    }
+
+    span {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+}
+
+.dialog-tint {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 50, 50, .90);
+    z-index: 2000;
+    top: 0;
+    left: 0;
+}
+
+.dialog-container {
+    position: fixed !important;
+    background-color: white;
+    height: auto;
+    bottom: 0;
+    left: 50%;
+    border-top: 5px solid $mignonic-blue;
+
+    transform: translate(-50%,0%);
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    -o-transform: translate(-50%,0%);
+
+    -moz-box-shadow: 0px 3px 5px #333;
+    -webkit-box-shadow: 0px 3px 5px #333;
+    -o-box-shadow:  0px 3px 5px #333;
+    box-shadow: 0px 3px 5px #333;
+
+    -webkit-transition: -webkit-box-shadow 250ms;
+    -moz-transition:    -moz-box-shadow 250ms;
+    -o-transition:      -o-box-shadow 250ms;
+    transition:         box-shadow 250ms;
+    &:hover {
+        -moz-box-shadow: 0px 3px 10px #111;
+        -webkit-box-shadow: 0px 3px 10px #111;
+        -o-box-shadow: 0px 3px 10px #111;
+        box-shadow: 0px 3px 10px #111;
+    }
+}
+
+.dialog-content {
+    padding: 20px;
+    h2 {
+        margin-top: -1px;
+        margin-bottom: 10px;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        color: $mignonic-blue;
+    }
+
+    ul {
+        margin-bottom: -1px;
+    }
+
+    .dialog-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+    }
+}
+
 .post-content {
     padding: 20px;
     margin-bottom: $spacing-unit;
@@ -888,6 +987,15 @@
         text-transform: uppercase;
         font-family: 'Raleway', sans-serif;
         color: $mignonic-blue;
+    }
+
+    /* this forces linked h2 IDs to be pushed down a bit further */
+    h2:before { 
+        display: block; 
+        content: " "; 
+        margin-top: -100px; 
+        height: 100px; 
+        visibility: hidden; 
     }
 
     h3 {

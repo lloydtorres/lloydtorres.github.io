@@ -5,6 +5,7 @@ date:   2014-12-06 20:00:00
 header: "/images/projects/myodialer/myodialer-header.jpg"
 preview: "/images/projects/myodialer/myodialer-top.png"
 permalink: log/myo-dialer-27-hour-hackathon
+show_toc: true
 tags:
 - hackathon
 - myo
