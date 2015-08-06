@@ -11,7 +11,9 @@
         <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}">
             {% if page.picoverlay %}
             <div class="curtain-overlay">
-                <img src="{{ page.picoverlay }}" class="border-override" />
+                <div class="curtain-overlay-container">
+                    <img src="{{ page.picoverlay }}" />
+                </div>
             </div>
             <div class="curtain-spacer"></div>
             {% else %}
