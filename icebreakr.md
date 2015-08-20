@@ -4,6 +4,7 @@ title: Icebreakr
 header: "/images/projects/icebreakr/icebreakr-header.png"
 picoverlay: "/images/projects/icebreakr/icebreakr-logo.png"
 permalink: /projects/icebreakr/
+github: https://github.com/wearhackstoronto/IceBreakr
 categories:
 - projects
 tags:
@@ -55,7 +56,9 @@ $(function() {
 
         <p>Icebreakr was developed at WearHacks Toronto on the weekend of 8—10 May 2015. Icebreakr uses Android, the Estimote SDK and the Twitter SDK (via Fabric) for its frontend and Node.js and MongoDB for its backend. I was primarily responsible for the frontend.</p>
 
-        <p>The Estimote itself broadcasts nothing but a unique ID, so we had a server that actually stored users' information. Our app communicated with the server using <a href="https://github.com/mcxiaoke/android-volley">Volley</a>. To build the UI itself, I used libraries such as jpardogo's <a href="https://github.com/jpardogo/PagerSlidingTabStrip">Pager Sliding Tab Strip</a> and afollestad's <a href="https://github.com/afollestad/material-dialogs">Material Dialogs</a>.</p>
+        <p>The Estimote itself broadcasts nothing but a unique ID, so we had a server that actually stored users' information. The app would have communicated with the server using <a href="https://github.com/mcxiaoke/android-volley">Volley</a>, but the backend was not finished in time. The  app in its current form instead generates a random profile and assigns it to any Estimotes in range.</p>
+
+        <p>To build the UI itself, I used libraries such as jpardogo's <a href="https://github.com/jpardogo/PagerSlidingTabStrip">Pager Sliding Tab Strip</a> and afollestad's <a href="https://github.com/afollestad/material-dialogs">Material Dialogs</a>.</p>
     </div>
 
 </div>
