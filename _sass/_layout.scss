@@ -4,10 +4,11 @@
 .site-header {
     background-color: $mignonic-blue;
     margin-top: -2px;
+    margin-bottom: -1px !important;
     top: 0%;
     left: 0%;
     width: 100%;
-    z-index: 1000;
+    border-radius: 0px !important;
 }
 
 .site-title {
@@ -137,7 +138,7 @@
  }
 
  .super-intro {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     position: relative;
  }
@@ -155,19 +156,15 @@
 
     h1 {
         display: inline-block;
-        font-size: 50px;
+        font-size: 70px;
         font-family: 'Raleway', sans-serif;
-        letter-spacing: 30px;
         text-transform: uppercase;
         color: white;
-        margin-right: -30px;
         line-height: 1;
         text-shadow: 0 0 10px $grey-color-dark;
 
         @include media-query($on-mobile) {
-            font-size: 40px;
-            letter-spacing: 20px;
-            margin-right: -20px;
+            font-size: 50px;
         }
     }
 
@@ -242,20 +239,16 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 60px;
         font-family: 'Raleway', sans-serif;
-        letter-spacing: 30px;
         text-align: center;
         text-transform: uppercase;
         color: white;
-        margin-right: -30px;
         line-height: 1;
         text-shadow: 0 0 10px $grey-color-dark;
 
         @include media-query($on-mobile) {
-            font-size: 30px;
-            letter-spacing: 15px;
-            margin-right: -15px;
+            font-size: 40px;
         }
     }
  }
@@ -347,6 +340,29 @@
     width: 100%;
     height: 100%;
     overflow: auto;
+}
+
+.index-intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.intro-blurb {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: auto !important;
+
+    @include media-query($on-palm) {
+        font-size: 18px;
+    }
+
+    .intro-highlight {
+        font-size: 40px;
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
 }
 
 .white-background {
@@ -605,7 +621,7 @@
 .resume-card {
     position: relative;
     background-color: white;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border-bottom: 5px solid $mignonic-blue;
     -moz-box-shadow: 0px 3px 5px #333;
     -webkit-box-shadow: 0px 3px 5px #333;
@@ -779,7 +795,7 @@
     width: 100%;
     min-height: 350px;
     border-bottom: 5px solid $mignonic-blue;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow: hidden;
     -moz-box-shadow: 0px 3px 5px #333;
     -webkit-box-shadow: 0px 3px 5px #333;

@@ -19,10 +19,6 @@ body {
     font-weight: 300;
     color: $text-color;
     -webkit-text-size-adjust: 100%;
-    padding-top: 50px;
-    @include media-query($on-laptop) {
-        padding-top: 70px;
-    }
 }
 
 strong {
