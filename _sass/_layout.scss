@@ -373,11 +373,42 @@
  * 404'd
  */
 .error-background {
-    background-color: #87ceeb;
     position: relative;
     height: 100vh;
     width: 100%;
     overflow: hidden;
+}
+
+.error-dawn {
+    background-color: #b37ea0;
+    background-image: -webkit-linear-gradient(top, #87ceeb 30%, #b37ea0 100%);
+    background-image: -moz-linear-gradient(top, #87ceeb 30%, #b37ea0 100%);
+    background-image: -o-linear-gradient(top, #87ceeb 30%, #b37ea0 100%);
+    background-image: linear-gradient(to bottom, #87ceeb 30%, #b37ea0 100%);
+}
+
+.error-day {
+    background-color: #3FC4F7;
+    background-image: -webkit-linear-gradient(top, #3FC4F7 30%, #87ceeb 100%);
+    background-image: -moz-linear-gradient(top, #3FC4F7 30%, #87ceeb 100%);
+    background-image: -o-linear-gradient(top, #3FC4F7 30%, #87ceeb 100%);
+    background-image: linear-gradient(to bottom, #3FC4F7 30%, #87ceeb 100%);
+}
+
+.error-dusk {
+    background-color: #f16255;
+    background-image: -webkit-linear-gradient(top, #056285 30%, #f16255 100%);
+    background-image: -moz-linear-gradient(top, #056285 30%, #f16255 100%);
+    background-image: -o-linear-gradient(top, #056285 30%, #f16255 100%);
+    background-image: linear-gradient(to bottom, #056285 30%, #f16255 100%);
+}
+
+.error-night {
+    background-color: #03153a;
+    background-image: -webkit-linear-gradient(top, #060423 30%, #03153a 100%);
+    background-image: -moz-linear-gradient(top, #060423 30%, #03153a 100%);
+    background-image: -o-linear-gradient(top, #060423 30%, #03153a 100%);
+    background-image: linear-gradient(to bottom, #060423 30%, #03153a 100%);
 }
 
 .error-message {
@@ -475,6 +506,20 @@
     user-select: none;
     -webkit-user-drag: none;
     user-drag: none;
+}
+
+.err-cloud-dawndusk {
+    filter: hue-rotate(150deg);
+    -webkit-filter: hue-rotate(150deg);
+    -moz-filter: hue-rotate(150deg);
+    -o-filter: hue-rotate(150deg);
+}
+
+.err-cloud-night {
+    filter: hue-rotate(60deg) brightness(30%);
+    -webkit-filter: hue-rotate(60deg) brightness(30%);
+    -moz-filter: hue-rotate(60deg) brightness(30%);
+    -o-filter: hue-rotate(60deg) brightness(30%);
 }
 
 .err-cloud1 {
