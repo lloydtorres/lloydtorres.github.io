@@ -882,6 +882,10 @@
     @include media-query($on-mobile) {
         min-height: 350px !important;
     }
+
+    @media screen and (max-width: $on-tablet) and (orientation: portrait) {
+        min-height: 350px !important;
+    }
 }
 
 .more {
