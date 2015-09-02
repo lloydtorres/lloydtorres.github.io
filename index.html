@@ -42,7 +42,11 @@
 
                     <p>I'm an avid software developer who's worked on the full tech stack. My co-op opportunities range from large enterprises to small startups, and my experiences have driven me to make robust software that works.</p>
 
+                    <p>You can see my resume <a id="resume-link" href="#resume">here</a>. You can also check out my <a href="https://www.linkedin.com/in/lartorres">LinkedIn profile</a> or my <a href="https://github.com/lloydtorres">GitHub repos</a>.</p>
+
                     <p>This site is used to keep track of my projects, as well as to post my thoughts from time to time. Click on the cards below to check them out.</p>
+
+                    <p>Need to get in touch? <a href="mailto:contact.lloyd.torres@gmail.com">Send me an e-mail</a> or tweet me at <a href="https://twitter.com/ImperatorTorres">@ImperatorTorres</a>.</p>
                 </div>
 
                 <div class="row superpushdown">
@@ -88,7 +92,7 @@
             </div><!-- /container -->
         </div>
 
-        <div class="curtain-header" style="background-image: url('/images/headers/resume-header.jpg');">
+        <div id="resume" class="curtain-header" style="background-image: url('/images/headers/resume-header.jpg');">
             <div class="container page-content col-md-offset-2 col-md-8">
 
                 <div class="row resume-space">
@@ -245,6 +249,17 @@
         </div>
 
         {% include footer.html %}
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#resume-link').on('click', function(e){
+                e.preventDefault();
+                $('html, body').stop().animate({
+                   scrollTop: $('#resume').offset().top
+                }, 1000);
+            });
+        });
+        </script>
 
   </body>
 

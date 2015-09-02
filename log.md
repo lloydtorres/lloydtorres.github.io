@@ -5,7 +5,7 @@ header: "/images/headers/log-header.jpg"
 permalink: /log/
 ---
 
-<script>
+<script type="text/javascript">
 var $container = $('#masonry');
 $container.imagesLoaded( function() {
     $container.masonry({

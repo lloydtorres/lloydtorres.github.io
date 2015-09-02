@@ -18,10 +18,13 @@
 
                 $('#dialog-close').click(function () {
                     $('#toc').fadeOut('fast');
+                    console.log("Test");
                 });
 
-                $('#toc-list').click(function () {
-                    $('#toc').fadeOut('fast');
+                $('.dialog-tint').click(function (event) {
+                    if (event.target === this) {
+                        $('#toc').fadeOut('fast');
+                    }
                 });
 
                 // build table of contents
@@ -29,8 +32,23 @@
                 for (i=1; i < h2InPage.length; i++) {
                     var id = h2InPage[i].id;
                     var txt = h2InPage[i].innerHTML;
-                    $("#toc-list").append('<li><a href="#' + id + '">' + txt + '</a></li>');
+                    $("#toc-list").append('<li><a class="toc-link" href="#' + id + '">' + txt + '</a></li>');
                 }
+
+                $('.toc-link').click(function () {
+                    $('#toc').fadeOut('fast');
+                });
+
+                $('.toc-link').on('click', function(event){
+                    event.preventDefault();
+                    var target= $("#z");
+                    $('html, body').stop().animate({
+                       scrollTop: $(event.target.hash).offset().top
+                    }, 1000);
+
+                    console.log(event);
+                });
+
             });
         </script>
 
@@ -65,7 +83,7 @@
                                 <h2>Contents</h2>
                                 <a href="javascript:void(0)"><span class="fa fa-times fa-lg dialog-close" id="dialog-close"></span></a>
                                 <ul id="toc-list">
-                                    <li><a href="#uniquetop">Top: {{ page.title }}</a></li>
+                                    <li><a class="toc-link" href="#uniquetop">Top: {{ page.title }}</a></li>
                                 </ul>
                             </div>
                         </div>
