@@ -27,9 +27,10 @@ $white-color:	   #FFFFFF;
 
 $mignonic-blue:	   #2F5597;
 
-$on-mobile:        400px;
-$on-palm:          600px;
-$on-laptop:		   800px;
+$on-mobile:        480px;
+$on-palm:          760px;
+$on-tablet:        1100px;
+$on-laptop:		   1300px;
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -39,7 +40,7 @@ $on-laptop:		   800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media only screen and (max-width: $device) {
         @content;
     }
 }

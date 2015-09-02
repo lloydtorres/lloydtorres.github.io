@@ -34,7 +34,7 @@
     margin-top: 2px !important;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    @include media-query($on-palm) {
+    @include media-query($on-tablet) {
         font-size: 18px;
     }
 
@@ -132,7 +132,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-    @media (max-width: $on-palm) {
+    @media (max-width: $on-tablet) {
         background-attachment: scroll;
     }
  }
@@ -352,7 +352,7 @@
     font-size: 17px;
     line-height: auto !important;
 
-    @include media-query($on-palm) {
+    @include media-query($on-tablet) {
         font-size: 18px;
     }
 
@@ -425,7 +425,7 @@
         font-family: 'Roboto', sans-serif;
         margin-left: 10px;
 
-        @include media-query($on-palm) {
+        @include media-query($on-tablet) {
             font-size: 17px;
             margin-left: 0px;
         }
@@ -619,7 +619,7 @@
     p {
         font-size: 15px;
 
-        @include media-query($on-palm) {
+        @include media-query($on-tablet) {
             font-size: 18px;
         }
 
@@ -628,7 +628,7 @@
     .emphasis {
         font-size: 17px;
 
-        @include media-query($on-palm) {
+        @include media-query($on-tablet) {
             font-size: 20px;
         }
     }
@@ -653,7 +653,7 @@
         margin-left: 30px;
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-tablet) {
         font-size: 17px;
     }
 }
@@ -721,7 +721,7 @@
     .company {
         font-size: 15px;
         font-weight: bold;
-        @include media-query($on-palm) {
+        @include media-query($on-tablet) {
             font-size: 18px;
         }
     }
@@ -874,6 +874,14 @@
     min-height: 350px !important;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
+
+    @include media-query($on-tablet) {
+        min-height: 450px !important;
+    }
+
+    @include media-query($on-mobile) {
+        min-height: 350px !important;
+    }
 }
 
 .more {
@@ -884,7 +892,7 @@
     padding: 10px;
     padding-right: 17px;
     font-size: 12px;
-    @include media-query($on-palm) {
+    @include media-query($on-tablet) {
         font-size: 15px;
     }
     span {
@@ -903,7 +911,7 @@
     span {
         margin-right: 7px;
         font-size: 20px;
-        @include media-query($on-palm) {
+        @include media-query($on-tablet) {
             font-size: 23px;
         }
     }
@@ -954,7 +962,7 @@
     border: 1px solid $grey-less-light;
 
     @include media-query($on-mobile) {
-        height: 120px;
+        height: 120px !important;
     }
 }
 
