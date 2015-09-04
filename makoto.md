@@ -4,7 +4,7 @@ title: "The Girl Who Leapt Through Time"
 permalink: /makoto/
 ---
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide1.jpg">
+<div class="makoto-bg makoto-top" data-parallax="scroll" data-z-index="200" data-image-src="/images/labs/makoto/slide1.jpg">
     <div class="makoto-title">
         <p><span id="makoto-title-1">The Girl</span></p>
         <p class="bringup"><span id="makoto-title-2">Who Leapt</span></p>
@@ -38,7 +38,7 @@ permalink: /makoto/
 <div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide8.jpg" id="finish">
 </div>
 
-<div class="makoto-bg" style="background-color: #000000;">
+<div class="makoto-bg makoto-top" style="background-color: #000000;">
     <p class="inner-text final-quote">time waits for no one</p>
 </div>
 
@@ -72,7 +72,6 @@ permalink: /makoto/
 
             var makotop = 20 + 30 * (y/finishDiv);
             $("#makoto").css("top", makotop + "%");
-
         });
     });
 </script>
