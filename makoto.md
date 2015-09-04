@@ -5,6 +5,10 @@ permalink: /makoto/
 sitemap: false
 ---
 
+<div class="makoto-load">
+    <i class="fa fa-cog fa-spin"></i>
+</div>
+
 <div class="makoto-bg makoto-top" data-parallax="scroll" data-z-index="200" data-image-src="/images/labs/makoto/slide1.jpg">
     <div class="makoto-title">
         <p><span id="makoto-title-1">The Girl</span></p>
@@ -49,6 +53,8 @@ sitemap: false
 
 <script type="text/javascript">
     $(window).load(function() {
+        $( ".makoto-load" ).fadeOut(200);
+
         $( "#makoto-title-1" ).delay(300).show( "slow" );
         $( "#makoto-title-2" ).delay(600).show( "slow" );
         $( "#makoto-title-3" ).delay(900).show( "slow" );

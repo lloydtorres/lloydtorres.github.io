@@ -1405,3 +1405,16 @@
     -webkit-user-drag: none;
     user-drag: none;
 }
+
+.makoto-load {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    z-index: 300;
+    font-size: 100px;
+    color: $grey-darker;
+}
