@@ -47,10 +47,10 @@ permalink: /makoto/
 </div>
 
 <script type="text/javascript">
-    $(document).ready(function() {
-        $( "#makoto-title-1" ).show( "slow" );
-        $( "#makoto-title-2" ).delay(300).show( "slow" );
-        $( "#makoto-title-3" ).delay(600).show( "slow" );
+    $(window).load(function() {
+        $( "#makoto-title-1" ).delay(300).show( "slow" );
+        $( "#makoto-title-2" ).delay(600).show( "slow" );
+        $( "#makoto-title-3" ).delay(900).show( "slow" );
         
         $(document).scroll(function() {
             var y = $(this).scrollTop();
@@ -59,15 +59,15 @@ permalink: /makoto/
             var refHeight = $("#start").height();
 
             if (startDiv - refHeight/4 <= y && finishDiv - refHeight/1.15 > y && $("#makoto").is(":hidden") ) {
-                $("#makoto").fadeIn(200);
+                $("#makoto").fadeIn(500);
             }
             
             if (startDiv - refHeight/4 > y && $("#makoto").is(":visible")) {
-                $("#makoto").fadeOut(200);
+                $("#makoto").fadeOut(500);
             }
 
             if (finishDiv - refHeight/1.15 <= y && $("#makoto").is(":visible") ) {
-                $("#makoto").fadeOut(200);
+                $("#makoto").fadeOut(500);
             }
 
             var makotop = 20 + 30 * (y/finishDiv);
