@@ -3,25 +3,30 @@
  */
 .site-header {
     background-color: $mignonic-blue;
-    margin-top: -2px;
+    margin-top: -3px;
     margin-bottom: -1px !important;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 100%;
     border-radius: 0px !important;
+    @include media-query($on-palm) {
+        margin-top: 0px;
+    }
 }
 
 .site-title {
     font-family: 'Raleway', sans-serif;
-    font-size: 28px !important;
-    margin-top: 3px;
-    margin-bottom: -1px;
-    margin-left: -17px;
+    font-size: 30px !important;
+    margin-top: 1px;
     float: left;
 
     &:hover, &:visited, &:link, &:active, &:focus {
         text-decoration: none;
         color: white !important;
+    }
+
+    @include media-query($on-palm) {
+        margin-top: 3px;
     }
 }
 
@@ -61,12 +66,7 @@
 .menu-button {
     color: white;
     font-size: 30px !important;
-    vertical-align: 0 !important;
-    line-height: 20px !important;
-
-    @include media-query($on-laptop) {
-        margin-top: 11px;
-    }
+    margin-right: -10px;
 }
 
 .navicons {
