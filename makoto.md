@@ -2,6 +2,7 @@
 layout: canvas
 title: "The Girl Who Leapt Through Time"
 permalink: /makoto/
+sitemap: false
 ---
 
 <div class="makoto-bg makoto-top" data-parallax="scroll" data-z-index="200" data-image-src="/images/labs/makoto/slide1.jpg">
