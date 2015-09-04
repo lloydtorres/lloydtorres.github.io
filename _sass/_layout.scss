@@ -23,11 +23,6 @@
         text-decoration: none;
         color: white !important;
     }
-
-    @include media-query($on-laptop) {
-        margin-left: 0px;
-        margin-top: 12px;
-    }
 }
 
 .site-nav {
