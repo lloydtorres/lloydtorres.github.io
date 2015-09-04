@@ -33,6 +33,7 @@
 .site-nav {
     margin-top: 2px !important;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 15px;
     @include media-query($on-tablet) {
         font-size: 18px;
@@ -84,6 +85,7 @@
     padding: $spacing-unit;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     color: $grey-color;
 }
 
@@ -171,6 +173,7 @@
     p {
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
+        font-weight: normal;
         color: white;
         text-shadow: 0 0 10px $grey-color-dark;
         margin-top: 20px;
@@ -307,6 +310,7 @@
     .tags {
         span {
             font-family: 'Roboto', sans-serif;
+            font-weight: normal;
             text-transform: lowercase;
             font-size: 12px;
             font-weight: bold;
@@ -349,6 +353,7 @@
 
 .intro-blurb {
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 17px;
     line-height: auto !important;
 
@@ -423,6 +428,7 @@
     .subtitle {
         font-size: 15px;
         font-family: 'Roboto', sans-serif;
+        font-weight: normal;
         margin-left: 10px;
 
         @include media-query($on-tablet) {
@@ -637,6 +643,7 @@
 .page-content {
     padding: $spacing-unit 0;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 15px;
     line-height: auto !important;
 
@@ -717,6 +724,7 @@
     margin-bottom: 10px;
     display: block;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 
     .company {
         font-size: 15px;
@@ -751,6 +759,7 @@
 
 .job-promo-inner {
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     padding: 20px;
     text-align: center;
     color: white;
@@ -815,6 +824,7 @@
 
 .post-meta {
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 12px;
     color: $grey-color;
 }
@@ -1104,6 +1114,7 @@
     padding: 20px;
     margin-bottom: $spacing-unit;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     min-height: 350px;
 
     p {
@@ -1181,16 +1192,19 @@
 .featuretext-lg {
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .featuretext-md {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .featuretext-sm {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .cyan-emph {
@@ -1284,4 +1298,109 @@
     margin-right: 10px !important;
     height: 45px;
     max-width: 150px;
+}
+
+/* Project Makoto */
+
+.makoto-bg {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    @media (max-width: $on-tablet) {
+        background-attachment: scroll;
+    }
+
+    .inner-text {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+    }
+
+    .mid-quote {
+        font-size: 100px;
+    }
+
+    .final-quote {
+        font-size: 60px;
+
+        @include media-query($on-tablet) {
+            font-size: 50px;
+        }
+
+        @include media-query($on-palm) {
+            font-size: 20px;
+        }
+    }
+}
+
+.makoto-title {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    span {
+        display: none;
+        background-color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        @include media-query($on-palm) {
+            font-size: 30px;
+        }
+    }
+
+    .bringup {
+        margin-top: -25px;
+
+        @include media-query($on-palm) {
+            margin-top: -20px;
+        }
+    }
+
+    .last-underline {
+        border-bottom: 3px solid #6a1515;
+    }
+}
+
+.makoto-container {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    -webkit-transform: translate(-50%,-20%);
+    -moz-transform: translate(-50%,-20%);
+    -o-transform: translate(-50%,-20%);
+    z-index: 50;
+}
+
+.makoto {
+    width: 250px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }

@@ -31,6 +31,13 @@ sequence: -9
 
         <p>I try my best to ensure that my site works seamlessly between desktop and mobile users, and that it is consistent across different modern browsers.</p>
 
-        <p>If you're interested, there's an easter egg hidden somewhere in the site. See if you can find it!</p>
+        <p>If you're interested, there are easter eggs hidden somewhere in the site. Here are some (unrelated) hints:</p>
+
+        <ul>
+            <li>There is a finite number of pages, but there are infinite ways to see me.</li>
+            <li>I leapt through time to see you. Who am I?</li>
+        </ul>
+
+        <p>See if you can find them!</p>
     </div>
 </div>
