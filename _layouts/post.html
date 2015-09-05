@@ -55,9 +55,9 @@
         <span id="uniquetop"></span>
         {% endif %}
 
-        <div class="curtain-header curtain-header-page" {% if page.header %}data-parallax="scroll" data-image-src="{{ page.header }}"{% elsif page.color %}style="background-color: {{ page.color }};"{% else %}data-parallax="scroll" data-image-src="/images/headers/log-header.png"{% endif %}>
-            <div class="curtain-overlay-expanded">
-                <div class="container col-md-offset-2 col-md-8">
+        <div class="curtain-header curtain-header-page" style="{% if page.header %}background-image: url('{{ page.header }}'){% elsif page.color %}background-color: {{ page.color }}{% else %}background-image: url('/images/headers/log-header.png'){% endif %};">
+            <div class="container col-md-offset-2 col-md-8">
+                <div class="curtain-overlay-expanded">
                     <div class="expanded-overlay-content">
                         <h3><a href="/log/">Adventure Log</a></h3>
                         <h1>{{ page.title }}</h1>
@@ -65,13 +65,9 @@
                         {% for tags in page.tags %}<span><a href="/log/tag/{{ tags }}/">{{ tags }}</a></span>{% endfor %}
                         </p>
                     </div>
-                </div><!-- /container -->
-            </div>
+                </div>
 
-            <div class="container page-content col-md-offset-2 col-md-8">
-
-                <div class="post">
-
+                <div class="post pushdown page-content">
                     {% if page.show_toc %}
                     <div class="toc-action" id="toc-action"><span class="fa fa-list-ul fa-lg"></span></div>
                     <div class="dialog-tint" id="toc">
@@ -110,12 +106,10 @@
                         {% if page.noComments %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
                     </div>
                 </div>
-
             </div><!-- /container -->
+
+            {% include footer.html %}
         </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>

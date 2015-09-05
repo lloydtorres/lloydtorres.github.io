@@ -78,11 +78,15 @@
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    margin-top: 15px;
     color: $grey-color;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin-top: 10px;
+    }
 }
 
 .foot-column-left {
@@ -137,6 +141,7 @@
  .super-intro {
     height: 100vh;
     position: relative;
+    overflow: hidden;
  }
 
  .super-container {
@@ -158,8 +163,12 @@
         line-height: 1;
         text-shadow: 0 0 10px $grey-color-dark;
 
-        @include media-query($on-mobile) {
+        @include media-query($on-tablet) {
             font-size: 50px;
+        }
+
+        @media screen and (orientation: landscape) and (max-width: $on-palm) {
+            font-size: 30px;
         }
     }
 
@@ -175,6 +184,10 @@
         @include media-query($on-mobile) {
             margin-top: 0px;
         }
+
+        @media screen and (orientation: landscape) and (max-width: $on-palm) {
+            font-size: 12px;
+        }
     }
 
     .mobile-subtitle {
@@ -182,6 +195,14 @@
 
         p {
             margin-top: 0px;
+            
+            @include media-query($on-mobile) {
+                font-size: 18px !important;
+            }
+
+            @media screen and (orientation: landscape) and (max-width: $on-palm) {
+                font-size: 12px;
+            }
         }
     }
 
@@ -201,6 +222,14 @@
             &:hover, &:active, &:focus {
                 text-shadow: 0 0 20px $grey-super-light;
             }
+        }
+
+        @media screen and (orientation: landscape) and (max-width: $on-palm) {
+            margin-top: 50px
+        }
+
+        p:not(:first-child) {
+            margin-top: 20px;
         }
     }
 }
@@ -328,10 +357,7 @@
 
 .coverup {
     background: $grey-super-light;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+    position: static;
 }
 
 .index-intro {
@@ -351,6 +377,7 @@
 
     .intro-highlight {
         font-size: 40px;
+        line-height: 1.2em;
     }
 
     p {
@@ -860,7 +887,7 @@
         min-height: 350px !important;
     }
 
-    @media screen and (max-width: $on-tablet) and (orientation: portrait) {
+    @media screen and (max-width: $on-palm) and (orientation: portrait) {
         min-height: 350px !important;
     }
 }

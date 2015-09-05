@@ -8,16 +8,16 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <div class="curtain-header curtain-header-page" {% if page.header %}data-parallax="scroll" data-image-src="{{ page.header }}"{% elsif page.color %}style="background-color: {{ page.color }};"{% else %}data-parallax="scroll" data-image-src="/images/headers/projects-header.png"{% endif %}>
-            {% if page.picoverlay %}
-            <div class="curtain-overlay">
-                <div class="curtain-overlay-container">
-                    <img src="{{ page.picoverlay }}" />
+        <div class="curtain-header curtain-header-page" style="{% if page.header %}background-image: url('{{ page.header }}'){% elsif page.color %}background-color: {{ page.color }}{% else %}background-image: url('/images/headers/projects-header.png'){% endif %};">
+            <div class="container col-md-offset-2 col-md-8">
+                {% if page.picoverlay %}
+                <div class="curtain-overlay">
+                    <div class="curtain-overlay-container">
+                        <img src="{{ page.picoverlay }}" />
+                    </div>
                 </div>
-            </div>
-            {% else %}
-            <div class="curtain-overlay-expanded">
-                <div class="container col-md-offset-2 col-md-8">
+                {% else %}
+                <div class="curtain-overlay-expanded">
                     <div class="expanded-overlay-content">
                         <h3><a href="/projects/">Projects</a></h3>
                         <h1>{{ page.title }}</h1>
@@ -25,13 +25,10 @@
                         {% for tags in page.tags %}<span>{{ tags }}</span>{% endfor %}
                         </p>
                     </div>
-                </div><!-- /container -->
-            </div>
-            {% endif %}
+                </div>
+                {% endif %}
 
-            <div class="container pushdown page-content col-md-offset-2 col-md-8">
-
-                <div class="post">
+                <div class="post pushdown page-content">
 
                     <article class="post-content">
                         {{ content }}
@@ -108,10 +105,9 @@
                 </div>
 
             </div><!-- /container -->
+
+            {% include footer.html %}
         </div>
-
-        {% include footer.html %}
-
   </body>
 
 </html>
