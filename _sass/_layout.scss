@@ -1385,6 +1385,12 @@
     user-drag: none;
 }
 
+.makoto-load-container {
+    background-color: $grey-super-light;
+    z-index: 500;
+    position: fixed;
+}
+
 .makoto-load {
     position: fixed;
     top: 50%;
