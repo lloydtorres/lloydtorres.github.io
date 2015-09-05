@@ -92,7 +92,7 @@
 .foot-column-left {
     float: left;
     width: 35%;
-    @include media-query($on-mobile) {
+    @include media-query($on-palm) {
         width: 20%;
     }
 }
@@ -100,7 +100,7 @@
 .foot-column-right {
     float: right;
     width: 35%;
-    @include media-query($on-mobile) {
+    @include media-query($on-palm) {
         width: 20%;
     }
 }
@@ -108,7 +108,7 @@
 .foot-column-center {
     display: inline-block;
     width: 25%;
-    @include media-query($on-mobile) {
+    @include media-query($on-palm) {
         width: 50%;
     }
 }
@@ -133,7 +133,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-    @media (max-width: $on-tablet) {
+    @media screen and (max-width: $on-tablet) {
         background-attachment: scroll;
     }
  }
@@ -1004,6 +1004,10 @@
     background: white;
 }
 
+.post-wrapper {
+    margin-top: -100vh;
+}
+
 .toc-action {
     cursor: pointer;
     border-radius: 50%;
@@ -1156,6 +1160,10 @@
 }
 
 .external-link-cell {
+    height: 40px;
+    display: table-cell;
+    position: relative;
+
     -webkit-transition: background-color 300ms;
     -moz-transition:    background-color 300ms;
     -o-transition:      background-color 300ms;
@@ -1164,16 +1172,24 @@
     p {
         color: white;
         margin: 0 auto !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
     }
 
-    display: table-cell;
     &:hover {
         text-decoration: none !important;
         background-color: $grey-color-dark;
     }
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
+
+    @media screen and (max-width: 990px) {
+        display: block;
+        width: 100% !important;
+    }
 }
 
 .post-comments {
@@ -1260,6 +1276,10 @@
         padding: 5px;
         margin-bottom: -1px;
     }
+
+    @include media-query($on-mobile) {
+        font-size: 15px;
+    }
 }
 
 .social-icons-very-large {
@@ -1312,7 +1332,7 @@
     -o-background-size: cover;
     background-size: cover;
 
-    @media (max-width: $on-tablet) {
+    @media screen and (max-width: $on-tablet) {
         background-attachment: scroll;
     }
 

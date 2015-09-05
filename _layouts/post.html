@@ -56,6 +56,8 @@
         {% endif %}
 
         <div class="curtain-header curtain-header-page" style="{% if page.header %}background-image: url('{{ page.header }}'){% elsif page.color %}background-color: {{ page.color }}{% else %}background-image: url('/images/headers/log-header.png'){% endif %};">
+        </div>
+        <div class="post-wrapper">
             <div class="container col-md-offset-2 col-md-8">
                 <div class="curtain-overlay-expanded">
                     <div class="expanded-overlay-content">
@@ -99,17 +101,16 @@
                             <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}&description={{ page.excerpt | strip_html }}" target="_blank" title="Tumblr"/><span class="fa fa-tumblr-square fa-2x"></span></a>
                         </div>
                     </div>
-                </div>
 
-                <div class="post superpusharound">
+                    <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
+
                     <div class="post-comments">
                         {% if page.noComments %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
                     </div>
                 </div>
             </div><!-- /container -->
-
-            {% include footer.html %}
         </div>
+        {% include footer.html %}
   </body>
 
 </html>
