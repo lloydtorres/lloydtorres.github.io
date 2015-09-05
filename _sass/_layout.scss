@@ -9,6 +9,7 @@
     left: 0;
     width: 100%;
     border-radius: 0px !important;
+    border: 0px !important;
     @include media-query($on-palm) {
         margin-top: 0px;
     }
@@ -118,8 +119,7 @@
  * Jumbotron
  */
  .curtain-header {
-    overflow: hidden;
-    position: relative;
+    position: static;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -209,10 +209,10 @@
 
  .curtain-overlay {
     position: relative;
-    height: 300px;
+    min-height: 300px;
 
     @include media-query($on-mobile) {
-        height: 200px;
+        min-height: 200px;
     }
  }
 
@@ -251,18 +251,13 @@
     }
  }
 
+ .curtain-header-page {
+    height: 100vh;
+ }
+
 .curtain-overlay-expanded {
     position: relative;
     height: auto;
-}
-
-.curtain-spacer {
-    height: 350px;
-    content: '';
-}
-
-.content-lifter {
-    margin-top: -380px;
 }
 
 .expanded-overlay-content {
@@ -613,40 +608,15 @@
     padding-top: 2px;
 }
 
-.intro {
-    margin-top: 20px;
-    margin-bottom: 25px;
-
-    p {
-        font-size: 15px;
-
-        @include media-query($on-tablet) {
-            font-size: 18px;
-        }
-
-    }
-
-    .emphasis {
-        font-size: 17px;
-
-        @include media-query($on-tablet) {
-            font-size: 20px;
-        }
-    }
-}
-
 .page-content {
-    padding: $spacing-unit 0;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 15px;
-    line-height: auto !important;
+    line-height: 1.7em !important;
 
     img {
         display: block;
         max-width: 100%;
-        margin: 0 0 1rem;
-        border-radius: 5px;
         margin-left:  auto;
         margin-right: auto;
     }
@@ -658,6 +628,10 @@
     @include media-query($on-tablet) {
         font-size: 17px;
     }
+}
+
+.generic-container {
+    overflow: hidden;
 }
 
 .resume-space {
@@ -991,13 +965,17 @@
         }
     }
 
+    .desc {
+        line-height: 1.7em;
+    }
+
     .post-meta {
         margin-top: -7px;
     }
 }
 
 .post {
-    margin-top: 10px;
+    margin-top: -5px;
     -moz-box-shadow: 0px 3px 5px #333;
     -webkit-box-shadow: 0px 3px 5px #333;
     -o-box-shadow:  0px 3px 5px #333;
@@ -1106,15 +1084,18 @@
 }
 
 .post-content {
-    padding: 20px;
+    padding: 25px;
     margin-bottom: $spacing-unit;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    min-height: 350px;
 
     p {
-        margin-bottom: 15px;
-        margin-top: 15px;
+        margin-bottom: 1em;
+        line-height: 1.7em;
+
+        &:not(:first-child) {
+            margin-top: 1em;
+        }
     }
 
     h2 {

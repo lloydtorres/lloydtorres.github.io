@@ -19,7 +19,7 @@ permalink: /projects/
                         </div>
                         <div class="log-desc">
                             <h2><a href="{{ file.url }}">{{ file.title }}</a></h2>
-                            <p>{{ file.description }}</p>
+                            <p class="desc">{{ file.description }}</p>
                         </div>
                         <div class="lefticons">
                             {% if file.google_play %}
@@ -28,14 +28,14 @@ permalink: /projects/
                             {% if file.link %}
                                 <a href="{{ file.link }}" title="{{ file.title }} on the Web"><span class="fa fa-external-link"></span></a>
                             {% endif %}
-                            {% if file.github %}
-                                <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-github"></span></a>
-                            {% endif %}
                             {% if file.youtube %}
                                 <a href="{{ file.youtube }}" title="{{ file.title }} on YouTube"><span class="fa fa-youtube-play"></span></a>
                             {% endif %}
                             {% if file.download %}
                                 <a href="{{ file.download }}" title="Download {{ file.title }}"><span class="fa fa-download"></span></a>
+                            {% endif %}
+                            {% if file.github %}
+                                <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-github"></span></a>
                             {% endif %}
                         </div>
                         

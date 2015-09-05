@@ -55,7 +55,7 @@
         <span id="uniquetop"></span>
         {% endif %}
 
-        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/log-header.png');{% endif %}">
+        <div class="curtain-header curtain-header-page" {% if page.header %}data-parallax="scroll" data-image-src="{{ page.header }}"{% elsif page.color %}style="background-color: {{ page.color }};"{% else %}data-parallax="scroll" data-image-src="/images/headers/log-header.png"{% endif %}>
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
                     <div class="expanded-overlay-content">
@@ -65,13 +65,10 @@
                         {% for tags in page.tags %}<span><a href="/log/tag/{{ tags }}/">{{ tags }}</a></span>{% endfor %}
                         </p>
                     </div>
-                    <div class="curtain-spacer"></div>
                 </div><!-- /container -->
             </div>
-        </div>
 
-        <div class="content-lifter">
-            <div class="container pushdown page-content col-md-offset-2 col-md-8">
+            <div class="container page-content col-md-offset-2 col-md-8">
 
                 <div class="post">
 
@@ -110,7 +107,7 @@
 
                 <div class="post superpusharound">
                     <div class="post-comments">
-                        {% if page.noComments == true %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
+                        {% if page.noComments %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
                     </div>
                 </div>
 

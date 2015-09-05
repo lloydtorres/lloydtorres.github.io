@@ -8,14 +8,13 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% elsif page.color %}background-color: {{ page.color }};{% else %}background-image: url('/images/headers/projects-header.png');{% endif %}">
+        <div class="curtain-header curtain-header-page" {% if page.header %}data-parallax="scroll" data-image-src="{{ page.header }}"{% elsif page.color %}style="background-color: {{ page.color }};"{% else %}data-parallax="scroll" data-image-src="/images/headers/projects-header.png"{% endif %}>
             {% if page.picoverlay %}
             <div class="curtain-overlay">
                 <div class="curtain-overlay-container">
                     <img src="{{ page.picoverlay }}" />
                 </div>
             </div>
-            <div class="curtain-spacer"></div>
             {% else %}
             <div class="curtain-overlay-expanded">
                 <div class="container col-md-offset-2 col-md-8">
@@ -26,13 +25,9 @@
                         {% for tags in page.tags %}<span>{{ tags }}</span>{% endfor %}
                         </p>
                     </div>
-                    <div class="curtain-spacer"></div>
                 </div><!-- /container -->
             </div>
             {% endif %}
-        </div>
-
-        <div class="content-lifter">
 
             <div class="container pushdown page-content col-md-offset-2 col-md-8">
 
@@ -68,11 +63,6 @@
                     {% if page.github or page.link or page.download %}
                     <div class="hidden-xs">
                         <div class="external-link-box">
-                            {% if page.github %}
-                            <a href="{{ page.github }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Code">
-                                <p><span class="fa fa-github"></span>Open Code</p>
-                            </a>
-                            {% endif %}
                             {% if page.link %}
                             <a href="{{ page.link }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Website">
                                 <p><span class="fa fa-external-link"></span>Open Website</p>
@@ -81,6 +71,11 @@
                             {% if page.download %}
                             <a href="{{ page.download }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Download">
                                 <p><span class="fa fa-download"></span>Download</p>
+                            </a>
+                            {% endif %}
+                            {% if page.github %}
+                            <a href="{{ page.github }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Code">
+                                <p><span class="fa fa-github"></span>Open Code</p>
                             </a>
                             {% endif %}
                         </div>

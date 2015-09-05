@@ -2,7 +2,7 @@
 layout: project
 title: Myo Dialer
 picoverlay: "/images/projects/myodialer/myodialer-logo.png"
-color: "#3bbeb4"
+color: "#019186"
 google_play: https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer
 myo_market: https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer
 permalink: /projects/myodialer/

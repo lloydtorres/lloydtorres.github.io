@@ -8,7 +8,7 @@
         {% include header.html %}
         {% include google_analytics.html %}
 
-        <div class="curtain-header" style="{% if page.header %}background-image: url({{ page.header }});{% else %}background-color: #1e3b6c;{% endif %}">  
+        <div class="curtain-header" {% if page.header %}data-parallax="scroll" data-image-src="{{ page.header }}"{% else %}style ="background-color: #1e3b6c;"{% endif %}>  
             <div class="curtain-overlay">
                 <div class="curtain-overlay-container">
                     {% if page.picoverlay %}
