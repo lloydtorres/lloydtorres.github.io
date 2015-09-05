@@ -880,14 +880,10 @@
     margin-bottom: 20px !important;
 
     @include media-query($on-tablet) {
-        min-height: 450px !important;
+        min-height: 500px !important;
     }
 
-    @include media-query($on-mobile) {
-        min-height: 350px !important;
-    }
-
-    @media screen and (max-width: $on-palm) and (orientation: portrait) {
+    @include media-query($on-palm) {
         min-height: 350px !important;
     }
 }
