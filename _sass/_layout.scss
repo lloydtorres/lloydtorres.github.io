@@ -149,10 +149,10 @@
     top: 50%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 
     h1 {
         display: inline-block;
@@ -247,10 +247,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 
     img {
         width: 200px;
@@ -479,10 +479,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     z-index: 8;
 }
 
@@ -1038,10 +1038,10 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
         -webkit-transform: translate(-50%,-50%);
         -moz-transform: translate(-50%,-50%);
         -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
     }
 }
 
@@ -1163,7 +1163,8 @@
 .external-link-cell {
     height: 40px;
     display: table-cell;
-    position: relative;
+    text-align: center;
+    vertical-align: middle;
 
     -webkit-transition: background-color 300ms;
     -moz-transition:    background-color 300ms;
@@ -1173,23 +1174,11 @@
     p {
         color: white;
         margin: 0 auto !important;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        -webkit-transform: translate(-50%,-50%);
-        -moz-transform: translate(-50%,-50%);
-        -o-transform: translate(-50%,-50%);
     }
 
     &:hover {
         text-decoration: none !important;
         background-color: $grey-color-dark;
-    }
-
-    @media screen and (max-width: 990px) {
-        display: block;
-        width: 100% !important;
     }
 }
 
@@ -1342,10 +1331,10 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
         -webkit-transform: translate(-50%,-50%);
         -moz-transform: translate(-50%,-50%);
         -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
         color: #fff;
         font-family: 'Roboto', sans-serif;
         font-weight: lighter;
@@ -1439,10 +1428,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     z-index: 300;
     font-size: 100px;
     color: $grey-darker;

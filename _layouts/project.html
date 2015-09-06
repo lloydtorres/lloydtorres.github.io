@@ -60,27 +60,50 @@
                     {% endif %}
                     -->
                     {% if page.github or page.link or page.download %}
-                    <div class="external-link-box">
+                    <div class="hidden-xs">
+                        <div class="external-link-box">
+                            {% if page.link %}
+                            <a href="{{ page.link }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Website">
+                                <p><span class="fa fa-external-link-square"></span>Open Website</p>
+                            </a>
+                            {% endif %}
+                            {% if page.download %}
+                            <a href="{{ page.download }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Download">
+                                <p><span class="fa fa-cloud-download"></span>Download</p>
+                            </a>
+                            {% endif %}
+                            {% if page.github %}
+                            <a href="{{ page.github }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Code">
+                                <p><span class="fa fa-code"></span>Open Code</p>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="visible-xs">
                         {% if page.link %}
-                        <a href="{{ page.link }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Website">
-                            <p><span class="fa fa-external-link"></span>Open Website</p>
-                        </a>
+                        <div class="external-link-box">
+                            <a href="{{ page.link }}" class="external-link-cell" style="width: 100%;" title="Open Website">
+                                <p><span class="fa fa-external-link-square"></span>Open Website</p>
+                            </a>
+                        </div>
                         {% endif %}
                         {% if page.download %}
-                        <a href="{{ page.download }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Download">
-                            <p><span class="fa fa-download"></span>Download</p>
-                        </a>
+                        <div class="external-link-box">
+                            <a href="{{ page.download }}" class="external-link-cell" style="width: 100%;" title="Download">
+                                <p><span class="fa fa-cloud-download"></span>Download</p>
+                            </a>
+                        </div>
                         {% endif %}
                         {% if page.github %}
-                        <a href="{{ page.github }}" class="external-link-cell" style="width: {{ 100 | divided_by: count}}%;" title="Open Code">
-                            <p><span class="fa fa-github"></span>Open Code</p>
-                        </a>
+                        <div class="external-link-box">
+                            <a href="{{ page.github }}" class="external-link-cell" style="width: 100%;" title="Open Code">
+                                <p><span class="fa fa-code"></span>Open Code</p>
+                            </a>
+                        </div>
                         {% endif %}
                     </div>
                     {% endif %}
-                    
                 </div>
-
             </div><!-- /container -->
         </div>
         {% include footer.html %}
