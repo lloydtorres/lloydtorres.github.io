@@ -40,7 +40,7 @@ You're presented with the following screen after logging into the bank terminal 
     <figcaption>The bank terminal.</figcaption>
 </figure>
 
-There are five commands available: `ACCOUNT`, `DEPOSIT`, `HELP`, `TRANSFER` and `WITHDRAW`. You are able to see how these commands are coded by viewing the page's source. Through the source, we are able to see that we are only concerned about `ACCOUNT`, `TRANSFER` and `WITHDRAW` since they're the only ones that actually get and post requests from the backend.
+There are five commands available: `ACCOUNT`, `DEPOSIT`, `HELP`, `TRANSFER` and `WITHDRAW`. You can see how these commands internally work by viewing the page's source. Through the source, we are able to see that we are only concerned about `ACCOUNT`, `TRANSFER` and `WITHDRAW` since they're the only ones that actually get and post requests from the backend.
 
 The problem is as follows: `ACCOUNT` indicates that you only have $50 in total between your two accounts (chequing and savings), but to use the `WITHDRAW` command you need at least $200. Seems like a dead end, right?
 
@@ -50,7 +50,7 @@ Once you collect $200, you can go ahead and `WITHDRAW`. Doing this returns a lis
 
 <figure>
     <img src="/images/blog/20150909/bank-terminal-end.png" width="500px" />
-    <figcaption>TRANSFER is actually a commentary on 21st century socioeconomics.</figcaption>
+    <figcaption><code>TRANSFER</code> is actually a commentary on 21st century socioeconomics.</figcaption>
 </figure>
 
 ## Employee Portal
@@ -68,7 +68,7 @@ His site contained a link to his poetry, stored as a text file in his site's pri
 
 <figure>
     <img src="/images/blog/20150909/filesystem.png" width="300px" />
-    <figcaption>/~dglenn/private/ isn't very private.</figcaption>
+    <figcaption><code>/~dglenn/private</code> isn't very private.</figcaption>
 </figure>
 
 We immediately see an interesting file called `key.txt`. By opening this, we get the first key needed to access the CEO's account. Yay for security through obscurity!
@@ -134,6 +134,8 @@ Once we SSH into the server using the username and password we found, we can muc
 </figure>
 
 It's a list of more servers we can potentially access! It seems like there's ten servers on this list, but I later found out from a CTF admin that the only ones that matter were the ones on the right (the ones on the left are more internal IPs added to make the CTF more realistic).
+
+<div class="alert alert-info" role="alert"><strong>Update:</strong> The internal IPs are actually accessible if you <code>ssh</code> into them through the servers on the right. A CTF admin explained that the internal IPs were supposed to be used for an additional CTF stage that was dropped.</div>
 
 We still need to somehow access these servers, and we can't really use the previous Shellshock exploit to do this. Fortunately, we do have a list of usernames and passwords given to us from the bank terminal challenge before, so we can easily write a script to brute-force each server to see which username/password combos work.
 
@@ -217,9 +219,9 @@ In order to analyze it more properly, I extracted the `securehash` program out o
 
 Fortunately, we do have some hints from the admins to help us out: the first character of the password is a lowercase y, and there are 18 characters in total. Sweet.
 
-When playing around with `securehash`, we find out that it hashes the original string into a string of length 30. This string is composed of 15 two-digit hex numbers ("hex pair"), each one apparently representing a character in the original string. If the original string has a length greater than 15, `securehash` starts overwriting the hash in some fashion, beginning with the first hex pair for every character above position 15. Finally, it appends the length of the original string as a two-digit hex number at the very end.
+When playing around with `securehash`, we find out that it hashes the original string into a string of length 30. This string is composed of 15 two-digit hex numbers ("hex pair"), each one mapped to a character in the original string. The order of the chars from the original string are maintained once they are hashed. If the original string has a length greater than 15, `securehash` starts overwriting the previous hex pairs in some fashion, beginning with the first hex pair for every character above position 15. Finally, it appends the length of the original string as a two-digit hex number at the very end.
 
-Fortunately, the hash isn't like the [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine), where the next character's "hash" depends on what the previous character was. As an example, imagine that we have a string of length 15 with the char `a` in position 0. Even if we change the other chars, the char `a` in position 0 will always have the same hash. However, the char `a` will have a different hash depending on its position from 0 to 14. Furthermore, hashes for chars beyond position 14 appear to have some destructive effect on the hashes it overwrites. As an example, if we have a string of length 16 and there is a char `a` on position 0, the hash that we see for it changes depending on the value of the char in position 15. We therefore cannot rely on knowing the mapping for these hashes.
+Fortunately, the hash isn't like the [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine), where the next character's "hash" depends on what the previous character was. Instead, it works like this: imagine that we have a string of length 15 with the char `a` in position 0. Even if we change the other chars, the char `a` in position 0 will always have the same hash. However, the char `a` will have a different hash depending on its position from 0 to 14. Furthermore, hashes for chars beyond position 14 appear to have some destructive effect on the hashes it overwrites. As an example, if we have a string of length 16 and there is a char `a` on position 0, the hash that we see for it changes depending on the value of the char in position 15. We therefore cannot rely on knowing the mapping for these hashes.
 
 In this case, we can therefore only know the mapping for the chars from position 3 to 14. I created a script called `denigma` to determine these mappings ([source available on GitHub](https://github.com/lloydtorres/hackthenorth-ctf/blob/master/python-scripts/denigma.py)). What `denigma` does is that, for each ASCII char, it generates a string of size 18 with that char repeating. It then produces a map of what that character's hash is for positions 3 to 14. Finally, it returns the mappings it generated for each position, and a guess for what part of the password could be. `denigma` revealed that hashes were not unique, meaning that two different chars in the same position could have the same hash. This reduces the confidence for `denigma`'s guess a bit.
 
@@ -233,7 +235,7 @@ We then write a script called `brutehash` ([source available on GitHub](https://
 
 <figure>
     <img src="/images/blog/20150909/key-3.png" width="400px" />
-    <figcaption>Wow.</figcaption>
+    <figcaption>Enigma has been broken.</figcaption>
 </figure>
 
 I honestly felt like Alan Turing the moment Enigma was broken, as shown in the movie [*The Imitation Game*](https://en.wikipedia.org/wiki/The_Imitation_Game).
@@ -248,7 +250,9 @@ I honestly felt like Alan Turing the moment Enigma was broken, as shown in the m
 
 With the password at hand, I was able to extract the third key from the site. Victory!
 
-Remember, kids: don't make your own hash.
+Remember kids: don't make your own hash.
+
+<div class="alert alert-info" role="alert"><strong>Update:</strong> As previously explained, <code>securehash</code> has an issue where it can map multiple chars in one position onto the same hash. As a result, there can be multiple strings that produce the same hash as the password. I was informed by <a href="https://twitter.com/coruon">@coruon</a> and <a href="https://twitter.com/samczsun">@samczsun</a> that the original password is in fact different.</div>
 
 ## Puzzle 3: This Server Smells Funny
 
@@ -321,7 +325,7 @@ The MIDIs consisted of a bunch of different music, including one with the first 
 
 When we open this MIDI into a music editor, we find that its title is an incomplete key (with huge sections censored out by X's), and that the MIDI itself is made up of random notes scattered all over the place. We theorized that these notes would need to be converted to their hex equivalents, and that we could put in the hex values into the X's in the order they appear in the music.
 
-Finding the notes' hex values turned out to be a challenge, since we couldn't phrase our Google search properly to give us the right results. Eventually, we found [this site](http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm), which gives out the mapping for notes on the scale in decimal. The values start at C on octave 0, and increases by one every time you go up a step (so C#0 is 1, D0 is 2, etc.). Every time you go up an octave, the note's value increases by 12. We can therefore write a simple script that maps out each note to its hex value through a simple mathematical formula, and then substitute the values into the incomplete hash. You can see the [source on GitHub](https://github.com/lloydtorres/hackthenorth-ctf/blob/master/python-scripts/notecalc.py).
+Finding the notes' hex values turned out to be a challenge, since we couldn't phrase our Google search properly to give us the right results. Eventually, we found [this site](http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm), which gives out the mapping for notes on the scale in decimal. The values start at 0 for note C on octave 0, and increases by one every time you go up a step (so C#0 is 1, D0 is 2, etc.). Every time you go up an octave, the note's value increases by 12. We can therefore write a simple script that maps out each note to its hex value through a simple mathematical formula, and then substitute the values into the incomplete hash. You can see the [source on GitHub](https://github.com/lloydtorres/hackthenorth-ctf/blob/master/python-scripts/notecalc.py).
 
 Unfortunately, it turns out that there can be different mappings used to map MIDI notes to hex, and we ended up using the incorrect one. We found out about this since we weren't getting the correct value when combining the keys together. Since this was the only key that wasn't given to us directly, it was clear that this was the one causing issues. We later found out that there is, in fact, a program available that automatically converts these notes into the proper hex values. Oh well.
 
