@@ -13,7 +13,7 @@ tags:
 description: In which we learn how to break into a fake network and find secret keys, with a lot of help from the CTF organizers.
 ---
 
-Hack the North started a Capture the Flag (CTF) game for its participants on September 6th at 6 PM. At that point, I only had a vague of what a CTF was and the concepts it went over. Nearly two sleepless days later, my team finally completed the last obstacle of the game, and we learned a LOT of things about computer security.
+Hack the North started a Capture the Flag (CTF) game for its participants on September 6th at 6 PM. At that point, I only had a vague idea of what a CTF was and the concepts it went over. Nearly two sleepless days later, my team finally completed the last obstacle of the game, and we learned a LOT of things about computer security.
 
 <div class="padaround">
     <blockquote class="twitter-tweet" lang="en" align="center"><p lang="en" dir="ltr">Hackers, we&#39;re hosting a CTF Challenge on Slack at 6 PM EST (in <a href="https://twitter.com/hashtag/random?src=hash">#random</a>). The winner (first to finish) will receive a $50 gift card!</p>&mdash; Hack the North (@HackTheNorth) <a href="https://twitter.com/HackTheNorth/status/640570177524994048">September 6, 2015</a></blockquote>
