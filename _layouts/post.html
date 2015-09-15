@@ -63,14 +63,17 @@
                     <div class="expanded-overlay-content">
                         <h3><a href="/log/">Adventure Log</a></h3>
                         <h1>{{ page.title }}</h1>
+                        <!--googleoff: snippet-->
                         <p class="tags">
                         {% for tags in page.tags %}<span><a href="/log/tag/{{ tags }}/">{{ tags }}</a></span>{% endfor %}
                         </p>
+                        <!--googleon: snippet-->
                     </div>
                 </div>
 
                 <div class="post pushdown page-content">
                     {% if page.show_toc %}
+                    <!--googleoff: snippet-->
                     <div class="toc-action" id="toc-action"><span class="fa fa-list-ul fa-lg"></span></div>
                     <div class="dialog-tint" id="toc">
                         <div class="dialog-container col-xs-12 col-sm-7 col-md-offset-3 col-md-4">
@@ -83,10 +86,13 @@
                             </div>
                         </div>
                     </div>
+                    <!--googleon: snippet-->
                     {% endif %}
 
                     <article class="post-content">
+                        <!--googleoff: snippet-->
                         <p class="post-meta">{{ page.date | date_to_string }}</p>
+                        <!--googleon: snippet-->
                         {{ content }}
                     </article>
 
@@ -105,7 +111,11 @@
                     <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
                     <div class="post-comments">
-                        {% if page.noComments %}<p><i>Comments have been disabled for this post.</i></p>{% else %}{% include comments.html %}{% endif %}
+                        {% if page.noComments %}
+                            <p class="no-comment"><span class="fa fa-lock fa-fw navicons"></span> Comments have been locked for this post.</p>
+                        {% else %}
+                            {% include comments.html %}
+                        {% endif %}
                     </div>
                 </div>
             </div><!-- /container -->
