@@ -28,7 +28,7 @@
                 });
 
                 // build table of contents
-                var h2InPage = $(this).find('h2');
+                var h2InPage = $(this).find('h2').not('.h2-noinclude');
                 for (i=1; i < h2InPage.length; i++) {
                     var id = h2InPage[i].id;
                     var txt = h2InPage[i].innerHTML;
@@ -110,9 +110,34 @@
 
                     <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
-                    <div class="post-comments">
+                    <div class="post-after">
+                        <h2 class="h2-noinclude">Suggested</h2>
+                        {% if site.related_posts.size <= 0 %}
+                            <p class="post-after-comment"><span class="fa fa-search"></span> We didn't find anything, sorry!</p>
+                        {% else %}
+                        <div class="row">
+                            {% for post in site.related_posts %}
+                            {% if post.title != page.title && post.preview %}
+                            <!--{% increment count %} -->
+                            {% if count >= 3 %}
+                            {% break %}
+                            {% endif %}
+                            <div class="col-sm-6">
+                                <div class="log-img">
+                                    <a href="{{ post.url }}"><img class="log-suggest-img" src="{{ post.preview }}" title="{{ post.title }}" alt="{{ post.title }}"/></a>
+                                    <a href="{{ post.url }}"><h2 class="h2-noinclude log-suggest-title">{{ post.title }}</h2></a>
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="post-after">
+                        <h2 class="h2-noinclude">Comments</h2>
                         {% if page.noComments %}
-                            <p class="no-comment"><span class="fa fa-lock fa-fw navicons"></span> Comments have been locked for this post.</p>
+                            <p class="post-after-comment"><span class="fa fa-lock"></span> Comments have been locked for this post.</p>
                         {% else %}
                             {% include comments.html %}
                         {% endif %}

@@ -834,13 +834,6 @@
     float: right;
 }
 
-.no-comment {
-    text-align: center;
-    font-style: italic;
-    font-size: 14px;
-    color: $grey-color;
-}
-
 /**
  * Projects
  */
@@ -1189,8 +1182,50 @@
     }
 }
 
-.post-comments {
+.post-after {
     padding: 20px;
+
+    h2 {
+        margin-top: -3px;
+        margin-bottom: 5px;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        color: $mignonic-blue;
+    }
+
+    .post-after-comment {
+        text-align: center;
+        font-style: italic;
+        font-size: 14px;
+        color: $grey-color;
+
+        span {
+            margin-right: 3px;
+        }
+    }
+}
+
+.log-suggest-nopic {
+    background-color: $mignonic-blue;
+}
+
+.log-suggest-title {
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 12px !important;
+    margin-left: 12px !important;
+    text-shadow: 0 0 20px $grey-darker;
+    color: white !important;
+}
+
+.log-suggest-img {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%)
 }
 
 .caption {
