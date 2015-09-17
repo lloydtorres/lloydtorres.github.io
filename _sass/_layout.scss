@@ -488,10 +488,10 @@
 
 .tavi {
     width: 250px;
-    animation: tavi 4s linear infinite alternate;
     -webkit-animation: tavi 4s linear infinite alternate;
     -moz-animation: tavi 4s linear infinite alternate;
     -o-animation: tavi 4s linear infinite alternate;
+    animation: tavi 4s linear infinite alternate;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -530,17 +530,17 @@
 }
 
 .err-cloud-dawndusk {
-    filter: hue-rotate(150deg);
     -webkit-filter: hue-rotate(150deg);
     -moz-filter: hue-rotate(150deg);
     -o-filter: hue-rotate(150deg);
+    filter: hue-rotate(150deg);
 }
 
 .err-cloud-night {
-    filter: hue-rotate(60deg) brightness(30%);
     -webkit-filter: hue-rotate(60deg) brightness(30%);
     -moz-filter: hue-rotate(60deg) brightness(30%);
     -o-filter: hue-rotate(60deg) brightness(30%);
+    filter: hue-rotate(60deg) brightness(30%);
 }
 
 .err-cloud1 {
@@ -561,10 +561,10 @@
     top: 45%;
     right: -1000px;
     z-index: 7;
-    animation: cloud 37s linear 2s infinite;
     -webkit-animation: cloud 37s linear 2s infinite;
     -moz-animation: cloud 37s linear 2s infinite;
     -o-animation: cloud 37s linear 2s infinite;
+    animation: cloud 37s linear 2s infinite;
 }
 
 .err-cloud3 {
@@ -573,10 +573,10 @@
     top: 65%;
     right: -1000px;
     z-index: 9;
-    animation: cloud 17s linear infinite;
     -webkit-animation: cloud 17s linear infinite;
     -moz-animation: cloud 17s linear infinite;
     -o-animation: cloud 17s linear infinite;
+    animation: cloud 17s linear infinite;
 }
 
 @-webkit-keyframes cloud {
@@ -730,7 +730,6 @@
 }
 
 .resume-divider {
-    
     height: 15px;
 
     .inner {
@@ -1206,8 +1205,33 @@
     }
 }
 
+.log-suggest {
+    &:hover .log-suggest-img, &:active .log-suggest-img, &:focus .log-suggest-img {
+        -webkit-filter: brightness(40%);
+        -moz-filter: brightness(40%);
+        -o-filter: brightness(40%);
+        filter: brightness(40%);
+    }
+
+    
+}
+
 .log-suggest-nopic {
+    transition: background-color 300ms;
     background-color: $mignonic-blue;
+    position: relative;
+
+    span {
+        position: absolute; 
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    &:hover, &:active, &:focus {
+        background-color: darken($mignonic-blue, 10%);
+    }
 }
 
 .log-suggest-title {
@@ -1222,10 +1246,15 @@
 }
 
 .log-suggest-img {
-    filter: brightness(50%);
     -webkit-filter: brightness(50%);
     -moz-filter: brightness(50%);
-    -o-filter: brightness(50%)
+    -o-filter: brightness(50%);
+    filter: brightness(50%);
+
+    transition:         filter 300ms;
+    -webkit-transition: -webkit-filter 300ms;
+    -moz-transition:    -moz-filter 300ms;
+    -o-transition:      -o-filter 300ms;
 }
 
 .caption {
@@ -1443,10 +1472,10 @@
     position: fixed;
     top: 20%;
     left: 50%;
-    transform: translate(-50%,-20%);
     -webkit-transform: translate(-50%,-20%);
     -moz-transform: translate(-50%,-20%);
     -o-transform: translate(-50%,-20%);
+    transform: translate(-50%,-20%);
     z-index: 50;
 }
 
