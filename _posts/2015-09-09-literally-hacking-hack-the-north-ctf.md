@@ -352,4 +352,6 @@ I'd like to thank all of the CTF admins for building a really fun and educationa
 
 And finally, I'd like to thank my teammate Spurrya for staying up late with me to figure out each part of the CTF. We were a great team!
 
+<em>Remember to check out my <a href="/log/more-hacks-hack-the-north-ctf-two/">log post on the second Hack the North CTF</a>, where we deal with the aftermath of hacking the North Bank.</em>
+
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

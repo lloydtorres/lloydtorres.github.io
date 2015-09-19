@@ -1212,8 +1212,6 @@
         -o-filter: brightness(40%);
         filter: brightness(40%);
     }
-
-    
 }
 
 .log-suggest-nopic {
@@ -1255,6 +1253,16 @@
     -webkit-transition: -webkit-filter 300ms;
     -moz-transition:    -moz-filter 300ms;
     -o-transition:      -o-filter 300ms;
+}
+
+.equation {
+    font-family: serif;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    p {
+        margin: 0 !important;
+    }
 }
 
 .caption {
