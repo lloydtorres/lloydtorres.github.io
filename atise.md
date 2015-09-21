@@ -38,11 +38,11 @@ sequence: -12
             </li>
             <li>
                 <img src="/images/projects/atise/atise-cart.png" alt=""/>
-                <p class="caption">Add items to your cart by tapping with NFC or by scanning the barcode.</p>
+                <p class="caption">See what's in your cart anytime.</p>
             </li>
             <li>
                 <img src="/images/projects/atise/atise-total.png" alt=""/>
-                <p class="caption">Information about your spending is just a swipe away.</p>
+                <p class="caption">Spending info keeps you within budget.</p>
             </li>
             <li>
                 <img src="/images/projects/atise/atise-success.png" alt=""/>
