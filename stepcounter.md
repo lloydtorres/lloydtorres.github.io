@@ -11,7 +11,7 @@ tags:
 description: An Android app course project that tracks a user and provides directions.
 preview: "/images/projects/stepcounter/stepcounter-preview.png"
 prev_banner: "/images/projects/stepcounter/stepcounter-preview.png"
-sequence: -5
+sequence: -2
 ---
 
 <div class="row">

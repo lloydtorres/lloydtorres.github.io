@@ -1,21 +1,25 @@
 ---
 layout: project
-title: VHDL Controllers for Altera DE2 Board
-header: "/images/projects/vhdl/altera-header.jpg"
-permalink: /projects/vhdl/
+title: Altera DE2 Board Programming
+header: "/images/projects/altera-de2/altera-header.jpg"
+permalink: /projects/altera-de2/
 categories:
 - projects
 tags:
-- vhdl
 - altera
-description: Simple VHDL controllers for the Altera DE2 board for a first-year Digital Circuits course.
-preview: "/images/projects/vhdl/altera-preview.jpg"
-prev_banner: "/images/projects/vhdl/altera-preview.jpg"
-sequence: -3
+- vhdl
+description: Programming coursework on the Altera DE2 board with VHDL.
+preview: "/images/projects/altera-de2/altera-preview.jpg"
+prev_banner: "/images/projects/altera-de2/altera-preview.jpg"
+sequence: -5
+redirect_from: "/projects/vhdl/"
 ---
 
-* Programmed simple controllers in VHDL for the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) 
-(Cyclone II FPGA) for a first-year Digital Circuits and Systems (ECE 124) group project.
+As part of our coursework at Waterloo ECE, we have hands-on labs where we program the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) (Cyclone II FPGA) to accomplish certain tasks. This page lists the work I have completed over the course of my undergraduate degree.
+
+## ECE 124: Digital Circuits and Systems - VHDL
+
+* Programmed simple controllers in VHDL for a first-year Digital Circuits and Systems (ECE 124) group project.
 * Developed two main combinatorial circuits:
     * Arithmetic logic unit (which does bitwise AND, OR, XOR and addition operations).
     * Elevator controller.

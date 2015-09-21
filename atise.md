@@ -52,7 +52,7 @@ sequence: -12
     </div>
 
     <div class="col-sm-8">
-        <p>Start your shopping experience by logging into <strong class="purple-emph">Atise</strong> with your account. Your account contains information on your preferred payment options to streamline your checkout process.</p>
+        <p>Start your shopping experience by logging into <strong class="purple-emph">Atise</strong> with your account. Your account contains information on your preferred payment options to streamline the checkout process.</p>
 
         <p>You can then start shopping like you usually would — going around the store with a cart or a basket! Find anything you want to buy? Simply tap the item's NFC tag with your phone to add it to your cart. Can't find the tag? No problem! <strong class="purple-emph">Atise</strong> also supports barcode scanning for your convenience.</p>
 
