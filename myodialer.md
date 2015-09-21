@@ -10,7 +10,6 @@ categories:
 - projects
 tags:
 - android
-- java
 - myo
 description: What’s easier than 1-touch quick dial? Myo Dialer! This Android app lets you call your favourite contacts with a flick of a wrist.
 preview: "/images/projects/myodialer/myodialer-top.png"
