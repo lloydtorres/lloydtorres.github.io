@@ -42,7 +42,7 @@ sequence: -12
             </li>
             <li>
                 <img src="/images/projects/atise/atise-total.png" alt=""/>
-                <p class="caption">Spending info keeps you within budget.</p>
+                <p class="caption">Atise keeps you within budget.</p>
             </li>
             <li>
                 <img src="/images/projects/atise/atise-success.png" alt=""/>
