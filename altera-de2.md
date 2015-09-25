@@ -8,14 +8,14 @@ categories:
 tags:
 - altera
 - vhdl
-description: Programming coursework on the Altera DE2 board with VHDL.
+description: Hardware design and embedded software coursework on the Altera DE2 board with VHDL.
 preview: "/images/projects/altera-de2/altera-preview.jpg"
 prev_banner: "/images/projects/altera-de2/altera-preview.jpg"
 sequence: -5
 redirect_from: "/projects/vhdl/"
 ---
 
-As part of our coursework at Waterloo ECE, we have hands-on labs where we program the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) (Cyclone II FPGA) to accomplish certain tasks. This page lists the work I have completed over the course of my undergraduate degree.
+As part of our coursework at Waterloo ECE, we have hands-on labs where we design hardware and program embedded software on the [Altera DE2 board](http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html) (Cyclone II FPGA) to accomplish certain tasks. This page lists the work I have completed over the course of my undergraduate degree.
 
 ## ECE 124: Digital Circuits and Systems - VHDL
 

@@ -8,7 +8,7 @@ categories:
 tags:
 - cortex m3
 - arm assembly (thumb)
-description: Programming coursework on the NXP Cortex M3 processor with ARM Assembly.
+description: Low-level programming coursework on the NXP Cortex M3 processor with ARM Assembly.
 preview: "/images/projects/cortex-m3/cortex-m3-preview.jpg"
 prev_banner: "/images/projects/cortex-m3/cortex-m3-preview.jpg"
 sequence: -6
