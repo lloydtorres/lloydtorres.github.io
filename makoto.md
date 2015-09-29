@@ -19,30 +19,30 @@ sitemap: false
     </div>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide2.jpg" id="start">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide2.jpg" id="start">
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide3.jpg">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide3.jpg">
     <p class="inner-text mid-quote">time</p>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide4.jpg">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide4.jpg">
     <p class="inner-text mid-quote">waits</p>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide5.jpg">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide5.jpg">
     <p class="inner-text mid-quote">for</p>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide6.jpg">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide6.jpg">
     <p class="inner-text mid-quote">no</p>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide7.jpg">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide7.jpg">
     <p class="inner-text mid-quote">one</p>
 </div>
 
-<div class="makoto-bg" data-parallax="scroll" data-image-src="/images/labs/makoto/slide8.jpg" id="finish">
+<div class="makoto-bg makoto-bg-ext" data-parallax="scroll" data-image-src="/images/labs/makoto/slide8.jpg" id="finish">
 </div>
 
 <div class="makoto-bg makoto-top" style="background-color: #000000;">
@@ -55,6 +55,8 @@ sitemap: false
 
 <script type="text/javascript">
     $(window).load(function() {
+        window.scrollTo(0, 0);
+
         $( ".makoto-load-container" ).fadeOut(200);
 
         $( "#makoto-title-1" ).delay(300).show( "slow" );
