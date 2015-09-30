@@ -32,7 +32,7 @@ sequence: -9
         <ul>
             <li><a href="http://imagesloaded.desandro.com/">ImagesLoaded</a> to detect if all images have been loaded.</li>
             <li><a href="http://masonry.desandro.com/">Masonry</a> for aligning uneven cards together.</li>
-            <li><a href="pixelcog.github.io/parallax.js/">Parallax.js</a> for some parallax-related work.</li>
+            <li><a href="http://pixelcog.github.io/parallax.js/">Parallax.js</a> for some parallax-related work.</li>
             <li><a href="http://responsiveslides.com/">ResponsiveSlides.js</a> for image slides.</li>
         </ul>
 
