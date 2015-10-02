@@ -25,8 +25,6 @@ This post outlines my thought process during the game. Unlike my previous post o
 
 <div class="alert alert-danger" role="alert"><strong>Caution!</strong> The IPs and other data shown here were working properly at the time of the CTF. This may no longer be the case by the time you read this. You have been warned.</div>
 
-<div class="alert alert-warning" role="alert"><strong>This post contains spoilers.</strong> Stop reading now if you don't want to see the CTF solutions.</div>
-
 ## The Beginning
 
 The CTF started off with an IP address dropped on the Hack the North Slack at 6 PM on September 6th. The IP leads to a terminal-esque page that sets the tone of the CTF: you have been hired by a mysterious employer to hack into the North Bank's systems to gain access to their CEO's account, who is suspected of *very bad things*. As part of Operation Hack the North Bank (ha, get it?), you're given the links and login credentials for two sites: a bank terminal and an employee portal.

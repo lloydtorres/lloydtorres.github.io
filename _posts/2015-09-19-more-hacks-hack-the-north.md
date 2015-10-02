@@ -33,8 +33,6 @@ The CTF's admins promised that their new CTF would be more straightforward than 
 
 <div class="alert alert-danger" role="alert"><strong>Caution!</strong> The IPs and other data shown here were working properly at the time of the CTF. This may no longer be the case by the time you read this. You have been warned.</div>
 
-<div class="alert alert-warning" role="alert"><strong>This post contains spoilers.</strong> Stop reading now if you don't want to see the CTF solutions.</div>
-
 ## The Aftermath of CTF One
 
 The CTF begins with a pastebin message from `wscott`, the North Bank's Chief Security Officer (CSO). In it, we see a picture of the North Bank after the devastating results of the first Hack the North CTF. The company's reputation has gone down the drain and they have gone on lockdown to secure as much as they can. The CSO has unwittingly contacted us to help track down the hacker responsible for this and bring him to justice. He helpfully provides us with his username and password to the bank's Employee Portal.
