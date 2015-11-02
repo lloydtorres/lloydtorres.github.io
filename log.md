@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Adventure Log
+title: Logbook
 header: "/images/headers/log-header.jpg"
 permalink: /log/
 ---
