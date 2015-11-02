@@ -25,4 +25,4 @@ Now that I have free time due to co-op, I decided to actually finish what I star
     <img src="/images/projects/spaceinvaders/spaceinvaders.png" width="300px" title="Space Invaders Recreated" alt="Space Invaders Recreated"/>
 </figure>
 
-So, after more than a year of collecting dust, my recreation of Space Invaders is finally complete! I find that the extra features I've added makes it feel more authentic and exciting. You can check it out on [GitHub](https://github.com/lloydtorres/space-invaders-recreated)if you'd like!
+So, after more than a year of collecting dust, my recreation of Space Invaders is finally complete! I find that the extra features I've added makes it feel more authentic and exciting. You can check it out on [GitHub](https://github.com/lloydtorres/space-invaders-recreated) if you'd like!
