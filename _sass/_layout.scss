@@ -389,6 +389,41 @@
     background: white !important;
 }
 
+.main-quote {
+    position: static !important;
+    background-color: rgba(56, 56, 61, 0.85);
+    height: 100px;
+    width: 100%
+}
+
+.main-quote-container {
+    position: relative;
+    height: 100px;
+    width: 100%
+}
+
+.main-quote-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-right: -5px;
+    color: #BEBEBF;
+    text-align: center;
+
+    @include media-query($on-mobile) {
+        font-size: 17px;
+    }
+}
+
 /**
  * 404'd
  */
