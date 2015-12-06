@@ -7,15 +7,25 @@ categories:
 - projects
 tags:
 - cortex m3
+- rl-rtx
+- c
 - arm assembly (thumb)
 description: Low-level programming coursework on the NXP Cortex M3 processor with ARM Assembly.
 preview: "/images/projects/cortex-m3/cortex-m3-preview.jpg"
 prev_banner: "/images/projects/cortex-m3/cortex-m3-preview.jpg"
-sequence: -6
+sequence: -5
 redirect_from: "/projects/assembly/"
 ---
 
 As part of our coursework at Waterloo ECE, we have hands-on labs where we program the NXP Cortex M3 processor (on the [MCB1700](http://www.keil.com/mcb1700/) board) to accomplish certain tasks and complete projects. This page lists the work I have completed over the course of my undergraduate degree.
+
+## ECE 254: Operating Systems - C
+
+For my second-year operating systems course, we used the Cortex M3 to learn about basic OS concepts. We took the RL-RTX kernel and added our own system calls to accomplish certain tasks, such as getting the total number of active tasks running and getting the status of a certain task.
+
+We also wrote memory allocation and deallocation calls which either 1) returned a memory block to the calling task if memory is available, or 2) blocked the task if no memory is available and placed it in a queue to wait until memory becomes available.
+
+To test these calls, we created tasks to run on the RL-RTX OS and made tests to check edge cases and confirm the proper operation of each call.
 
 ## ECE 222: Digital Computers - ARM (THUMB) Assembly
 
