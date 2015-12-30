@@ -48,15 +48,19 @@ sequence: -11
 
     <div class="col-sm-8">
         <div class="featuretext-md">
-            <p>Simply assign a contact with a gesture combination and you will be able to make calls with a flick of a wrist. There’s no need to even take your phone out of your pocket.</p>
-        </div> 
+            <p>Simply assign a contact with a gesture combination and you will be able to make calls with a flick of a wrist. There’s no need to even take your phone out of your pocket.<sup>*</sup></p>
+        </div>
+
+        <div class="featuretext-sm">
+            <p>* Myo Dialer <strong>cannot</strong> be used to call emergency services such as 911 due to restrictions in Android. For your safety, please do not rely on this app to call emergency services.</p>
+        </div>
     </div>
 </div>
 
 <div class="row paddown paddup">
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
-            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.*</p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.<sup>*</sup></p>
         </div>
 
         <div class="featuretext-sm">
@@ -70,7 +74,7 @@ sequence: -11
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.*</p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.<sup>*</sup></p>
         </div>
 
         <div class="featuretext-sm">
