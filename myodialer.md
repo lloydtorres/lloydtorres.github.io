@@ -120,7 +120,7 @@ sequence: -11
             <ul><li>This is required by the Myo and the crash reports service. You may disable these in the app settings.</li></ul>
         <li><strong>Access Bluetooth settings/pair with Bluetooth devices</strong></li>
             <ul><li>These are needed to pair with the Myo armband.</li></ul>
-        <li><strong>Change your audio settings</strong>
+        <li><strong>Change your audio settings</strong></li>
             <ul><li>This is needed to toggle the speakerphone and microphone during calls.</li></ul>
     </ul>
 
