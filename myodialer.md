@@ -21,7 +21,7 @@ sequence: -11
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
             <p>What’s easier than 1-touch quick dial?</p>
-            <p class="cyan-emph" style="font-size: 50px;">Myo Dialer</p>
+            <p class="cyan-emph emph-unmargin" style="font-size: 50px;">Myo Dialer</p>
             <p><span class="cyan-emph">Myo Dialer</span> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
     </div>
@@ -34,7 +34,7 @@ sequence: -11
         <div class="featuretext-md">
             <div class="col-center">
                 <p>What’s easier than 1-touch quick dial?</p>
-                <p style="font-size: 50px; color: #00bdde;">Myo Dialer</p>
+                <p class="emph-unmargin" style="font-size: 50px; color: #00bdde;">Myo Dialer</p>
             </div>
             <p><span class="cyan-emph">Myo Dialer</span> was built from the idea that mobile devices make more sense with your Myo armband.</p>
         </div>
@@ -60,7 +60,7 @@ sequence: -11
 <div class="row paddown paddup">
     <div class="col-sm-8 hidden-xs">
         <div class="featuretext-md">
-            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.<sup>*</sup></p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you answer, end or reject calls, as well as toggle speakerphone and microphone with your hand.<sup>*</sup></p>
         </div>
 
         <div class="featuretext-sm">
@@ -74,7 +74,7 @@ sequence: -11
 
     <div class="col-sm-8 visible-xs">
         <div class="featuretext-md">
-            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you reject calls with your fist and toggle speakerphone and microphone with a wave of your hand.<sup>*</sup></p>
+            <p>Control your phone calls with the Myo armband — <span class="cyan-emph">Myo Dialer</span> lets you answer, end or reject calls, as well as toggle speakerphone and microphone with your hand.<sup>*</sup></p>
         </div>
 
         <div class="featuretext-sm">
@@ -107,11 +107,28 @@ sequence: -11
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
 <div class="paddown">
+    <h2>Permissions</h2>
+
+    <ul>
+        <li><strong>Directly call phone numbers/read phone status and identity</strong></li>
+            <ul><li>These are required to make phone calls and to detect incoming calls.</li></ul>
+        <li><strong>Read your contacts</strong></li>
+            <ul><li>This is required to get contact information for selected contacts.</li></ul>
+        <li><strong>Disable your screen lock/prevent phone from sleeping</strong></li>
+            <ul><li>These are required to answer incoming phone calls, when your phone may be locked or asleep. The app will not remove your lock screen password or keep your phone constantly awake.</li></ul>
+        <li><strong>Full network access</strong></li>
+            <ul><li>This is required by the Myo and the crash reports service. You may disable these in the app settings.</li></ul>
+        <li><strong>Access Bluetooth settings/pair with Bluetooth devices</strong></li>
+            <ul><li>These are needed to pair with the Myo armband.</li></ul>
+        <li><strong>Change your audio settings</strong>
+            <ul><li>This is needed to toggle the speakerphone and microphone during calls.</li></ul>
+    </ul>
+
     <h2>The Story</h2>
 
     <p><strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an <a href="http://lloydtorres.com/log/myo-dialer-27-hour-hackathon/">internal hackathon</a> at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.</p>
 
-    <p>Its design was inspired by the beautiful Material Design guidelines introduced by Google for Android 5.0 Lollipop. This allows Myo Dialer to blend seamlessly when it calls on native Lollipop apps to obtain contact information or make calls to assigned contacts.</p>
+    <p>Its design was inspired by the beautiful Material Design guidelines introduced by Google for Android 5.0 Lollipop. This allows Myo Dialer to blend seamlessly when it calls on native stock apps to obtain contact information or make calls to assigned contacts.</p>
 
     <p>Myo Dialer will be continuously updated to improve performance, add features and support future Myo SDK releases.</p>
 
