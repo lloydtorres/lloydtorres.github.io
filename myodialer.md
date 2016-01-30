@@ -100,8 +100,10 @@ sequence: -12
     <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.1.4 firmware or greater.</p>
     <span class="paddown">
         <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" class="market-badges-large"/></a>
-        <a href="https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer"><img src="/images/icons/myo_badge.png" class="market-badges-large" style="border-radius: 5px; border: 1px solid white;"/></a>
+        <a href="https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer"><img src="/images/icons/myo_badge.png" class="market-badges-large"/></a>
     </span>
+
+    <p class="market-disclaimer paddup">Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
 </div> 
 
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
