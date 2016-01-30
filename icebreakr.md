@@ -26,6 +26,20 @@ $(function() {
 </script>
 
 <div class="row">
+    <div class="col-sm-8">
+        <p><strong>Icebreakr</strong> is an Android app that lets you meet new and interesting people around you!</p>
+
+        <p>Powered by the <a href="http://estimote.com/">Estimote beacon</a>, Icebreakr lets you see other users nearby who'd like to meet up. Icebreakr lets you set a message and interests for other people to see, giving you the power to reach out to like-minded people. Using the Estimote, Icebreakr can let you know how far you are from everyone.</p>
+
+        <p>Icebreakr is ideal for use in conventions, meetups and other crowded events where meeting people could be a hassle. With Icebreakr, awkward introductions are finally a thing of the past! Interested? Simply login with your Twitter account on the Icebreakr app to get started.</p>
+
+        <p>Icebreakr was developed at WearHacks Toronto on the weekend of 8—10 May 2015. Icebreakr uses Android, the Estimote SDK and the Twitter SDK (via Fabric) for its frontend and Node.js and MongoDB for its backend. I was primarily responsible for the frontend.</p>
+
+        <p>The Estimote itself broadcasts nothing but a unique ID, so we had a server that actually stored users' information. The app would have communicated with the server using <a href="https://github.com/mcxiaoke/android-volley">Volley</a>, but the backend was not finished in time. The  app in its current form instead generates a random profile and assigns it to any Estimotes in range.</p>
+
+        <p>To build the UI itself, I used libraries such as jpardogo's <a href="https://github.com/jpardogo/PagerSlidingTabStrip">Pager Sliding Tab Strip</a> and afollestad's <a href="https://github.com/afollestad/material-dialogs">Material Dialogs</a>.</p>
+    </div>
+
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
@@ -45,20 +59,6 @@ $(function() {
                 <p class="caption">Send a message to the crowd!</p>
             </li>
         </ul>
-    </div>
-
-    <div class="col-sm-8">
-        <p><strong>Icebreakr</strong> is an Android app that lets you meet new and interesting people around you!</p>
-
-        <p>Powered by the <a href="http://estimote.com/">Estimote beacon</a>, Icebreakr lets you see other users nearby who'd like to meet up. Icebreakr lets you set a message and interests for other people to see, giving you the power to reach out to like-minded people. Using the Estimote, Icebreakr can let you know how far you are from everyone.</p>
-
-        <p>Icebreakr is ideal for use in conventions, meetups and other crowded events where meeting people could be a hassle. With Icebreakr, awkward introductions are finally a thing of the past! Interested? Simply login with your Twitter account on the Icebreakr app to get started.</p>
-
-        <p>Icebreakr was developed at WearHacks Toronto on the weekend of 8—10 May 2015. Icebreakr uses Android, the Estimote SDK and the Twitter SDK (via Fabric) for its frontend and Node.js and MongoDB for its backend. I was primarily responsible for the frontend.</p>
-
-        <p>The Estimote itself broadcasts nothing but a unique ID, so we had a server that actually stored users' information. The app would have communicated with the server using <a href="https://github.com/mcxiaoke/android-volley">Volley</a>, but the backend was not finished in time. The  app in its current form instead generates a random profile and assigns it to any Estimotes in range.</p>
-
-        <p>To build the UI itself, I used libraries such as jpardogo's <a href="https://github.com/jpardogo/PagerSlidingTabStrip">Pager Sliding Tab Strip</a> and afollestad's <a href="https://github.com/afollestad/material-dialogs">Material Dialogs</a>.</p>
     </div>
 
 </div>

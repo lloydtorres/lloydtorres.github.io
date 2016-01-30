@@ -21,23 +21,6 @@ $(function() {
 </script>
 
 <div class="row">
-    <div class="col-sm-4">
-        <ul class="rslides">
-            <li>
-                <img src="/images/projects/thefront/thefront-1.jpg"/>
-                <p class="caption">The Front</p>
-            </li>
-            <li>
-                <img src="/images/projects/thefront/thefront-2.jpg" alt=""/>
-                <p class="caption">Unit range movement demo</p>
-            </li>
-            <li>
-                <img src="/images/projects/thefront/thefront-3.jpg" alt=""/>
-                <p class="caption">A skirmish in progress.</p>
-            </li>
-        </ul>
-    </div>
-
     <div class="col-sm-8">
         <p><strong>The Front</strong> is a two-player strategy game inspired by the <a href="http://en.wikipedia.org/wiki/Wars_(series)">Advanced Wars</a> series.</p>
 
@@ -57,6 +40,23 @@ $(function() {
             <li>A non-recursive algorithm was used due to concerns with memory issues.</li>
         </ul>
 
+    </div>
+
+    <div class="col-sm-4">
+        <ul class="rslides">
+            <li>
+                <img src="/images/projects/thefront/thefront-1.jpg"/>
+                <p class="caption">The Front</p>
+            </li>
+            <li>
+                <img src="/images/projects/thefront/thefront-2.jpg" alt=""/>
+                <p class="caption">Unit range movement demo</p>
+            </li>
+            <li>
+                <img src="/images/projects/thefront/thefront-3.jpg" alt=""/>
+                <p class="caption">A skirmish in progress.</p>
+            </li>
+        </ul>
     </div>
 
 </div>

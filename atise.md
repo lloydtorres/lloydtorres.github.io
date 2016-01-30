@@ -30,6 +30,18 @@ sequence: -12
 </div>
 
 <div class="row paddup">
+    <div class="col-sm-8">
+        <p>Start your shopping experience by logging into <strong class="purple-emph">Atise</strong> with your account. Your account contains information on your preferred payment options to streamline the checkout process.</p>
+
+        <p>You can then start shopping like you usually would — going around the store with a cart or a basket! Find anything you want to buy? Simply tap the item's NFC tag with your phone to add it to your cart. Can't find the tag? No problem! <strong class="purple-emph">Atise</strong> also supports barcode scanning for your convenience.</p>
+
+        <p>As you add more items into your cart, you will see a beautifully-formatted list of what you have so far. Each item has details on its name, price and product image. <strong class="purple-emph">Atise</strong> also keeps track of your current spending, so you won't have to worry about overspending your budget. Want to know how much tax you'll be paying? Simply swipe up to get more info.</p>
+
+        <p>Ready to checkout your cart? No need to line up! Simply tap the shopping bag icon on the top-right and <strong class="purple-emph">Atise</strong> will ring up your purchases for you. Your preferred payment option will be automatically charged, so you don't have to worry about being short on cash or forgetting your wallet. You can then leave the store without having to line up!</p>
+
+        <p>With <strong class="purple-emph">Atise</strong>, lining up to a till is a thing of the past.</p>
+    </div>
+
     <div class="col-sm-4">
         <ul class="rslides">
             <li>
@@ -49,18 +61,6 @@ sequence: -12
                 <p class="caption">Checkout with one simple tap.</p>
             </li>
         </ul>
-    </div>
-
-    <div class="col-sm-8">
-        <p>Start your shopping experience by logging into <strong class="purple-emph">Atise</strong> with your account. Your account contains information on your preferred payment options to streamline the checkout process.</p>
-
-        <p>You can then start shopping like you usually would — going around the store with a cart or a basket! Find anything you want to buy? Simply tap the item's NFC tag with your phone to add it to your cart. Can't find the tag? No problem! <strong class="purple-emph">Atise</strong> also supports barcode scanning for your convenience.</p>
-
-        <p>As you add more items into your cart, you will see a beautifully-formatted list of what you have so far. Each item has details on its name, price and product image. <strong class="purple-emph">Atise</strong> also keeps track of your current spending, so you won't have to worry about overspending your budget. Want to know how much tax you'll be paying? Simply swipe up to get more info.</p>
-
-        <p>Ready to checkout your cart? No need to line up! Simply tap the shopping bag icon on the top-right and <strong class="purple-emph">Atise</strong> will ring up your purchases for you. Your preferred payment option will be automatically charged, so you don't have to worry about being short on cash or forgetting your wallet. You can then leave the store without having to line up!</p>
-
-        <p>With <strong class="purple-emph">Atise</strong>, lining up to a till is a thing of the past.</p>
     </div>
 </div>
 

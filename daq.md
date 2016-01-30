@@ -15,10 +15,6 @@ sequence: -1
 ---
 
 <div class="row">
-    <div class="col-sm-4">
-        <img src="/images/projects/daq/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
-    </div>
-
     <div class="col-sm-8">
         <ul>
             <li>Created a utility in LabVIEW to read sensor data from a National Instruments DAQ device for rocketry engine tests.</li>
@@ -26,5 +22,9 @@ sequence: -1
             <li>Worked with upper-year electrical engineering students to debug and fix DAQ hardware issues.</li>
             <li>Attended a National Instruments seminar to learn more about data acquisition techniques.</li>
         </ul>
+    </div>
+
+    <div class="col-sm-4">
+        <img src="/images/projects/daq/rocketry_daq.png" width="350px" title="Rocketry DAQ" alt="Rocketry DAQ"/>
     </div>
 </div>

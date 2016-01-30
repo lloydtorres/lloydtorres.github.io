@@ -18,16 +18,12 @@ sequence: -7
 ---
 
 <div class="row">
-    <div class="col-sm-4">
-        <img src="/images/projects/website/website.jpg" width="350px" title="lloydtorres.com" alt="lloydtorres.com" style="border: 1px solid #EEEEEE;"/>
-    </div>
-
     <div class="col-sm-8">
         <p>If you're reading this, chances are you're already on <strong>lloydtorres.com</strong>! Welcome to my website!</p>
 
         <p>This project started in Fall 2014, but it remains an ongoing project as I add new content and continuously polish the site. The site is <a href="https://github.com/lloydtorres/lloydtorres.com.staging">hosted on GitHub Pages</a> and is powered by <a href="http://jekyllrb.com/">Jekyll</a>, a static site generator. The site's Material Design-inspired theme, codenamed Cardamon, was built from the ground up by me, with the help of many guides on the Internet.</p>
 
-        <p>My site uses <a href="http://getbootstrap.com/">Bootstrap</a>, which is wonderful in setting up columns and responsive elements for both desktop and mobile. Bits and pieces of the site are also powered by JavaScript and jQuery. For instance, the site uses the following JS libraries:
+        <p>My site uses <a href="http://getbootstrap.com/">Bootstrap</a>, which is wonderful in setting up columns and responsive elements for both desktop and mobile. Bits and pieces of the site are also powered by JavaScript and jQuery. For instance, the site uses the following JS libraries:</p>
 
         <ul>
             <li><a href="http://imagesloaded.desandro.com/">ImagesLoaded</a> to detect if all images have been loaded.</li>
@@ -48,5 +44,9 @@ sequence: -7
         </ul>
 
         <p>See if you can find them!</p>
+    </div>
+
+    <div class="col-sm-4">
+        <img src="/images/projects/website/website.jpg" width="350px" title="lloydtorres.com" alt="lloydtorres.com" style="border: 1px solid #EEEEEE;"/>
     </div>
 </div>
