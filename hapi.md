@@ -14,7 +14,7 @@ tags:
 description: Hapi is a journal of your well-being, powered by facial emotion recognition. Built at Waterloo Hacks 2016.
 preview: "/images/projects/hapi/hapi-banner.png"
 prev_banner: "/images/projects/hapi/hapi-banner.png"
-sequence: -9
+sequence: -10
 ---
 
 <div class="row">
