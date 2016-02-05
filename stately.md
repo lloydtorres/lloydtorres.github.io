@@ -21,7 +21,7 @@ sequence: -14
     <div class="col-sm-8">
         <p class="featuretext-lg"><strong class="green-emph">Stately</strong> is an unofficial NationStates app for Android.</p>
 
-        <p class="featuretext-md">Quickly get stats about your nation, respond to daily issues, view your region's factbook and message board, and observe the proceedings and resolutions of the World Assembly.</p>
+        <p class="featuretext-md">Quickly get stats about your nation, respond to daily issues, browse regional factbooks, post on your own region's RMB, and vote on World Assembly proceedings.</p>
     </div>
 
     <div class="col-sm-4">
@@ -37,6 +37,9 @@ sequence: -14
             </li>
             <li>
                 <img src="/images/projects/stately/stately-4.png"/>
+            </li>
+            <li>
+                <img src="/images/projects/stately/stately-5.png"/>
             </li>
         </ul>
     </div>
@@ -66,6 +69,8 @@ sequence: -14
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
     <li><a href="http://www.ocpsoft.org/prettytime/">PrettyTime</a></li>
     <li><a href="https://github.com/siyamed/android-shape-imageview">Shape Image View</a></li>
+    <li><a href="https://github.com/satyan/sugar">SugarORM</a></li>
+    <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
     <li><a href="https://github.com/nostra13/Android-Universal-Image-Loader">Universal Image Loader</a></li>
 </ul>
 
