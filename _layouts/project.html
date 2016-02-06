@@ -11,15 +11,15 @@
         <div class="curtain-header curtain-header-page" style="{% if page.header %}background-image: url('{{ page.header }}'){% elsif page.color %}background-color: {{ page.color }}{% else %}background-image: url('/images/headers/projects-header.png'){% endif %};">
         </div>
         <div class="post-wrapper">
-            <div class="container col-md-offset-2 col-md-8">
+            <div class="container col-md-offset-2 col-md-8 uncard">
                 {% if page.picoverlay %}
-                <div class="curtain-overlay">
+                <div class="curtain-overlay recard">
                     <div class="curtain-overlay-container">
                         <img src="{{ page.picoverlay }}" />
                     </div>
                 </div>
                 {% else %}
-                <div class="curtain-overlay-expanded">
+                <div class="curtain-overlay-expanded recard">
                     <div class="expanded-overlay-content">
                         <h3><a href="/projects/">Projects</a></h3>
                         <h1>{{ page.title }}</h1>

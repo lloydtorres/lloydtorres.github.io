@@ -690,6 +690,20 @@
     }
 }
 
+.uncard {
+    @include media-query($on-mobile) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.recard {
+    @include media-query($on-mobile) {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
 .generic-container {
     overflow: hidden;
 }
@@ -1085,7 +1099,7 @@
 }
 
 .post-content {
-    padding: 25px;
+    padding: 15px;
     margin-bottom: $spacing-unit;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
