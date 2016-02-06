@@ -46,6 +46,10 @@ figure {
     padding: 12px;
 }
 
+figure.highlight {
+    text-align: left;
+}
+
 figcaption {
     font-size: 12px;
     font-color: $grey-color-dark;

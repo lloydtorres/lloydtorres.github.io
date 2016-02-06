@@ -8,7 +8,7 @@ timezone: Canada/Eastern
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 gems:
 - jekyll-redirect-from
