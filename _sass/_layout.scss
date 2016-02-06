@@ -1099,7 +1099,7 @@
 }
 
 .post-content {
-    padding: 15px;
+    padding: 25px;
     margin-bottom: $spacing-unit;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
@@ -1136,6 +1136,10 @@
 
     h4 {
         font-size: 18px;
+    }
+
+    @include media-query($on-mobile) {
+        padding: 15px;
     }
 }
 
