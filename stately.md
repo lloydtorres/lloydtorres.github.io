@@ -74,6 +74,8 @@ sequence: -14
     <li><a href="https://github.com/nostra13/Android-Universal-Image-Loader">Universal Image Loader</a></li>
 </ul>
 
+Stately's Privacy Policy can be found <a href="https://www.iubenda.com/privacy-policy/7793041">here</a>.
+
 <script>
 $(function() {
     $(".rslides").responsiveSlides({timeout: 5000, maxwidth:450});
