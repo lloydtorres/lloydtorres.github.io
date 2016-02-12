@@ -67,11 +67,11 @@ sequence: -14
     <li><a href="https://github.com/SufficientlySecure/html-textview">HtmlTextView</a></li>
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
+    <li><a href="https://github.com/square/picasso">Picasso</a></li>
     <li><a href="http://www.ocpsoft.org/prettytime/">PrettyTime</a></li>
     <li><a href="https://github.com/siyamed/android-shape-imageview">Shape Image View</a></li>
     <li><a href="https://github.com/satyan/sugar">SugarORM</a></li>
     <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
-    <li><a href="https://github.com/nostra13/Android-Universal-Image-Loader">Universal Image Loader</a></li>
 </ul>
 
 Stately's Privacy Policy can be found <a href="https://www.iubenda.com/privacy-policy/7793041">here</a>.
