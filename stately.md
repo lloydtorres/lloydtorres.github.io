@@ -21,7 +21,7 @@ sequence: -14
     <div class="col-sm-8">
         <p class="featuretext-lg"><strong class="green-emph">Stately</strong> is an unofficial NationStates app for Android.</p>
 
-        <p class="featuretext-md">Quickly get stats about your nation, respond to daily issues, browse regional factbooks, post on your own region's RMB, and vote on World Assembly proceedings.</p>
+        <p class="featuretext-md">Quickly get stats about your nation, respond to encountered issues, browse regional factbooks, post on your region's RMB, vote on World Assembly proceedings, and explore other places in NationStates.</p>
     </div>
 
     <div class="col-sm-4">
