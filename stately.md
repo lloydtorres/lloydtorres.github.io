@@ -70,7 +70,7 @@ sequence: -14
     <li><a href="https://github.com/square/picasso">Picasso</a></li>
     <li><a href="http://www.ocpsoft.org/prettytime/">PrettyTime</a></li>
     <li><a href="https://github.com/siyamed/android-shape-imageview">Shape Image View</a></li>
-    <li><a href="https://github.com/satyan/sugar">SugarORM</a></li>
+    <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
     <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
 </ul>
 
