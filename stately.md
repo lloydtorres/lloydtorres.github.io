@@ -4,6 +4,7 @@ title: Stately
 picoverlay: "/images/projects/stately/stately-logo.png"
 color: "#2E7D32"
 google_play: https://play.google.com/store/apps/details?id=com.lloydtorres.stately
+github: https://github.com/lloydtorres/stately
 permalink: /projects/stately/
 categories:
 - projects
