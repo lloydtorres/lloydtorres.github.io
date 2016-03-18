@@ -61,7 +61,7 @@ sequence: -14
 
 <h2>Technical Details</h2>
 
-<p><strong>Stately</strong> was built from the ground up with the <a href="http://developer.android.com/tools/support-library/index.html">Android Support Library</a> in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="https://github.com/mcxiaoke/android-volley">Volley</a> to communicate with NationStates and its API through a secure connection. It then processess the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
+<p><strong>Stately</strong> was built from the ground up with the <a href="http://developer.android.com/tools/support-library/index.html">Android Support Library</a> in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="http://developer.android.com/training/volley/index.html">Volley</a> to communicate with NationStates and its API through a secure connection. It then processess the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
 
 <p>Stately also uses the following open-source libraries:</p>
 
@@ -73,7 +73,6 @@ sequence: -14
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
     <li><a href="https://github.com/square/picasso">Picasso</a></li>
     <li><a href="http://www.ocpsoft.org/prettytime/">PrettyTime</a></li>
-    <li><a href="https://github.com/siyamed/android-shape-imageview">Shape Image View</a></li>
     <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
     <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
 </ul>
