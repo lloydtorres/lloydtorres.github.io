@@ -72,7 +72,6 @@ sequence: -14
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
     <li><a href="https://github.com/square/picasso">Picasso</a></li>
-    <li><a href="http://www.ocpsoft.org/prettytime/">PrettyTime</a></li>
     <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
     <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
 </ul>
