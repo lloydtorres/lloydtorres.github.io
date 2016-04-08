@@ -4,7 +4,7 @@ title:  "Literally Hacking at Hack the North CTF"
 date:   2015-09-09 17:41:00
 header: "/images/blog/20150909/ctf-header.jpg"
 preview: "/images/blog/20150909/ctf-preview.jpg"
-permalink: log/literally-hacking-hack-the-north-ctf
+permalink: log/literally-hacking-hack-the-north-ctf/
 show_toc: true
 tags:
 - hack the north

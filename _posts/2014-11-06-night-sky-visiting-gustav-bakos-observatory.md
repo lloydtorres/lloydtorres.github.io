@@ -4,7 +4,7 @@ title:  "Night sky: visiting the Gustav Bakos Observatory"
 date:   2014-11-06 02:45:00
 header: "/images/blog/20141106/observatory-header.jpg"
 preview: "/images/blog/20141106/telescope.jpg"
-permalink: log/night-sky-visiting-gustav-bakos-observatory
+permalink: log/night-sky-visiting-gustav-bakos-observatory/
 tags:
 - astronomy
 - waterloo

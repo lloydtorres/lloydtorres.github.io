@@ -4,7 +4,7 @@ title:  "Hackathons are awesome!"
 date:   2014-09-23 00:15:00
 header: "/images/blog/20140923/hackthenorth-bg.jpg"
 preview: "/images/blog/20140923/htn-preview.jpg"
-permalink: log/hackathons-are-awesome
+permalink: log/hackathons-are-awesome/
 tags:
 - hackathon
 - hack the north

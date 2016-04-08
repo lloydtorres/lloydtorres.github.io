@@ -4,7 +4,7 @@ title:  "More Hacks at Hack the North CTF Two"
 date:   2015-09-19 03:00:00
 header: "/images/blog/20150919/ctf-header.png"
 preview: "/images/blog/20150919/ctf-preview.png"
-permalink: log/more-hacks-hack-the-north-ctf-two
+permalink: log/more-hacks-hack-the-north-ctf-two/
 show_toc: true
 tags:
 - hack the north
