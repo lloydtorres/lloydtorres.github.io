@@ -70,7 +70,6 @@ sequence: -14
 
 <ul>
     <li><a href="https://github.com/atteo/evo-inflector">Evo Reflector</a></li>
-    <li><a href="https://github.com/google/guava">Guava</a></li>
     <li><a href="https://github.com/SufficientlySecure/html-textview">HtmlTextView</a></li>
     <li><a href="https://github.com/kefirfromperm/kefirbb">KefirBB</a></li>
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
