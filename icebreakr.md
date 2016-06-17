@@ -4,7 +4,7 @@ title: Icebreakr
 header: "/images/projects/icebreakr/icebreakr-header.png"
 picoverlay: "/images/projects/icebreakr/icebreakr-logo.png"
 permalink: /projects/icebreakr/
-github: https://github.com/wearhackstoronto/IceBreakr
+github: https://github.com/lloydtorres/icebreakr
 categories:
 - projects
 tags:

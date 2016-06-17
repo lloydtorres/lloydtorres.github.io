@@ -5,7 +5,7 @@ header: "/images/projects/atise/atise-background.jpg"
 picoverlay: "/images/projects/atise/atise-logo.png"
 link: http://devpost.com/software/atise
 permalink: /projects/atise/
-github: https://github.com/davidxvuong/atise
+github: https://github.com/lloydtorres/atise
 categories:
 - projects
 tags:
