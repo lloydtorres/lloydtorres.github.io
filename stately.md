@@ -15,7 +15,7 @@ tags:
 description: An unofficial NationStates app for Android.
 preview: "/images/projects/stately/stately-cover.png"
 prev_banner: "/images/projects/stately/stately-cover.png"
-sequence: -14
+sequence: -15
 ---
 
 <div class="row">
