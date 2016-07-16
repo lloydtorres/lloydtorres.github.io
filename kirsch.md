@@ -8,10 +8,10 @@ categories:
 tags:
 - altera de2
 - vhdl
-description: A Kirsch edge detector implemented in VHDL on the Altera DE2 board.
+description: A Kirsch edge detector implemented in VHDL on the Altera DE2 board, built for a digital hardware systems course.
 preview: "/images/projects/kirsch/kirsch-banner.jpg"
 prev_banner: "/images/projects/kirsch/kirsch-banner.jpg"
-sequence: -11
+sequence: -12
 ---
 
 <div class="row">
@@ -23,8 +23,6 @@ sequence: -11
         <p>Starting from the general Kirsch algorithm, optimizations were made to meet the project requirements (such as simplifying equations and pipelining). The optimized Kirsch algorithm was drawn on a dataflow diagram to aid in the circuit's implementation.</p>
 
         <p>For the actual circuit, both combinational logic and clocked processes were used to implement pipelining and other optimizations. Incoming pixels were sent to the circuit one at a time after some random number of clock cycles, which were then intelligently stored into a 3x256 memory array. The circuit began to calculate edges once enough pixels were available for the algorithm, and continued to calculate edges as new data came in. Thus, the circuit was able to accept incoming data and output edge data simultaneously.</p>
-
-        <p>The following images demonstrate the input and output of the Kirsch edge detector. The top image shows a grayscale input image, and the bottom image shows the output with the detected edges highlighted. Each color represents the direction of the edge.</p>
 
         <p>Our final Kirsch edge detector circuit was able to process all sample images with a ~0% error rate, a latency below the project requirements and a highly optimized speed and area.</p>
     </div>

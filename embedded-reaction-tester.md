@@ -11,7 +11,7 @@ tags:
 description: A simple reaction time tester for the NXP Cortex M3 processor, built with ARM Assembly for a digital computers course.
 preview: "/images/projects/embedded-reaction/cortex-m3-preview.jpg"
 prev_banner: "/images/projects/embedded-reaction/cortex-m3-preview.jpg"
-sequence: -9
+sequence: -10
 redirect_from:
 - "/projects/assembly/"
 - "/projects/cortex-m3/"
