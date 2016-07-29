@@ -10,7 +10,7 @@ categories:
 tags:
 - android
 - myo
-description: Why catch VAPEoreons when you can just be a Slowpoke?
+description: Why catch VAPEoreons when you can just be a Slowpoke? Winner of two awards at TerribleHack IV.
 preview: "/images/projects/pokemeh/pokemeh-banner.jpg"
 prev_banner: "/images/projects/pokemeh/pokemeh-banner.jpg"
 sequence: -7
