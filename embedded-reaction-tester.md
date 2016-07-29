@@ -3,6 +3,7 @@ layout: project
 title: Embedded Reaction Time Tester
 header: "/images/projects/embedded-reaction/cortex-m3-header.jpg"
 permalink: /projects/embedded-reaction/
+youtube: https://www.youtube.com/watch?v=9cHzSLg4TP8
 categories:
 - projects
 tags:

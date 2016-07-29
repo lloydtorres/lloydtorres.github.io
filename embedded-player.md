@@ -3,6 +3,7 @@ layout: project
 title: Embedded Music Player
 header: "/images/projects/embedded-player/altera-header.jpg"
 permalink: /projects/embedded-player/
+youtube: https://www.youtube.com/watch?v=i0J22zAzPFw
 categories:
 - projects
 tags:
