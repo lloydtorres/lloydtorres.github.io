@@ -11,7 +11,7 @@ tags:
 description: An anime-themed paint app built with Python and pygame.
 preview: "/images/projects/paintproject/paintproject-1.jpg"
 prev_banner: "/images/projects/paintproject/paintproject-preview.jpg"
-sequence: -5
+sequence: -3
 ---
 
 <script>
