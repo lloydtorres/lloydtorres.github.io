@@ -13,7 +13,7 @@ tags:
 - firebase
 - braintree
 - nfc
-description: Shop with ease, use Atise! Improving your shopping experience by automating the checkout process.
+description: Shop with ease, use Atise! Improve shopping by automating the checkout process. Built at Hack the North 2015.
 preview: "/images/projects/atise/atise-preview.png"
 prev_banner: "/images/projects/atise/atise-preview.png"
 sequence: -13
