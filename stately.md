@@ -60,7 +60,7 @@ sequence: -15
 
 <p><a href="http://www.nationstates.net/">NationStates</a> is an online nation-simulation game by <a href="http://maxbarry.com/">Max Barry</a>. He's the author of <em><a href="http://www.amazon.ca/Jennifer-Government-Max-Barry/dp/1400030927">Jennifer Government</a></em> (a great read!), which is the novel NationStates is based on.</p>
 
-<p>Stately's Privacy Policy can be found <a href="https://www.iubenda.com/privacy-policy/7793041">here</a></p>.
+<p>Stately's Privacy Policy can be found <a href="https://www.iubenda.com/privacy-policy/7793041">here</a>.</p>
 
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
