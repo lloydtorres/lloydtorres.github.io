@@ -92,10 +92,17 @@ sequence: -15
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
     <li><a href="https://github.com/square/picasso">Picasso</a></li>
+    <li><a href="https://github.com/booncol/Pulsator4Droid">Pulsator4Droid</a></li>
     <li><a href="https://github.com/r0adkll/Slidr">Slidr</a></li>
     <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
     <li><a href="https://github.com/OrangeGangsters/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
 </ul>
+
+<p>Stately uses the following proprietary libraries:</p>
+
+<ul>
+    <li><a href="https://try.crashlytics.com/">Crashlytics</a></li>
+</ul> 
 
 <script>
 $(function() {
