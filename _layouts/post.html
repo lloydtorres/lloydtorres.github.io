@@ -115,15 +115,15 @@
                         <div class="row">
                             {% for post in site.related_posts %}
                               {% if post.title != page.title %}
+                                {% if forloop.index0 >= 2 %}
+                                  {% break %}
+                                {% endif %}
                                 <div class="col-sm-6">
                                     <div class="log-img log-suggest {% if post.preview == null %}log-suggest-nopic{% endif %}">
                                         <a href="{{ post.url }}">{% if post.preview %}<img class="log-suggest-img" src="{{ post.preview }}" title="{{ post.title }}" alt="{{ post.title }}"/>{% else %}<span></span>{% endif %}</a>
                                         <a href="{{ post.url }}"><h2 class="h2-noinclude log-suggest-title">{{ post.title }}</h2></a>
                                     </div>
                                 </div>
-                                {% if forloop.index >= 3 %}
-                                  {% break %}
-                                {% endif %}
                               {% endif %}
                             {% endfor %}
                         </div>
