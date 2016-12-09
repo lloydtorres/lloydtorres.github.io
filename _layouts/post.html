@@ -115,7 +115,7 @@
                         <div class="row">
                             {% for post in site.related_posts %}
                               {% if post.title != page.title %}
-                                {% if forloop.index0 >= 3 %}
+                                {% if forloop.index0 >= 2 %}
                                   {% break %}
                                 {% endif %}
                                 <div class="col-sm-6">
