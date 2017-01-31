@@ -16,7 +16,7 @@ tags:
 description: Meet new and interesting people near you. Developed at WearHacks Toronto 2015.
 preview: "/images/projects/icebreakr/icebreakr-1.png"
 prev_banner: "/images/projects/icebreakr/icebreakr-preview.png"
-sequence: -6
+sequence: -8
 ---
 
 <script>

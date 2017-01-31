@@ -14,7 +14,7 @@ tags:
 description: Google Home AI assistant that helps university students with finances. Best voice navigation banking hack at DeltaHacks 3.
 preview: "/images/projects/budgetbot/budgetbot-preview.png"
 prev_banner: "/images/projects/budgetbot/budgetbot-preview.png"
-sequence: -8
+sequence: -13
 ---
 
 <p class="featuretext-md"><strong class="green-emph">Budgetbot</strong> is smart AI personal assistant on Google Home that helps university students manage their finances better.</p>

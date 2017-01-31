@@ -13,7 +13,7 @@ tags:
 description: Why catch VAPEoreons when you can just be a Slowpoke? Winner of two awards at TerribleHack IV.
 preview: "/images/projects/pokemeh/pokemeh-banner.jpg"
 prev_banner: "/images/projects/pokemeh/pokemeh-banner.jpg"
-sequence: -7
+sequence: -12
 ---
 
 <p>You may have heard that the idea for Pokémon GO came from one of the hackathon winners of Hack the North 2014.</p>

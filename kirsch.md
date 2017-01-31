@@ -11,7 +11,7 @@ tags:
 description: A Kirsch edge detector implemented in VHDL on the Altera DE2 board, built for a digital hardware systems course.
 preview: "/images/projects/kirsch/kirsch-banner.jpg"
 prev_banner: "/images/projects/kirsch/kirsch-banner.jpg"
-sequence: -12
+sequence: -6
 ---
 
 <div class="row">
@@ -34,4 +34,3 @@ sequence: -12
         </figure>
     </div>
 </div>
-

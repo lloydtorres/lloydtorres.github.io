@@ -16,7 +16,7 @@ tags:
 description: Gamified to-do lists. Top 10 finalist at the 2015 Kik Hackathon.
 preview: "/images/projects/turboavenger/turboavenger1.png"
 prev_banner: "/images/projects/turboavenger/turboavenger-preview.png"
-sequence: -8
+sequence: -11
 ---
 
 <script>

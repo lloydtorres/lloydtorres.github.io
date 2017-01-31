@@ -14,7 +14,7 @@ tags:
 - bootstrap
 description: It's the site you're (probably) on right now. Material Design-inspired theme built from scratch with the help of Bootstrap.
 prev_banner: "/images/projects/website/website-preview.png"
-sequence: -4
+sequence: -7
 ---
 
 <div class="row">
