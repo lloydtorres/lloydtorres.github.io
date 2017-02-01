@@ -48,3 +48,8 @@ sequence: -13
 <p><strong class="green-emph">Budgetbot</strong> aims to bridge this divide between tech and traditional banking, in turn disrupting the way we normally bank. With personal assistants such as Google Home and Amazon Alexa becoming commonplace, it is important for banks to remain ahead with projects like <strong class="green-emph">Budgetbot</strong>.</p>
 
 <p><strong class="green-emph">Budgetbot</strong> was built at DeltaHacks 3 in McMaster University (Hamilton, ON), where it won the 'Best Voice Navigation Banking Hack' award from TD Bank.</p>
+
+<figure>
+  <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMajorLeagueHacking%2Fphotos%2Fa.1361178883932786.1073742299.591858720864810%2F1361203440596997%2F%3Ftype%3D3&width=500" width="500" height="337" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  <figcaption>Thanks for the drone, TD!</figcaption>
+</figure>
