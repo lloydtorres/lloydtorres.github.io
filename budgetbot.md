@@ -11,7 +11,7 @@ tags:
 - node.js
 - api.ai
 - google home
-description: A Google Home AI assistant that helps university students with finances. Winner of 'Best voice navigation banking hack' award at DeltaHacks 3.
+description: A Google Home AI assistant that helps university students with finances. Winner of 'Best Voice Navigation Banking Hack' award at DeltaHacks 3.
 preview: "/images/projects/budgetbot/budgetbot-preview.png"
 prev_banner: "/images/projects/budgetbot/budgetbot-preview.png"
 sequence: -13
