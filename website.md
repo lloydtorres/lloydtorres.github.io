@@ -14,7 +14,7 @@ tags:
 - bootstrap
 description: It's the site you're (probably) on right now. Material Design-inspired theme built from scratch with the help of Bootstrap.
 prev_banner: "/images/projects/website/website-preview.png"
-sequence: -7
+sequence: -1
 ---
 
 <p>If you're reading this, chances are you're already on <strong>lloydtorres.com</strong>! Welcome to my website!</p>
