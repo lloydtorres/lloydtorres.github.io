@@ -103,6 +103,13 @@ sequence: -15
     <li><a href="https://try.crashlytics.com/">Crashlytics</a></li>
 </ul>
 
+<p>Stately uses Creative Commons-licensed content from the following sources:</p>
+
+<ul>
+  <li><a href="https://android-material-icon-generator.bitdroid.de/">Android Material Icon Generator (CC BY-NC 3.0)</a></li>
+  <li><a href="http://www.flaticon.com/packs/medical-icons">Medical Icons Pack (CC BY 3.0)</a></li>
+</ul>
+
 <script>
 $(function() {
     $(".rslides").responsiveSlides({timeout: 5000, maxwidth:450});
