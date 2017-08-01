@@ -772,6 +772,12 @@
     }
 }
 
+.resume-entry-content {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
 .job-entry {
     height: auto;
     margin-top: 10px;
@@ -1265,7 +1271,6 @@
 
 .caption {
     font-size: 12px;
-    font-color: $grey-color-dark;
     font-style: italic;
 }
 
