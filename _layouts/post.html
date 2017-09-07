@@ -113,9 +113,11 @@
                             <p class="post-after-comment"><span class="fa fa-search"></span> We didn't find anything, sorry!</p>
                         {% else %}
                         <div class="row">
-                            {% assign count = 0 %}
                             {% for post in site.related_posts limit:3 %}
                               {% if post.title != page.title %}
+                                {% if forloop.index0 >= 2 %}		
+-                                  {% break %}
+-                                {% endif %}
                                 <div class="col-sm-6">
                                     <div class="log-img log-suggest {% if post.preview == null %}log-suggest-nopic{% endif %}">
                                         <a href="{{ post.url }}">{% if post.preview %}<img class="log-suggest-img" src="{{ post.preview }}" title="{{ post.title }}" alt="{{ post.title }}"/>{% else %}<span></span>{% endif %}</a>
