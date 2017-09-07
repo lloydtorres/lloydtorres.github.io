@@ -522,7 +522,7 @@
 }
 
 .tavi {
-    width: 250px;
+    width: 300px;
     -webkit-animation: tavi 4s linear infinite alternate;
     -moz-animation: tavi 4s linear infinite alternate;
     -o-animation: tavi 4s linear infinite alternate;
@@ -536,23 +536,23 @@
 }
 
 @-webkit-keyframes tavi {
-    from   {-webkit-transform: translateY(8px) rotate(2deg);}
-    to     {-webkit-transform: translateY(-8px) rotate(-2deg);}
+    from   {-webkit-transform: translateY(12px);}
+    to     {-webkit-transform: translateY(-12px);}
 }
 
 @-moz-keyframes tavi {
-    from   {-moz-transform: translateY(8px) rotate(2deg);}
-    to     {-moz-transform: translateY(-8px) rotate(-2deg);}
+    from   {-moz-transform: translateY(12px);}
+    to     {-moz-transform: translateY(-12px);}
 }
 
 @-o-keyframes tavi {
-    from  {-o-transform: translateY(8px) rotate(2deg);}
-    to    {-o-transform: translateY(-8px) rotate(-2deg);}
+    from  {-o-transform: translateY(12px);}
+    to    {-o-transform: translateY(-12px);}
 }
 
 @keyframes tavi {
-    from   {transform: translateY(8px) rotate(2deg);}
-    to     {transform: translateY(-8px) rotate(-2deg);}
+    from   {transform: translateY(12px);}
+    to     {transform: translateY(-12px);}
 }
 
 .err-cloud {
@@ -562,6 +562,7 @@
     user-select: none;
     -webkit-user-drag: none;
     user-drag: none;
+    opacity: 0.6;
 }
 
 .err-cloud-dawndusk {
@@ -579,7 +580,7 @@
 }
 
 .err-cloud1 {
-    width: 100px;
+    width: 200px;
     position: absolute;
     top: 35%;
     right: -1000px;
@@ -591,7 +592,7 @@
 }
 
 .err-cloud2 {
-    width: 300px;
+    width: 400px;
     position: absolute;
     top: 45%;
     right: -1000px;
@@ -603,7 +604,7 @@
 }
 
 .err-cloud3 {
-    width: 600px;
+    width: 650px;
     position: absolute;
     top: 65%;
     right: -1000px;
