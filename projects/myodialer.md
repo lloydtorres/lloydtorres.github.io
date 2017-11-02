@@ -14,7 +14,7 @@ tags:
 description: What’s easier than 1-touch quick dial? Myo Dialer! Call your favourite contacts with a flick of a wrist. Winner at Thalmic Hack'd 2014.
 preview: "/images/projects/myodialer/myodialer-top.png"
 prev_banner: "/images/projects/myodialer/myodialer-preview.png"
-sequence: -14
+sequence: -10
 ---
 
 <div class="row paddown paddup">
@@ -91,7 +91,7 @@ sequence: -14
     <div class="col-sm-8">
         <div class="featuretext-md">
             <p>Customize your experience — with <span class="cyan-emph">Myo Dialer</span>, you can start all calls on speakerphone and get your Myo to ring on incoming calls.</p>
-        </div> 
+        </div>
     </div>
 </div>
 
@@ -104,7 +104,7 @@ sequence: -14
     </span>
 
     <p class="market-disclaimer paddup">Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
-</div> 
+</div>
 
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 

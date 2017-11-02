@@ -15,7 +15,7 @@ tags:
 description: An unofficial NationStates app for Android.
 preview: "/images/projects/stately/stately-cover.png"
 prev_banner: "/images/projects/stately/stately-cover.png"
-sequence: -15
+sequence: -11
 ---
 
 <div class="row">
@@ -81,7 +81,7 @@ sequence: -15
 
 <h2>Technical Details</h2>
 
-<p><strong>Stately</strong> was built from the ground up with the <a href="http://developer.android.com/tools/support-library/index.html">Android Support Library</a> in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="http://developer.android.com/training/volley/index.html">Volley</a> to communicate with NationStates and its API through a secure connection. It then processess the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
+<p><strong>Stately</strong> was built from the ground up with the <a href="http://developer.android.com/tools/support-library/index.html">Android Support Library</a> in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="https://github.com/google/volley">Volley</a> to communicate with NationStates and its API through a secure connection. It then processess the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
 
 <p>Stately also uses the following open-source libraries:</p>
 

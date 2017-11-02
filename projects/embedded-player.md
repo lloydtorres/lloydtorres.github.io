@@ -12,7 +12,7 @@ tags:
 description: WAV player for the Altera DE2 board, built with C for an embedded systems course.
 preview: "/images/projects/embedded-player/altera-preview.jpg"
 prev_banner: "/images/projects/embedded-player/altera-preview.jpg"
-sequence: -5
+sequence: -3
 redirect_from:
 - "/projects/vhdl/"
 - "/projects/altera-de2/"

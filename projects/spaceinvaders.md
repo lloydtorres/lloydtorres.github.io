@@ -16,7 +16,7 @@ tags:
 description: Space Invaders in Java; gesture controlled using the Myo armband and a Lua connector.
 preview: "/images/projects/spaceinvaders/spaceinvaders.png"
 prev_banner: "/images/projects/spaceinvaders/invaders-preview.png"
-sequence: -6
+sequence: -4
 ---
 
 <div class="row">
