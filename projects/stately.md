@@ -24,15 +24,15 @@ sequence: -11
 
         <p class="featuretext-sm">
             <ul>
-                <li>Browse your nation's data and stats.</li>
+                <li>Get your nation's stats, policies, rankings and happenings.</li>
                 <li>Respond to issues encountered by your nation.</li>
-                <li>Discover trends in national, regional and world census statistics.</li>
                 <li>Login and switch between different nations.</li>
-                <li>Read, organize, write and reply to telegrams.</li>
-                <li>Browse through regional factbooks and communities.</li>
-                <li>Read, quote, post and do more in RMBs.</li>
+                <li>Browse through and move to different regional communities.</li>
+                <li>Chat with other players and more in RMBs.</li>
                 <li>Observe and vote on current World Assembly resolutions.</li>
-                <li>Explore, endorse nations and move to different regions in NationStates.</li>
+                <li>Endorse nations and participate in R/D gameplay.</li>
+                <li>Read, manage, write and reply to telegrams.</li>
+                <li>Discover trends in national, regional and world census statistics.</li>
                 <li>Compile all your happenings together with the Activity Feed.</li>
                 <li>Get notified and stay up to date on new issues, telegrams and other events.</li>
                 <li>Make it your own: choose between five different themes and more.</li>
@@ -106,7 +106,6 @@ sequence: -11
 <p>Stately uses Creative Commons-licensed content from the following sources:</p>
 
 <ul>
-  <li><a href="https://android-material-icon-generator.bitdroid.de/">Android Material Icon Generator (CC BY-NC 3.0)</a></li>
   <li><a href="http://www.flaticon.com/packs/medical-icons">Medical Icons Pack (CC BY 3.0)</a></li>
 </ul>
 
