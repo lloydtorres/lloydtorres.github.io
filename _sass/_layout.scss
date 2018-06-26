@@ -97,12 +97,6 @@
     }
 }
 
-.social-icons {
-    span {
-        padding: 5px;
-    }
-}
-
 /**
  * Jumbotron
  */
@@ -1314,26 +1308,6 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-
-.social-icons-large {
-    margin-top: -20px !important;
-    padding-bottom: 20px !important;
-    span {
-        padding: 5px;
-        margin-bottom: -1px;
-    }
-
-    @include media-query($on-mobile) {
-        font-size: 15px;
-    }
-}
-
-.social-icons-very-large {
-    span {
-        margin-left: 10px;
-        margin-right: 10px;
     }
 }
 

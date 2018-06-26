@@ -14,6 +14,8 @@ description: A survivor's thoughts on Waterloo ECE's hell term, 2A.
 
 The ECE 2A term in Waterloo is infamous for its demanding, non-stop schedule. While other faculties -- hell, even other engineering departments -- complain about their "busy" schedules, none can compare to the nightmare that is ECE 2A.
 
+<div class="alert alert-danger" role="alert"><strong>This post is outdated!</strong> The Waterloo ECE curriculum was extensively revised starting with the class of 2017, meaning that most of this post is no longer relevant. I'll keep this post up as a time capsule for the previous curriculum.</div>
+
 Behold, the schedule that every Waterloo ECE student will have at some point in their university career:
 
 <figure>
@@ -84,7 +86,7 @@ The lab for this course is done as the same time as the MATH 215 labs (see the s
 
 This course was one of the reasons why I transferred from Electrical Engineering to Computer Engineering. This is the last calculus course for CE students, while EE students will have to take another one in their 2B term. The previous calculus courses in ECE still made a lot of sense to me, but I found differential equations a bit harder to understand. There's a lot of memorizing common solutions for certain differential equations, so it was harder to get an intuition for solving them in general.
 
-Overall, this is a course you should watch out for, and you should definitely start going to your professor's office hours when things start to get hazy. 
+Overall, this is a course you should watch out for, and you should definitely start going to your professor's office hours when things start to get hazy.
 
 ## ECE 222 - Digital Computers
 
@@ -96,7 +98,7 @@ Labs are done every other week. There are four lab projects in total, and you ha
 
 There's an initial steep learning curve if you're going in without any knowledge of Assembly, but once you get the hang of it, every lab becomes straightforward to do. You should be able to finish most labs in a few hours. Similar to ECE 124, labs are evaluated by demoing your program to the lab instructor and discussing its structure. Unlike ECE 124, the lab reports only consists of uploading your code to Learn and perhaps answering some simple questions. Getting close to perfect in the labs should be easy.
 
-Doing some self-promotion: check out my Assembly project [here](/projects/assembly)!
+Doing some self-promotion: check out my Assembly project here:
 
 <div class="embed-responsive embed-responsive-16by9 col-center" style="margin-bottom: 17px;">
     <iframe src="https://www.youtube.com/embed/9cHzSLg4TP8" frameborder="0" allowfullscreen></iframe>

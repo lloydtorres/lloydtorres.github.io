@@ -19,7 +19,7 @@ Hack the North started a Capture the Flag (CTF) game for its participants on Sep
     <blockquote class="twitter-tweet" lang="en" align="center"><p lang="en" dir="ltr">Hackers, we&#39;re hosting a CTF Challenge on Slack at 6 PM EST (in <a href="https://twitter.com/hashtag/random?src=hash">#random</a>). The winner (first to finish) will receive a $50 gift card!</p>&mdash; Hack the North (@HackTheNorth) <a href="https://twitter.com/HackTheNorth/status/640570177524994048">September 6, 2015</a></blockquote>
 </div>
 
-CTFs are competitions intended to demonstrate computer security concepts, and they often involve solving puzzles to hack into a server and extract data. You can read the Wikipedia entry on CTFs [here](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security). 
+CTFs are competitions intended to demonstrate computer security concepts, and they often involve solving puzzles to hack into a server and extract data. You can read the Wikipedia entry on CTFs [here](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security).
 
 This post outlines my thought process during the game. Unlike my previous post on [Myo Dialer's birth at a Thalmic hackathon](/log/myo-dialer-27-hour-hackathon), this post isn't structured strictly on time, since work on the CTF often extended into the early morning hours over two days (i.e. I pretty much lost track of time at some point).
 
@@ -108,7 +108,7 @@ A [Shellshock test site](https://pentest-tools.com/network-vulnerability-scannin
 We can use this to our advantage. We'll fire up [Postman](https://www.getpostman.com/) and add this string as a User-Agent header (since Cookie wasn't working for some reason) to our GET request:
 
 {% highlight bash %}
-() { :; }; echo "Content-Type: text/plain";echo;echo;/usr/bin/id 
+() { :; }; echo "Content-Type: text/plain";echo;echo;/usr/bin/id
 {% endhighlight %}
 
 We immediately see the results: we can see that the server dumps the results of `/usr/bin/id` into the HTTP response. We can then modify this to any command we want (such as `ls` and `cat`) to see what else is there on the server.
@@ -144,7 +144,7 @@ We still need to somehow access these servers, and we can't really use the previ
 
 I wrote a C# script for this, whose [source is available on GitHub](https://github.com/lloydtorres/hackthenorth-ctf/tree/master/ssh-bruteforce). The script uses [SSH.NET](https://sshnet.codeplex.com/) to connect to each server. It will then try out every username/password pair against the server to see which ones work. It will then write any successful pairs to a file, which we can take a look at later.
 
-Once the script was done, we were able to get access to four of the servers. We can finally move on to the next steps of the CTF. 
+Once the script was done, we were able to get access to four of the servers. We can finally move on to the next steps of the CTF.
 
 ## Puzzle 1: Grant Access Pls
 

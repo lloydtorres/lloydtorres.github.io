@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Logbook
+title: Log Archives
 header: "/images/headers/log-header.jpg"
 permalink: /log/
 ---
@@ -14,6 +14,8 @@ $container.imagesLoaded( function() {
     });
 });
 </script>
+
+<div class="alert alert-info" role="alert"><strong>Hi there!</strong> These logs probably won't be updated in a while. Nevertheless, these are kept here for posterity.</div>
 
 <div id="masonry" class="row js-masonry" data-masonry-options='{ "columnWidth": ".col-sm-6", "itemSelector": ".col-sm-6" }'>
     {% for post in site.posts %}
