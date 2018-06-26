@@ -116,74 +116,9 @@
     }
  }
 
- .super-intro {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+ .curtain-header-accent {
+   height: 15px;
  }
-
- .super-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-
-    h1 {
-        display: inline-block;
-        font-size: 70px;
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        color: white;
-        line-height: 1;
-        text-shadow: 0 0 10px $grey-color-dark;
-
-        @include media-query($on-tablet) {
-            font-size: 50px;
-        }
-
-        @media screen and (orientation: landscape) and (max-width: $on-palm) {
-            font-size: 30px;
-        }
-    }
-
-    p {
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: normal;
-        color: white;
-        text-shadow: 0 0 10px $grey-color-dark;
-        margin-top: 20px;
-        font-weight: bold;
-
-        @include media-query($on-mobile) {
-            margin-top: 0px;
-        }
-
-        @media screen and (orientation: landscape) and (max-width: $on-palm) {
-            font-size: 12px;
-        }
-    }
-
-    .mobile-subtitle {
-        margin-top: 30px;
-
-        p {
-            margin-top: 0px;
-
-            @include media-query($on-mobile) {
-                font-size: 18px !important;
-            }
-
-            @media screen and (orientation: landscape) and (max-width: $on-palm) {
-                font-size: 12px;
-            }
-        }
-    }
-}
 
  .curtain-overlay {
     position: relative;
@@ -236,6 +171,34 @@
 .curtain-overlay-expanded {
     position: relative;
     height: auto;
+}
+
+.projects-container {
+  background-color: #37474F;
+  padding-bottom: 60px;
+
+  h1 {
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      color: white;
+      line-height: 1;
+  }
+
+  .resume-social-icons {
+      position: relative;
+
+      span {
+          margin-right: 20px;
+          color: white;
+      }
+  }
+}
+
+.projects-title-space {
+    margin-top: 32px;
+    margin-bottom: 24px;
 }
 
 .expanded-overlay-content {
@@ -312,8 +275,8 @@
 }
 
 .index-intro {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .intro-blurb {
@@ -327,7 +290,7 @@
     }
 
     .intro-highlight {
-        font-size: 25px;
+        font-size: 28px;
         font-family: 'Raleway', sans-serif;
         color: $mignonic-blue;
         text-transform: uppercase;
@@ -665,95 +628,6 @@
     overflow: hidden;
 }
 
-.resume-container {
-  background-color: #37474F;
-
-  h1 {
-      display: inline-block;
-      font-size: 40px;
-      font-family: 'Raleway', sans-serif;
-      text-transform: uppercase;
-      color: white;
-      line-height: 1;
-  }
-
-  .resume-social-icons {
-      position: relative;
-
-      span {
-          margin-right: 20px;
-          color: white;
-      }
-  }
-}
-
-.resume-space {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.resume-card {
-    position: relative;
-    margin-bottom: 40px;
-    color: $white-color;
-}
-
-.resume-content {
-    width: 100%;
-
-    h2 {
-        margin-top: -3px;
-        margin-bottom: 5px;
-        font-size: 17px;
-        text-transform: uppercase;
-        font-family: 'Raleway', sans-serif;
-        color: $white-color;
-
-        a:link, a:hover, a:visited, a:active {
-            color: $white-color !important;
-        }
-    }
-
-}
-
-.resume-entry {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-
-    .resume-sub-header {
-      font-size: 16px;
-      font-weight: bold;
-    }
-}
-
-.resume-entry-content {
-    font-size: 14px;
-    line-height: 1.5em;
-    font-style: italic;
-}
-
-.job-entry {
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    color: $white-color;
-
-    .company {
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: underline !important;
-        text-decoration-style: dotted !important;
-    }
-
-    a:link, a:hover, a:visited, a:active {
-        color: $white-color !important;
-    }
-}
-
 .post-blurb {
     padding-bottom: 7px !important;
 }
@@ -916,7 +790,6 @@
     height: 150px;
     position: relative;
     overflow: hidden;
-    border: 1px solid $grey-less-light;
 
     @include media-query($on-mobile) {
         height: 120px !important;

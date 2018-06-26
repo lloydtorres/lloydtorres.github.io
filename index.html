@@ -1,4 +1,5 @@
 ---
+redirect_from: "/projects/"
 ---
 <!DOCTYPE html>
 <html>
@@ -9,18 +10,7 @@
 
         {% include google_analytics.html %}
 
-        <div class="curtain-header" style="background-image: url('/images/headers/header.jpg');">
-            <div class="super-intro">
-                <div class="super-container">
-                    <h1>Lloyd Torres</h1>
-                    <p class="hidden-xs hidden-sm">Computer Engineering :: University of Waterloo</p>
-                    <div class="visible-xs visible-sm mobile-subtitle">
-                        <p>Computer Engineering</p>
-                        <p>University of Waterloo</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="curtain-header curtain-header-accent" style="background-image: url('/images/headers/header.jpg');"></div>
 
         <div class="coverup">
             <div class="container page-content col-md-offset-2 col-md-8 index-intro">
@@ -28,194 +18,75 @@
                 <div class="intro-blurb">
                     <p class="intro-highlight">Hi, my name is Lloyd.</p>
 
-                    <p>I'm a fourth-year Computer Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a> in Canada graduating in 2018.</p>
+                    <p>I'm a Computer Engineering graduate from the <a href="https://uwaterloo.ca/">University of Waterloo</a> in Canada.</p>
 
-                    <p>I'm passionate about crafting beautiful and intuitive experiences for users. I love learning new things and working on interesting and challenging projects. I'm also into space, science and tech.</p>
+                    <p>I'm passionate about crafting beautiful and intuitive experiences for users. I love learning new things and working on interesting and challenging projects. I also follow space and tech news fairly closely.</p>
 
-                    <p>I'm a strong software developer who's worked on various technologies such as mobile apps, backend development and embedded systems. My work experiences range from large corporations to small startups, and these have driven me to build robust software that works.</p>
+                    <p>I'm a strong software engineer who's worked on various technologies such as mobile apps, backend development and embedded systems. My work experiences range from large corporations to small startups, and these have driven me to build robust software that works.</p>
 
-                    <p>Check out my resume <a id="resume-link" href="#resume">here</a>, or find me on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a> and <a href="https://github.com/lloydtorres">GitHub</a>.</p>
-
-                    <p>Need to get in touch? <a href="mailto:lloyd@lloydtorres.com">Send me an e-mail</a>!</p>
-                </div>
-
-                <div class="row superpushdown">
-
-                    <div class="col-sm-6">
-                        <div class="project-entry card-front">
-                            <div class="log-img">
-                                <a href="/projects/"><img src="/images/projects/stately/stately-cover.png" title="Projects" alt="Projects"/></a>
-                            </div>
-                            <div class="log-desc">
-                                <h2><a href="/projects/">Projects</a></h2>
-                                <p>Building and hacking amazing things is what I love.</p>
-                                <ul>
-                                    <li><a href="/projects/stately/">Stately</a></li>
-                                    <li><a href="/projects/myodialer/">Myo Dialer</a></li>
-                                    <li><a href="/projects/budgetbot/">Budgetbot</a></li>
-                                </ul>
-                            </div>
-                            <a href="/projects/" class="more">And more<span class="fa fa-chevron-circle-right"></span></a>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="project-entry card-front">
-                            <div class="log-img">
-                                <a href="/log/"><img src="/images/headers/log-preview.jpg" title="Logbook" alt="Logbook"/></a>
-                            </div>
-                            <div class="log-desc">
-                                <h2><a href="/log/">Logbook</a></h2>
-                                <p>Every single day there's something wonderful to do.</p>
-                                <ul>
-                                    {% for post in site.posts limit:3 %}
-                                        <li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        <a href="/log/" class="more">And more<span class="fa fa-chevron-circle-right"></span></a>
-                        </div>
-                    </div>
-
+                    <p>Need to get in touch? <a href="mailto:lloyd@lloydtorres.com">Send me an e-mail</a>! I can also be found on <a href="https://www.linkedin.com/in/lartorres">LinkedIn</a> and <a href="https://github.com/lloydtorres">GitHub</a>.</p>
                 </div>
 
             </div><!-- /container -->
         </div>
 
-        <div id="resume" class="curtain-header generic-container resume-container">
+        <div id="projects" class="curtain-header generic-container projects-container">
             <div class="container page-content col-md-offset-2 col-md-8">
-
-                <div class="row resume-space">
+              <div class="row projects-title-space">
                   <div class="col-sm-6">
-                    <h1>Lloyd Torres</h1>
-                    <div class="resume-social-icons">
-                      <a href="mailto:lloyd@lloydtorres.com" title="Send me an e-mail!"><span class="fa fa-send fa-lg"></span></a>
-                      <a href="https://www.linkedin.com/in/lartorres" title="Lloyd Torres on LinkedIn"><span class="fa fa-linkedin fa-lg"></span></a>
-                      <a href="https://github.com/lloydtorres" title="lloydtorres on GitHub"><span class="fa fa-github-alt fa-lg"></span></a>
-                    </div>
-                </div>
-                </div>
-
-                <div class="row resume-space">
-                  <div class="col-sm-5 col-xs-12">
-                    <div class="resume-card">
-                        <div class="resume-content">
-                            <h2><a href="https://www.linkedin.com/in/lartorres">Work Experience</a></h2>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="https://www.amazon.com/">Amazon</a></div>
-                                <div>Software Development Engineer Intern</div>
-                                <div class="caption">Aug. 2017 — Dec. 2017 :: Seattle, WA, United States</div></p>
-                                <p class="resume-entry-content">On the AWS Silk team, a Chromium-based browser for Kindle devices.</p>
-                            </div>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="http://www.tribalscale.com/">TribalScale</a></div>
-                                <div>Agile Software Engineering</div>
-                                <div class="caption">Aug. 2016 — Dec. 2016 :: Toronto, ON, Canada</div></p>
-                                <p class="resume-entry-content">Built an iOS app for a Silicon Valley startup. Maintained an Android app for a major US media corporation.</p>
-                            </div>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="https://www.td.com/">TD Lab</a></div>
-                                <div>Solutions Developer</div>
-                                <div class="caption">Jan. 2016 — Apr. 2016 :: Kitchener, ON, Canada</div></p>
-                                <p class="resume-entry-content">Crafted Android and Unity AR/VR experiences for fintech ideas.</p>
-                            </div>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="http://www.dbrs.com/">DBRS</a></div>
-                                <div>Software Engineer, Co-op</div>
-                                <div class="caption">May 2015 — Aug. 2015 :: Toronto, ON, Canada</div></p>
-                                <p class="resume-entry-content">Developed a .NET service to sync published data from an API to various databases.</p>
-                            </div>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="https://www.thalmic.com/">Thalmic Labs</a></div>
-                                <div>QA Engineering Co-op</div>
-                                <div class="caption">Sep. 2014 — Dec. 2014 :: Kitchener, ON, Canada</div></p>
-                                <p class="resume-entry-content">Oversaw software QA for the launch of a startup consumer product.</p>
-                            </div>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="https://www.christiedigital.com/">Christie Digital Systems</a></div>
-                                <div>Engineering QA Specialist (Co-op)</div>
-                                <div class="caption">Jan. 2014 — Apr. 2014 :: Kitchener, ON, Canada</div></p>
-                                <p class="resume-entry-content">Independently developed an automated Python testing framework.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <h1>Personal Projects</h1>
                   </div>
+              </div>
 
-                  <div class="col-sm-1 hidden-xs">
-                  </div>
+              {% assign pages = site.pages | sort: 'sequence' %}
+              <div class="row">
+                  {% for file in pages %}
+                      {% for cat in file.categories %}
+                          {% if cat == 'projects' %}
+                              <div class="col-sm-6">
+                                  <div class="project-entry">
+                                      <div class="log-img">
+                                          <a href="{{ file.url }}"><img src="{{ file.prev_banner }}" title="{{ file.title }}" alt="{{ file.title }}"/></a>
+                                      </div>
+                                      <div class="log-desc">
+                                          <h2><a href="{{ file.url }}">{{ file.title }}</a></h2>
+                                          <p class="desc">{{ file.description }}</p>
+                                      </div>
+                                      <div class="lefticons">
+                                          {% if file.google_play %}
+                                              <a href="{{ file.google_play }}" title="{{ file.title }} on Google Play"><span class="fa fa-android"></span></a>
+                                          {% endif %}
+                                          {% if file.link %}
+                                              <a href="{{ file.link }}" title="{{ file.title }} on the Web"><span class="fa fa-external-link-square"></span></a>
+                                          {% endif %}
+                                          {% if file.youtube %}
+                                              <a href="{{ file.youtube }}" title="{{ file.title }} on YouTube"><span class="fa fa-youtube-play"></span></a>
+                                          {% endif %}
+                                          {% if file.download %}
+                                              <a href="{{ file.download }}" title="Download {{ file.title }}"><span class="fa fa-cloud-download"></span></a>
+                                          {% endif %}
+                                          {% if file.github %}
+                                              <a href="{{ file.github }}" title="{{ file.title }} on GitHub"><span class="fa fa-code"></span></a>
+                                          {% endif %}
+                                      </div>
+                                      <a href="{{ file.url }}" class="more">Read more<span class="fa fa-chevron-circle-right"></span></a>
+                                  </div>
+                              </div>
+                          {% endif %}
+                      {% endfor %}
+                  {% endfor %}
+              </div>
 
-                  <div class="col-sm-5 col-xs-12">
-                    <div class="resume-card">
-                        <div class="resume-content">
-                            <h2>Skills Summary</h2>
-
-                            <div class="resume-entry">
-                                <p><div class="resume-sub-header">Languages</div>
-                                Java, C#, Python, Swift, SQL, C/C++, HTML/CSS, JavaScript</p>
-
-                                <p><div class="resume-sub-header">Frameworks</div>
-                                Android, iOS, Node.js, Unity; Protobufs, Thrift; Hadoop, OpenCL</p>
-
-                                <p><div class="resume-sub-header">Tools</div>
-                                Git, Shell; JUnit, Mockito, Selenium; AWS, Heroku, Postman, Charles</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="resume-card">
-                        <div class="resume-content">
-                            <h2>Education</h2>
-
-                            <div class="job-entry">
-                                <p><div class="company"><a href="https://uwaterloo.ca/">University of Waterloo</a></div>
-                                <div>Bachelor of Applied Science (BASc)</div>
-                                <div>Computer Engineering</div>
-                                <div class="caption">Sep. 2013 — Jun. 2018 :: Waterloo, ON, Canada</div></p>
-                                <p class="resume-entry-content"><strong>Notable Courses:</strong> Performance Programming, Machine Learning, Cooperative/Adaptive Algorithms, Distributed Computing, Software Testing and Maintenance</p>
-                                <p class="resume-entry-content"><strong>Extracurriculars:</strong> Fencing Club, Hackathons</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="resume-card">
-                        <div class="resume-content">
-                            <h2>Interests</h2>
-
-                            <div class="resume-entry">
-                                <p>Mobile apps, backend development, embedded systems, machine learning, product management</p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
             </div><!-- /container -->
         </div>
 
-        <div class="curtain-header generic-container" style="background-image: url('/images/headers/quote-banner-header.jpg'); background-position: bottom;">
+        <div class="curtain-header generic-container" style="background-image: url('/images/headers/projects-header.jpg'); background-position: bottom;">
             <div class="main-quote generic-container">
                 <div class="main-quote-container"><div class="main-quote-holder">ad astra per aspera</div></div>
             </div>
         </div>
 
         {% include footer.html %}
-
-        <script type="text/javascript">
-        $(document).ready(function(){
-            $('#resume-link').on('click', function(e){
-                e.preventDefault();
-                $('html, body').stop().animate({
-                   scrollTop: $('#resume').offset().top
-                }, 1000);
-            });
-        });
-        </script>
 
   </body>
 
