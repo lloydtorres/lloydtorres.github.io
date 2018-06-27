@@ -1,10 +1,10 @@
 # Site settings
 title: Lloyd Torres
 description: >
-  Lloyd Torres is a Computer Engineering co-op student at the University of Waterloo.
+  Lloyd Torres is a Computer Engineering graduate from the University of Waterloo.
 baseurl: "" # subpath
 url: "http://lloydtorres.com"
-timezone: Canada/Eastern
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
@@ -13,6 +13,3 @@ highlighter: rouge
 plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
-
-tag_dir: /log/tag
-lsi: true
