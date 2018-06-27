@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Budgetbot
-color: "#43A047"
+color: "#37474F"
 link: https://devpost.com/software/budgetbot
 permalink: /projects/budgetbot/
 github: https://github.com/lloydtorres/budgetbot
