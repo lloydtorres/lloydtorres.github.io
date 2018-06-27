@@ -16,7 +16,7 @@ tags:
 description: Shop with ease, use Atise! Improve shopping by automating the checkout process. Built at Hack the North 2015.
 preview: "/images/projects/atise/atise-preview.png"
 prev_banner: "/images/projects/atise/atise-preview.png"
-sequence: -6
+sequence: -10
 ---
 
 <p>Have you ever been stuck in a long checkout line manned by one cashier? Frustrated with the sheer amount of time it takes to get what you need from the store? You've probably run into this situation more often than you'd like. The good news is that we now have the technology to get rid of this problem once and for all.</p>

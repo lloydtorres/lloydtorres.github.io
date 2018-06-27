@@ -14,7 +14,7 @@ tags:
 description: What’s easier than 1-touch quick dial? Myo Dialer! Call your favourite contacts with a flick of a wrist. Winner at Thalmic Hack'd 2014.
 preview: "/images/projects/myodialer/myodialer-top.png"
 prev_banner: "/images/projects/myodialer/myodialer-preview.png"
-sequence: -10
+sequence: -60
 ---
 
 <div class="row paddown paddup">

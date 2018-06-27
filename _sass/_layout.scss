@@ -749,6 +749,24 @@
     }
 }
 
+.niji-project {
+  h1 {
+      display: table;
+      background-color: #388E3C;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      text-transform: uppercase;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+  }
+}
+
+
+
 /**
  * Posts
  */
