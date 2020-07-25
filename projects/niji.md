@@ -16,7 +16,7 @@ tags:
 description: An all-in-one wearable health device for pets and pet owners. A Waterloo Engineering capstone project.
 preview: "/images/projects/niji/niji-preview.png"
 prev_banner: "/images/projects/niji/niji-preview.png"
-sequence: -40
+sequence: -60
 ---
 
 <div class="niji-project">

@@ -14,7 +14,7 @@ tags:
 description: What’s easier than 1-touch quick dial? Myo Dialer! Call your favourite contacts with a flick of a wrist. Winner at Thalmic Hack'd 2014.
 preview: "/images/projects/myodialer/myodialer-top.png"
 prev_banner: "/images/projects/myodialer/myodialer-preview.png"
-sequence: -60
+sequence: -40
 ---
 
 <div class="row paddown paddup">
@@ -99,11 +99,10 @@ sequence: -60
     <p class= "featuretext-lg">Get <span class="cyan-emph">Myo Dialer</span> on Android today!</p>
     <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.1.4 firmware or greater.</p>
     <span class="paddown">
-        <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" class="market-badges-large"/></a>
-        <a href="https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer"><img src="/images/icons/myo_badge.png" class="market-badges-large"/></a>
+        <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" class="market-badges-large market-badges-google"/></a>
     </span>
 
-    <p class="market-disclaimer paddup">Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
+    <p class="market-disclaimer paddup">Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </div>
 
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>

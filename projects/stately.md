@@ -68,9 +68,9 @@ sequence: -70
 </div>
 
 <div class="col-center paddup">
-    <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.stately"><img src="/images/icons/ps_badge.png" class="market-badges-large"/></a> <a href="http://www.amazon.com/gp/product/B01E4R7T1C/ref=mas_pm_stately_for_nationstates"><img src="/images/icons/amazon_badge.png" class="market-badges-large"/></a>
+    <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.stately"><img src="/images/icons/ps_badge.png" class="market-badges-large market-badges-google"/></a> <a href="http://www.amazon.com/gp/product/B01E4R7T1C/ref=mas_pm_stately_for_nationstates"><img src="/images/icons/amazon_badge.png" class="market-badges-large"/></a>
 
-    <p class="market-disclaimer pushdown">Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
+    <p class="market-disclaimer pushdown">Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </div>
 
 <p><a href="http://www.nationstates.net/">NationStates</a> is an online nation-simulation game by <a href="http://maxbarry.com/">Max Barry</a>. He's the author of <em><a href="http://www.amazon.ca/Jennifer-Government-Max-Barry/dp/1400030927">Jennifer Government</a></em> (a great read!), which is the novel NationStates is based on.</p>
