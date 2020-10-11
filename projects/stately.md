@@ -73,7 +73,7 @@ sequence: -70
     <p class="market-disclaimer pushdown">Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </div>
 
-<p><a href="http://www.nationstates.net/">NationStates</a> is an online nation-simulation game by <a href="http://maxbarry.com/">Max Barry</a>. He's the author of <em><a href="http://www.amazon.ca/Jennifer-Government-Max-Barry/dp/1400030927">Jennifer Government</a></em> (a great read!), which is the novel NationStates is based on.</p>
+<p><a href="http://www.nationstates.net/">NationStates</a> is an online text-based political nation-simulation game by <a href="http://maxbarry.com/">Max Barry</a>. He's the author of <em><a href="http://www.amazon.ca/Jennifer-Government-Max-Barry/dp/1400030927">Jennifer Government</a></em> (a great read!), which is the novel NationStates is based on.</p>
 
 <p>Stately's Privacy Policy can be found <a href="https://www.iubenda.com/privacy-policy/7793041">here</a>.</p>
 
@@ -81,13 +81,14 @@ sequence: -70
 
 <h2>Technical Details</h2>
 
-<p><strong>Stately</strong> was built from the ground up with the <a href="http://developer.android.com/tools/support-library/index.html">Android Support Library</a> in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="https://github.com/google/volley">Volley</a> to communicate with NationStates and its API through a secure connection. It then processess the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
+<p><strong>Stately</strong> was built from the ground up with <a href="https://developer.android.com/jetpack">Android Jetpack</a> libraries in order to use the latest Material Design elements and tools as a basis for the app. Stately uses <a href="https://github.com/google/volley">Volley</a> to communicate with NationStates and its API through a secure connection. It then processes the data with <a href="http://jsoup.org/">jsoup</a> and <a href="http://simple.sourceforge.net/">SimpleXML</a>.</p>
 
 <p>Stately also uses the following open-source libraries:</p>
 
 <ul>
     <li><a href="https://github.com/atteo/evo-inflector">Evo Reflector</a></li>
     <li><a href="https://github.com/SufficientlySecure/html-textview">HtmlTextView</a></li>
+    <li><a href="https://github.com/material-components/material-components-android">Material Components for Android</a></li>
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
     <li><a href="https://github.com/square/picasso">Picasso</a></li>
@@ -95,12 +96,6 @@ sequence: -70
     <li><a href="https://github.com/r0adkll/Slidr">Slidr</a></li>
     <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
     <li><a href="https://github.com/omadahealth/SwipyRefreshLayout">SwipyRefreshLayout</a></li>
-</ul>
-
-<p>Stately uses the following proprietary libraries:</p>
-
-<ul>
-    <li><a href="https://try.crashlytics.com/">Crashlytics</a></li>
 </ul>
 
 <p>Stately uses Creative Commons-licensed content from the following sources:</p>
