@@ -86,12 +86,12 @@ sequence: -70
 <p>Stately also uses the following open-source libraries:</p>
 
 <ul>
+    <li><a href="https://github.com/coil-kt/coil">Coil</a></li>
     <li><a href="https://github.com/atteo/evo-inflector">Evo Reflector</a></li>
     <li><a href="https://github.com/SufficientlySecure/html-textview">HtmlTextView</a></li>
     <li><a href="https://github.com/material-components/material-components-android">Material Components for Android</a></li>
     <li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a></li>
     <li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">PagerSlidingTabStrip</a></li>
-    <li><a href="https://github.com/square/picasso">Picasso</a></li>
     <li><a href="https://github.com/booncol/Pulsator4Droid">Pulsator4Droid</a></li>
     <li><a href="https://github.com/r0adkll/Slidr">Slidr</a></li>
     <li><a href="https://github.com/satyan/sugar">Sugar ORM</a></li>
