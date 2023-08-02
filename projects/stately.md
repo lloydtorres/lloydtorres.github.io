@@ -68,7 +68,7 @@ sequence: -70
 </div>
 
 <div class="col-center paddup">
-    <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.stately"><img src="/images/icons/google-play-badge.png" class="market-badges-large"/></a> <a href="http://www.amazon.com/gp/product/B01E4R7T1C/ref=mas_pm_stately_for_nationstates"><img src="/images/icons/amazon_badge.png" class="market-badges-large"/></a> <a href="https://f-droid.org/packages/com.lloydtorres.stately/"><img src="/images/icons/fdroid-badge.png" class="market-badges-large"/></a>
+    <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.stately"><img src="/images/icons/google-play-badge.png" class="market-badges-large market-badges-google-fdroid"/></a> <a href="http://www.amazon.com/gp/product/B01E4R7T1C/ref=mas_pm_stately_for_nationstates"><img src="/images/icons/amazon_badge.png" class="market-badges-large"/></a> <a href="https://f-droid.org/packages/com.lloydtorres.stately/"><img src="/images/icons/fdroid-badge.png" class="market-badges-large market-badges-google-fdroid"/></a>
 
     <p class="market-disclaimer pushdown">Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </div>
