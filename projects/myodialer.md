@@ -3,8 +3,6 @@ layout: project
 title: Myo Dialer
 picoverlay: "/images/projects/myodialer/myodialer-logo.png"
 color: "#019186"
-google_play: https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer
-myo_market: https://market.myo.com/app/54776f4de4b097724823092b/myo-dialer
 permalink: /projects/myodialer/
 categories:
 - projects
@@ -95,36 +93,9 @@ sequence: -40
     </div>
 </div>
 
-<div class="col-center paddup paddown">
-    <p class= "featuretext-lg">Get <span class="cyan-emph">Myo Dialer</span> on Android today!</p>
-    <p class="featuretext-sm">Requires Android 4.3 or greater, BLE support and Myo armband with 1.1.4 firmware or greater.</p>
-    <span class="paddown">
-        <a href="https://play.google.com/store/apps/details?id=com.lloydtorres.myodialer"><img src="/images/icons/ps_badge.png" class="market-badges-large market-badges-google"/></a>
-    </span>
-
-    <p class="market-disclaimer paddup">Google Play and the Google Play logo are trademarks of Google LLC.</p>
-</div>
-
 <div class="row"><div class="col-md-offset-2 col-md-8"><div class="divider"><div class="inner"></div></div></div></div>
 
 <div class="paddown">
-    <h2>Permissions</h2>
-
-    <ul>
-        <li><strong>Directly call phone numbers/read phone status and identity</strong></li>
-            <ul><li>These are required to make phone calls and to detect incoming calls.</li></ul>
-        <li><strong>Read your contacts</strong></li>
-            <ul><li>This is required to get contact information for selected contacts.</li></ul>
-        <li><strong>Disable your screen lock/prevent phone from sleeping</strong></li>
-            <ul><li>These are required to answer incoming phone calls, when your phone may be locked or asleep. The app will not remove your lock screen password or keep your phone constantly awake.</li></ul>
-        <li><strong>Full network access</strong></li>
-            <ul><li>This is required by the Myo and the crash reports service. You may disable these in the app settings.</li></ul>
-        <li><strong>Access Bluetooth settings/pair with Bluetooth devices</strong></li>
-            <ul><li>These are needed to pair with the Myo armband.</li></ul>
-        <li><strong>Change your audio settings</strong></li>
-            <ul><li>This is needed to toggle the speakerphone and microphone during calls.</li></ul>
-    </ul>
-
     <h2>The Story</h2>
 
     <p><strong>Myo Dialer</strong> was developed by Lloyd Torres (full-stack developer), Kevin Lo (back-end developer) and <a href="https://twitter.com/bbisaillion">Brent Bisaillion</a> (UI design) over 27 hours for an <a href="http://lloydtorres.com/log/myo-dialer-27-hour-hackathon/">internal hackathon</a> at Thalmic Labs, where it won the "App Most Likely to be #1 on Myo Market" category. The app was also developed with the help of Thalmic's software team.</p>
