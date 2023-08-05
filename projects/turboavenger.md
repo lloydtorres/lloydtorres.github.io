@@ -2,7 +2,6 @@
 layout: project
 title: Turbo Avenger
 header: "/images/projects/turboavenger/turboavenger-header.jpg"
-link: https://turboavenger.herokuapp.com
 permalink: /projects/turboavenger/
 github: https://github.com/lloydtorres/turbo-avenger
 categories:
