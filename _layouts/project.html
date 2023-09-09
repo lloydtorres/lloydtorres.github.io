@@ -6,7 +6,6 @@
     <body>
 
         {% include header.html %}
-        {% include google_analytics.html %}
 
         <div class="curtain-header curtain-header-page" style="{% if page.header %}background-image: url('{{ page.header }}'){% elsif page.color %}background-color: {{ page.color }}{% else %}background-image: url('/images/headers/projects-header.png'){% endif %};">
         </div>
